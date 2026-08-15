@@ -7,7 +7,7 @@ every artefact beside it has had its chance to fail.
 
 from __future__ import annotations
 
-from typing import TYPE_CHECKING, Any, List
+from typing import TYPE_CHECKING, Any, List, Optional, Tuple
 
 from .models import Book, Result
 from .parse import dedupe
@@ -22,6 +22,45 @@ if TYPE_CHECKING:  # pragma: no cover
 #: (UnicodeEncodeError is one) and malformed scraped URLs; TypeError covers a payload
 #: shape no serialiser will accept.
 WRITE_ERRORS = (OSError, ValueError, TypeError)
+
+#: Smallest plausible cover. Open Library answers a missing cover with a 43-byte
+#: 1x1 transparent GIF and HTTP 200, which sniffs as a valid image and would be
+#: filed as artwork. Anything this small is a placeholder, not a book cover.
+MIN_COVER_BYTES = 512
+
+
+def candidates(entry: Any) -> List[str]:
+    """The URLs to try for one cover, best first.
+
+    A ``cover_urls`` entry is normally a single URL, but may be a sequence of
+    **equivalent** URLs for the same image -- different sizes or CDN routes. They are
+    tried in order and the first that downloads wins, so one flaky route does not
+    cost the cover. See :attr:`bookscraper.models.Result.cover_urls`.
+    """
+    if isinstance(entry, str):
+        return [entry]
+    if isinstance(entry, (list, tuple)):
+        return [u for u in entry if isinstance(u, str) and u]
+    return []
+
+
+def download_cover(client: Any, urls: List[str], referer: Optional[str],
+                   result: Result) -> Optional[Tuple[bytes, Optional[str]]]:
+    """The first of ``urls`` that yields a real image, or ``None``."""
+    for url in urls:
+        got = client.download(url, referer=referer)
+        if got is None:
+            result.warn(f"cover download failed: {url}")
+            continue
+        if len(got[0]) < MIN_COVER_BYTES:
+            result.warn(f"cover at {url} is only {len(got[0])} bytes, so it is a "
+                        "'no cover available' placeholder rather than artwork")
+            continue
+        if len(urls) > 1 and url != urls[0]:
+            result.warn(f"used the fallback cover {url} because the preferred size "
+                        "could not be fetched")
+        return got
+    return None
 
 
 def genres_of(result: Result) -> List[str]:
@@ -38,22 +77,27 @@ def write(result: Result, outcome: "Outcome", storage: "Storage", client: Any,
     source, isbn13 = result.source, result.isbn13
     outcome.book_url = result.book_url
 
-    urls = [u for u in result.cover_urls if u]
-    if urls and config.covers:
+    wanted = [c for entry in result.cover_urls if (c := candidates(entry))]
+    if wanted and config.covers:
         # Numbering restarts at 1, so a previous run's higher-numbered covers would
         # otherwise linger and read back as if they belonged to this run.
         storage.purge("covers", isbn13, source)
-        for url in urls:
-            if (got := client.download(url, referer=result.book_url)) is None:
-                result.warn(f"cover download failed: {url}")
+        for urls in wanted:
+            got = download_cover(client, urls, result.book_url, result)
+            if got is None:
+                # Recorded, not just warned: the metadata record is about to be
+                # written, and without this the skip decision would treat the book
+                # as finished and the cover would be lost for good.
+                outcome.incomplete = True
                 continue
             try:
                 storage.cover(isbn13, source, outcome.covers + 1, got[0],
-                              content_type=got[1], url=url)
+                              content_type=got[1], url=urls[0])
                 outcome.covers += 1
             except WRITE_ERRORS as exc:
-                result.warn(f"could not write cover {url}: {exc}")
-    elif not urls:
+                result.warn(f"could not write cover {urls[0]}: {exc}")
+                outcome.incomplete = True
+    elif not wanted:
         result.warn("no cover image URLs found")
 
     if blurb := (result.blurb or "").strip():

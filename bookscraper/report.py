@@ -24,7 +24,7 @@ from .transport import warn
 
 if TYPE_CHECKING:  # pragma: no cover
     from .csv_input import Entry
-    from .nodata import NoData
+    from .ledger import NoData
     from .runner import Outcome
 
 WIDTH = 78
@@ -119,6 +119,9 @@ def digest(books: Sequence[Sequence["Outcome"]], report: Report, nodata: "NoData
     if shaky := sum(1 for o in flat if o.status == "empty" and not o.trustworthy):
         lines.append(f"Untrusted empty : {shaky} reported empty while the site was "
                      "walling us, so not recorded as absent")
+    if unfinished := sum(1 for o in flat if o.incomplete):
+        lines.append(f"Incomplete      : {unfinished} book(s) kept on the to-do list "
+                     "(record written, an artefact failed), so a re-run retries them")
     if nodata.recorded:
         parts = ", ".join(f"{s} {n}" for s, n in sorted(nodata.recorded.items()))
         lines.append(f"No such book    : {sum(nodata.recorded.values())} pair(s) "

@@ -21,12 +21,12 @@ import sys
 import time
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
-from typing import Any, Dict, Mapping, Optional, Set
+from typing import Any, Dict, Mapping, Optional, Set, Tuple
 from urllib.parse import urlsplit
 
 import requests
 
-from . import blocks
+from . import blocks, limits
 
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
@@ -35,6 +35,7 @@ _RETRY_STATUS = frozenset({408, 425, 429, 500, 502, 503, 504, 522, 524})
 #: A ``Retry-After`` past this means the host wants us gone for the day, so
 #: burning ``retries x 60s`` on one URL helps nobody.
 _MAX_RETRY_AFTER = 120.0
+
 
 
 def warn(message: str) -> None:
@@ -58,6 +59,8 @@ class Transport:
         self.blocks: Dict[str, str] = {}
         #: Hosts contacted since :meth:`track_hosts`.
         self._hosts: Set[str] = set()
+        #: host -> consecutive transport failures, for the cooldown.
+        self._strikes: Dict[str, int] = {}
 
         self.session = requests.Session()
         self.session.headers.update({
@@ -108,6 +111,13 @@ class Transport:
         """
         return next((r for h in sorted(self._hosts) if (r := self.blocks.get(h))), None)
 
+    def limits_for(self, host: str) -> Tuple[float, float, int]:
+        """This host's ``(min_delay, max_delay, timeout)``.
+
+        See :mod:`bookscraper.limits` for the policy and how matching works.
+        """
+        return limits.for_host(host, (self.min_delay, self.max_delay, self.timeout))
+
     def throttle(self, url: str) -> None:
         """Sleep out this host's courtesy delay. Even first contact waits.
 
@@ -117,12 +127,29 @@ class Transport:
         """
         host = self.host_of(url)
         self._hosts.add(host)
-        delay = random.uniform(self.min_delay, self.max_delay)
+        low, high, _ = self.limits_for(host)
+        delay = random.uniform(low, high)
         now = time.monotonic()
         due = max(now, self._next_at[host]) if host in self._next_at else now + delay
         self._next_at[host] = due + delay
         if (remaining := due - time.monotonic()) > 0:
             time.sleep(remaining)
+
+    def _strike(self, host: str) -> None:
+        """Count a transport failure, and pause the host once they pile up."""
+        self._strikes[host] = self._strikes.get(host, 0) + 1
+        strikes = self._strikes[host]
+        cooldown = limits.cooldown_for(strikes)
+        if not cooldown:
+            return
+        self._next_at[host] = max(self._next_at.get(host, 0.0),
+                                  time.monotonic() + cooldown)
+        if strikes == limits.STRIKES_BEFORE_COOLDOWN:
+            warn(f"warning: {host} has refused {strikes} requests in a row; pausing "
+                 f"it for {cooldown:.0f}s rather than burning retries on every book")
+
+    def _clear_strikes(self, host: str) -> None:
+        self._strikes.pop(host, None)
 
     def record_block(self, url: str, reason: str) -> None:
         """Note that a host is walling us, warning only the first time."""
@@ -170,15 +197,18 @@ class Transport:
             sent.setdefault("Referer", referer)
             sent.setdefault("Sec-Fetch-Site", "same-origin")
 
+        host = self.host_of(url)
+        timeout = self.limits_for(host)[2]
         attempts = self.retries + 1
         for attempt in range(1, attempts + 1):
             self.throttle(url)
             try:
                 response = self.session.request(
                     method, url, params=params, headers=sent or None,
-                    timeout=self.timeout, json=json_body, stream=stream,
+                    timeout=timeout, json=json_body, stream=stream,
                     allow_redirects=allow_redirects)
             except (requests.Timeout, requests.ConnectionError) as exc:
+                self._strike(host)
                 wait = self._backoff(attempt, None) if attempt < attempts else None
                 if wait is None:
                     warn(f"warning: {method} {url} gave up: {type(exc).__name__}")
@@ -192,6 +222,8 @@ class Transport:
                 return None
 
             status = response.status_code
+            if status in _RETRY_STATUS:
+                self._strike(host)
             if status in _RETRY_STATUS and attempt < attempts:
                 wait = self._backoff(attempt, response)
                 if wait is None:
@@ -208,5 +240,6 @@ class Transport:
             if status >= 400:
                 warn(f"warning: {method} {url} -> HTTP {status}")
                 return None
+            self._clear_strikes(host)
             return response
         return None

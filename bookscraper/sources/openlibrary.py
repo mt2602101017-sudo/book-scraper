@@ -13,6 +13,7 @@ them would be an editorial guess, not a scrape.
 
 from __future__ import annotations
 
+import re
 from typing import Any, Dict, List, Optional
 
 from ..base import Source
@@ -21,6 +22,17 @@ from ..models import Hint, Result
 from ..parse import dedupe, text
 
 BASE = "https://openlibrary.org"
+
+#: Open Library signals "no cover" by handing back a cover **id of -1** rather than
+#: omitting the field, so the record still carries three plausible-looking URLs.
+#: Requesting them costs three 404s and a host cooldown per book, for nothing.
+_COVER_ID = re.compile(r"/b/id/(-?\d+)-[LMS]\.jpg", re.IGNORECASE)
+
+
+def _has_cover(url: str) -> bool:
+    """False when the URL names Open Library's "no cover" sentinel id."""
+    match = _COVER_ID.search(url)
+    return int(match.group(1)) > 0 if match else True
 
 #: Open Library emits MARC / ISO 639-2**B** codes (``fre``, ``ger``, ``chi``,
 #: ``dut``), not the 639-2T forms, so both spellings of the dual-code languages
@@ -106,11 +118,25 @@ class OpenLibrary(Source):
         return text(raw) or None
 
     @staticmethod
-    def _cover(record: Dict[str, Any]) -> List[str]:
-        """The largest cover the record offers, read off it -- never constructed."""
+    def _cover(record: Dict[str, Any]) -> List[List[str]]:
+        """One cover, as every size the record offers -- largest first.
+
+        These are alternatives for the *same* image, not separate covers, so the
+        runner keeps whichever downloads first. That fallback is load-bearing here:
+        ``-L`` is not served by Open Library at all but 302s to an archive.org URL
+        that extracts it from a ZIP on demand, so it takes 7-14 s when it works and
+        times out outright when it does not, while ``-M`` and ``-S`` are served
+        directly and quickly. Offering only ``-L`` lost 8 of 298 available covers in
+        one 381-book run; retrying with the fallback recovered 7 of the 8.
+
+        ``default=false`` makes a genuinely missing cover a 404 rather than the
+        43-byte 1x1 transparent GIF the endpoint otherwise returns with HTTP 200.
+        """
         covers = record.get("cover") or {}
-        return next(([str(url)] for size in ("large", "medium", "small")
-                     if (url := covers.get(size))), [])
+        found = [str(url) for size in ("large", "medium", "small")
+                 if (url := covers.get(size)) and _has_cover(str(url))]
+        return [[f"{url}{'&' if '?' in url else '?'}default=false" for url in found]] \
+            if found else []
 
     @staticmethod
     def _isbn10(record: Dict[str, Any]) -> Optional[str]:

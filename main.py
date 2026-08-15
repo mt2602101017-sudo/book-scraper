@@ -32,6 +32,7 @@ from bookscraper import csv_input
 from bookscraper import isbn as isbn_utils
 from bookscraper.base import discover
 from bookscraper.csv_input import Entry
+from bookscraper.ledger import queue_missing_covers
 from bookscraper.runner import Config, Runner
 
 #: Everything that used to be a flag. These are settings, not choices: each value
@@ -70,6 +71,10 @@ def build_parser() -> argparse.ArgumentParser:
                         help="stop before row N (half-open, so shards tile exactly)")
     parser.add_argument("--sources", default="all", metavar="LIST",
                         help="comma-separated source slugs, or 'all'")
+    parser.add_argument("--retry-incomplete", action="store_true",
+                        help="also re-scrape books whose metadata is on disk but "
+                             "whose cover is missing (a failed download in an "
+                             "earlier run); normally these are skipped as done")
     return parser
 
 
@@ -163,7 +168,11 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                       file=sys.stderr)
             return 2
 
-    return Runner(config_for(args, parser)).run(entries)
+    runner = Runner(config_for(args, parser))
+    if args.retry_incomplete:
+        queue_missing_covers(runner.storage, runner.pending,
+                             [a.name for a in runner.adapters])
+    return runner.run(entries)
 
 
 if __name__ == "__main__":

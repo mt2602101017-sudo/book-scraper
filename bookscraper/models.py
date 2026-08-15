@@ -87,7 +87,11 @@ class Result:
     isbn13: str
     book_url: Optional[str] = None
     book: Optional[Book] = None
-    cover_urls: List[str] = field(default_factory=list)
+    #: One entry per cover. An entry is usually a URL, but may be a **sequence of
+    #: equivalent URLs** for the same image -- alternative sizes or CDN routes --
+    #: in which case the first that downloads is kept and the rest are ignored.
+    #: That is how a flaky route costs latency instead of costing the cover.
+    cover_urls: List[Any] = field(default_factory=list)
     blurb: Optional[str] = None
     reviews: List[Review] = field(default_factory=list)
     genres: List[str] = field(default_factory=list)

@@ -10,12 +10,9 @@ Guarantees everything around this module relies on:
   the courtesy delay, the block registry and the browser the run's rather than one
   book's.
 
-Books are scraped one at a time, deliberately. The pace is set by the per-host
+Books are scraped one at a time, deliberately: the pace is set by the per-host
 courtesy delay, not the CPU, so concurrency cannot make the crawl politer or much
-faster -- and a thread pool here bought 1.2x while requiring a locked delay clock, a
-lock around the browser and captured-and-replayed output. To go faster, shard the
-file across terminals with ``--start``/``--end``, or split the sites with
-``--sources``.
+faster. Shard with ``--start``/``--end`` or ``--sources`` instead.
 """
 
 from __future__ import annotations
@@ -32,7 +29,7 @@ from .csv_input import Entry
 from .http import HttpClient
 from .metadata import release_caches
 from .models import Hint, Result
-from .nodata import NoData
+from .ledger import NoData, Pending
 from .report import Report, digest
 from .storage import Storage
 from .transport import warn
@@ -82,6 +79,9 @@ class Outcome:
     #: False when an ``empty`` cannot be believed -- the site was walling us, or was
     #: never reached at all. Only a trustworthy empty is recorded as an absence.
     trustworthy: bool = True
+    #: True when the record was written but an artefact failed transiently, so this
+    #: book must be scraped again even though its metadata is on disk.
+    incomplete: bool = False
 
 
 class Runner:
@@ -91,6 +91,9 @@ class Runner:
         self.config = config
         self.storage = Storage(config.out_dir)
         self.nodata = NoData(config.metrics_dir)
+        #: Books whose record is on disk but whose artefacts are not, so they are
+        #: re-scraped rather than skipped. See :mod:`bookscraper.ledger`.
+        self.pending = Pending(config.metrics_dir)
         self.report = Report(config.metrics_dir)
         self.client = HttpClient(config.min_delay, config.max_delay,
                                  config.timeout, config.retries, config.browser)
@@ -138,11 +141,19 @@ class Runner:
             # finding the metadata file cannot express, so it gets its own list.
             if outcome.status == "empty" and outcome.trustworthy:
                 self.nodata.note(name, entry.isbn13)
+            # And a book that is on disk but unfinished has to stay on the to-do
+            # list, or the skip check will call it done next run.
+            if outcome.incomplete:
+                self.pending.note(name, entry.isbn13)
+            elif outcome.has_metadata:
+                self.pending.discard(name, entry.isbn13)
         return outcomes
 
     def _answered(self, source: str, isbn13: str) -> Optional[str]:
         """Why this pair needs no fetch, or ``None`` to scrape it."""
         try:
+            if self.pending.contains(source, isbn13):
+                return None      # on disk, but an artefact is still missing
             if isbn13 in self.storage.meta.scraped(source):
                 return f"{self.storage.meta.path_for(source).name} already holds it"
             if self.nodata.contains(source, isbn13):
@@ -220,7 +231,9 @@ class Runner:
                  "everything already written is intact")
         finally:
             self.client.close()
-            self.nodata.flush()   # in the finally, so an interrupt keeps findings
+            # In the finally, so an interrupted run keeps what it learned.
+            self.nodata.flush()
+            self.pending.flush()
             release_caches()
 
         paths = self.report.write()

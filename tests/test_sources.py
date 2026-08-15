@@ -117,3 +117,26 @@ def test_the_browser_only_adapters_say_unreachable_not_absent() -> None:
         adapter = dict(ADAPTERS)[name]
         result = adapter(FakeClient()).scrape(Hint(isbn13="9780143127550"))
         assert any("unreachable" in w for w in result.warnings), name
+
+
+def test_open_library_no_cover_sentinel_is_not_requested() -> None:
+    """It signals "no cover" with an id of -1, not by omitting the field.
+
+    Requesting it costs three 404s and a host cooldown per book, for nothing.
+    """
+    from bookscraper.sources.openlibrary import OpenLibrary
+
+    sentinel = {"cover": {"large": "https://covers.openlibrary.org/b/id/-1-L.jpg",
+                          "medium": "https://covers.openlibrary.org/b/id/-1-M.jpg"}}
+    assert OpenLibrary._cover(sentinel) == []
+
+    real = {"cover": {"large": "https://covers.openlibrary.org/b/id/384262-L.jpg",
+                      "medium": "https://covers.openlibrary.org/b/id/384262-M.jpg",
+                      "small": "https://covers.openlibrary.org/b/id/384262-S.jpg"}}
+    offered = OpenLibrary._cover(real)
+    # One cover, three equivalent sizes to try, largest first.
+    assert len(offered) == 1 and len(offered[0]) == 3
+    assert "-L.jpg" in offered[0][0] and "-S.jpg" in offered[0][2]
+    # default=false turns a missing cover into a 404 instead of a 1x1 GIF.
+    assert all("default=false" in url for url in offered[0])
+    assert OpenLibrary._cover({}) == []

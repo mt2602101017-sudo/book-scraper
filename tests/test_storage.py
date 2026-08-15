@@ -9,7 +9,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from bookscraper.metadata import release_caches  # noqa: E402
-from bookscraper.nodata import NoData  # noqa: E402
+from bookscraper.ledger import NoData, Pending  # noqa: E402
 from bookscraper.storage import Storage, image_ext, sanitise  # noqa: E402
 
 
@@ -106,3 +106,29 @@ def test_no_data_merges_rather_than_overwrites(tmp_path: Path) -> None:
     assert NoData(tmp_path).contains("kobo", "9780316769488") is False
 
 
+
+
+def test_the_pending_list_merges_and_removes_across_runs(tmp_path: Path) -> None:
+    """Durable state: a --end 100 slice must not truncate what it never looked at."""
+    first = Pending(tmp_path)
+    first.note("kobo", "9780143127550")
+    first.note("kobo", "9780062316097")
+    first.flush()
+
+    second = Pending(tmp_path)
+    assert second.contains("kobo", "9780143127550") is True
+    second.discard("kobo", "9780143127550")     # this one got finished
+    second.note("kobo", "9780316769488")        # this one just failed
+    second.flush()
+
+    on_disk = set((tmp_path / "kobo_incomplete.txt").read_text().split())
+    assert on_disk == {"9780062316097", "9780316769488"}
+    # A discard takes effect immediately, before any flush.
+    assert second.contains("kobo", "9780143127550") is False
+
+
+def test_the_two_ledgers_do_not_share_a_file(tmp_path: Path) -> None:
+    NoData(tmp_path).path_for("amazon").write_text("1\n", encoding="utf-8")
+    assert Pending(tmp_path).path_for("amazon").name == "amazon_incomplete.txt"
+    assert NoData(tmp_path).path_for("amazon").name == "amazon_no_data.txt"
+    assert Pending(tmp_path).contains("amazon", "1") is False

@@ -90,16 +90,33 @@ so two `main.py` processes can share one output tree.
 
 ## Resuming
 
-Nothing already answered is fetched twice. Two things together cover every
+Nothing already answered is fetched twice. Three things together cover every
 (ISBN, source) pair:
 
 - a record in `book_metadata/<source>_metadata.json` — the site had the book;
 - an entry in `metrics/<source>_no_data.txt` — the site answered and genuinely does
-  not carry it.
+  not carry it;
+- an entry in `metrics/<source>_incomplete.txt` — the record was written but an
+  artefact failed, so the book is **not** finished and gets scraped again.
 
 The second list exists because no shape of "record present" can mean "absent". On the
 shipped 10 000-ISBN CSV that is 20 007 of 49 975 pairs, and re-crawling them costs
 roughly 29 h per run.
+
+The third exists because "record present" does not mean "complete" either. A cover
+download that times out used to leave a metadata record behind, which the skip check
+then read as done — so the cover was lost permanently. Now the book stays on the
+to-do list until its artefacts land, and drops off by itself once they do (or once it
+turns out the source has no cover to give).
+
+If you have output from before that was tracked, one pass recovers it:
+
+```bash
+python main.py books.csv --retry-incomplete
+```
+
+That queues every book whose record is on disk but whose cover is not. Books that
+genuinely have no cover are re-checked once and then drop off the list.
 
 Only a **trustworthy** empty is recorded: one where the site was actually reached and
 no host the source contacted was walling us. That guard matters — skipping it once
@@ -113,9 +130,21 @@ Ctrl-C is safe. Everything finished is on disk, and the digest tells you the
 
 ## Politeness and what is not done
 
-- A randomised 1–2 s delay is slept **before every request, per host**, so
-  interleaved adapters cannot hammer one site and a run cannot open with a burst.
+- A randomised delay is slept **before every request, per host**, so interleaved
+  adapters cannot hammer one site and a run cannot open with a burst. The default is
+  1–2 s; hosts that ask for less traffic get their own limit in
+  `transport.HOST_LIMITS`, which is where to add one if a site starts pushing back:
+
+  | Host | Delay | Timeout | Why |
+  | --- | --- | --- | --- |
+  | `openlibrary.org` | 2.5–4 s | 30 s | answers HTTP 503 under sustained load |
+  | `covers.openlibrary.org` | 3.5–5 s | 45 s | ~100 cover requests per IP per 5 min |
+  | `archive.org` | 3.5–5 s | 60 s | serves `-L` covers out of a ZIP, on demand |
+
 - Transient failures are retried with exponential backoff, honouring `Retry-After`.
+  After three consecutive failures a host is **paused** (30 s, lengthening to a
+  120 s cap) instead of being retried per URL, because burning the retry budget on
+  every book against a host that is refusing connections helps nobody.
 - Bot walls — CAPTCHA interstitials, Cloudflare challenges, AWS WAF's HTTP-202
   JavaScript challenge — are **detected and recorded, never fought**. No CAPTCHA is
   solved, forged or routed around; a walled page is a fetch failure, and the report
@@ -169,6 +198,11 @@ Three caveats worth knowing:
 - **Open Library publishes subject headings, not genres,** so its `genre` mixes true
   genres with topical headings and Library of Congress strings. They are reported
   verbatim; filtering them would be an editorial guess rather than a scrape.
+- **Most Open Library records have no cover at all.** Of 91 records in one 381-book
+  run with no cover file, 83 had no cover to fetch — the catalogue simply does not
+  hold one. So a low cover count against Open Library is usually the catalogue, not
+  a fault; the remaining 8 were genuine download failures, and those are what the
+  size fallback and the to-do list now catch.
 
 Open Library runs first because it is the only source that is ISBN-indexed *and*
 answers in one JSON request. Kobo, Audible and BookBub have no ISBN lookup at all and
