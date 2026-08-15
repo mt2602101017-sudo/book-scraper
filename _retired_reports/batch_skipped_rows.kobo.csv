@@ -1,6 +1,0 @@
-csv_row,value,reason
-1353,Invalid ISBN-10,"'Invalid ISBN-10' normalised to 'INVALIDISBN10', which is 13 digits but does not start with the Bookland prefix 978 or 979, so it is not an ISBN-13"
-3264,Invalid ISBN-10,"'Invalid ISBN-10' normalised to 'INVALIDISBN10', which is 13 digits but does not start with the Bookland prefix 978 or 979, so it is not an ISBN-13"
-3321,Invalid ISBN-10,"'Invalid ISBN-10' normalised to 'INVALIDISBN10', which is 13 digits but does not start with the Bookland prefix 978 or 979, so it is not an ISBN-13"
-9080,Invalid ISBN-10,"'Invalid ISBN-10' normalised to 'INVALIDISBN10', which is 13 digits but does not start with the Bookland prefix 978 or 979, so it is not an ISBN-13"
-9530,Invalid ISBN-10,"'Invalid ISBN-10' normalised to 'INVALIDISBN10', which is 13 digits but does not start with the Bookland prefix 978 or 979, so it is not an ISBN-13"
