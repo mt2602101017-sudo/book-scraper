@@ -1,0 +1,16 @@
+==============================================================================
+bookbub: 0 of 1 succeeded (0%), avg 0.0s per book
+==============================================================================
+
+FAILED (1):
+  (none)
+
+NOT TRUSTWORTHY (1) -- reported empty, but the site was walling us
+or was never successfully reached, so "no such book" is not a finding.
+These are not recorded in bookbub_no_data.txt, so they are checked again:
+  9780821716595  no host was successfully reached
+
+SUCCEEDED (0):
+  (none)
+
+==============================================================================

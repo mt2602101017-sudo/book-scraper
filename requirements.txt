@@ -1,0 +1,37 @@
+# book-scraper - runtime requirements
+#
+# Install with:
+#     .venv/bin/python -m pip install -r requirements.txt
+
+requests>=2.31,<3.0
+beautifulsoup4>=4.12,<5.0
+lxml>=5.0,<7.0
+
+# selenium is listed here -- not as an optional extra -- because two of the six
+# sources produce nothing without a browser:
+#
+#   * Kobo    -- Cloudflare 403 wall on plain requests (measured 0 of 3 pages),
+#                and the product page needs JavaScript for the parts we read.
+#   * BookBub -- Cloudflare challenges every path including /robots.txt
+#                (measured 0 of 3), and the book body is client-side rendered.
+#
+# Both are on by default and both go straight to the browser rather than spending
+# a guaranteed 403 first. Omit selenium and a default run writes 4 metadata JSONs
+# instead of 6.
+#
+# Selenium remains a *soft* dependency in code: it is imported lazily on the
+# first rendered fetch, and if it (or a browser driver) is missing the scraper
+# prints a clear warning and degrades to requests+bs4 rather than failing.
+# Setting SETTINGS["browser"] = "never" in main.py disables it outright. You also
+# need a real browser on the machine (Google Chrome or Firefox); Selenium 4.6+
+# fetches the matching driver itself via Selenium Manager.
+selenium>=4.20,<5.0
+
+# ---------------------------------------------------------------------------
+# Genuinely optional -- see requirements-optional.txt
+# ---------------------------------------------------------------------------
+#   pytest  -> nicer runner for tests/; the tests also run standalone with
+#              `python tests/test_isbn.py`.
+#   brotli  -> lets the client advertise and decode Accept-Encoding: br. Without
+#              it HttpClient automatically stops advertising br, so nothing
+#              breaks.

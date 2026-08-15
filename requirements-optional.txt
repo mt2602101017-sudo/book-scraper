@@ -1,0 +1,13 @@
+# book-scraper - OPTIONAL extras.
+#
+# Nothing here is required to scrape. selenium lives in requirements.txt, because
+# Kobo produces nothing without a browser; it is no longer an optional extra.
+#
+#   pytest -> nicer test runner for tests/; the tests also run standalone with
+#             `python tests/test_isbn.py`.
+#   brotli -> lets the client advertise and decode Accept-Encoding: br like a real
+#             browser. Without it HttpClient automatically stops advertising br
+#             (see _supported_accept_encoding), so nothing breaks.
+
+pytest>=8.0
+brotli>=1.1

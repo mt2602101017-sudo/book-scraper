@@ -1,0 +1,31 @@
+csv_row,isbn13,label,source,status,fields_found,fields_total,missing_fields,covers_written,reviews_written,genres_written,blurb_chars,warnings,book_url,error,out_dir
+7863,9780811810487,,bookbub,blocked,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,9,,,data
+7864,9780375760402,,bookbub,skipped,0,0,,0,0,0,0,1,,,data
+7865,9780809166336,,bookbub,blocked,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,9,,,data
+7866,9780062514660,,bookbub,blocked,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,9,,,data
+7867,9780875080710,,bookbub,skipped,0,0,,0,0,0,0,1,,,data
+7868,9780802775245,,bookbub,blocked,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,9,,,data
+7869,9781569472132,,bookbub,blocked,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,9,,,data
+7870,9780890660843,,bookbub,skipped,0,0,,0,0,0,0,1,,,data
+7871,9781567315165,,bookbub,skipped,0,0,,0,0,0,0,1,,,data
+7872,9781859675151,,bookbub,blocked,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,9,,,data
+7873,9780207158636,,bookbub,skipped,0,0,,0,0,0,0,1,,,data
+7874,9780800717070,,bookbub,blocked,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,9,,,data
+7875,9780590406321,,bookbub,blocked,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,9,,,data
+7876,9781883211035,,bookbub,blocked,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,9,,,data
+7877,9780892839063,,bookbub,skipped,0,0,,0,0,0,0,1,,,data
+7878,9780307119469,,bookbub,skipped,0,0,,0,0,0,0,1,,,data
+7879,9780375502538,,bookbub,skipped,0,0,,0,0,0,0,1,,,data
+7880,9780882665917,,bookbub,skipped,0,0,,0,0,0,0,1,,,data
+7881,9780965866873,,bookbub,blocked,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,9,,,data
+7882,9780486244426,,bookbub,skipped,0,0,,0,0,0,0,1,,,data
+7883,9780766709522,,bookbub,blocked,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,9,,,data
+7884,9780892838011,,bookbub,skipped,0,0,,0,0,0,0,1,,,data
+7885,9780590489331,,bookbub,blocked,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,9,,,data
+7886,9780517569894,,bookbub,blocked,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,9,,,data
+7887,9780892833528,,bookbub,skipped,0,0,,0,0,0,0,1,,,data
+7888,9780446911719,,bookbub,blocked,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,9,,,data
+7889,9780060622138,,bookbub,skipped,0,0,,0,0,0,0,1,,,data
+7890,9781561380374,,bookbub,blocked,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,9,,,data
+7891,9781878424075,,bookbub,skipped,0,0,,0,0,0,0,1,,,data
+7892,9781576737040,,bookbub,blocked,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,9,,,data

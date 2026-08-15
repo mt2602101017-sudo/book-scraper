@@ -1,0 +1,1001 @@
+csv_row,isbn13,label,source,status,fields_found,fields_total,missing_fields,covers_written,reviews_written,genres_written,blurb_chars,warnings,book_url,error,out_dir
+2,9780821716595,,goodreads,skipped,0,0,,0,0,0,0,1,,,data
+3,9780312954154,,goodreads,skipped,0,0,,0,0,0,0,1,,,data
+4,9780553259100,,goodreads,skipped,0,0,,0,0,0,0,1,,,data
+5,9780671729592,,goodreads,skipped,0,0,,0,0,0,0,1,,,data
+6,9780671736743,,goodreads,skipped,0,0,,0,0,0,0,1,,,data
+7,9780671674885,,goodreads,skipped,0,0,,0,0,0,0,1,,,data
+8,9780671730918,,goodreads,skipped,0,0,,0,0,0,0,1,,,data
+9,9780394805719,,goodreads,skipped,0,0,,0,0,0,0,1,,,data
+10,9780671740849,,goodreads,skipped,0,0,,0,0,0,0,1,,,data
+11,9780590462280,,goodreads,skipped,0,0,,0,0,0,0,1,,,data
+12,9780140341683,,goodreads,partial,6,7,origin,6,12,3,342,4,https://www.goodreads.com/book/show/375040.The_Bone_Wars,,data
+13,9780380777624,,goodreads,partial,6,7,origin,6,9,4,810,3,https://www.goodreads.com/book/show/2712635-comanche,,data
+14,9780525465218,,goodreads,partial,6,7,origin,4,3,1,161,3,https://www.goodreads.com/book/show/2043080.Benno_s_Bear,,data
+15,9780515107319,,goodreads,partial,5,7,origin; genres,1,0,0,47,7,https://www.goodreads.com/book/show/6138445-hard-rock,,data
+16,9780345280336,,goodreads,partial,6,7,origin,6,2,1,25,3,https://www.goodreads.com/book/show/5641259-the-dark-pasture,,data
+17,9780553283457,,goodreads,partial,6,7,origin,6,7,3,137,3,https://www.goodreads.com/book/show/1229320.Under_Contract,,data
+18,9781558175594,,goodreads,partial,5,7,origin; genres,3,0,0,193,7,https://www.goodreads.com/book/show/7598736-the-secret-lives-of-the-edmonts,,data
+19,9780060804848,,goodreads,partial,5,7,origin; genres,4,0,0,47,7,https://www.goodreads.com/book/show/6598465-schroeder-s-game,,data
+20,9780881501322,,goodreads,partial,6,7,origin,3,8,2,925,3,https://www.goodreads.com/book/show/1921006.Death_of_a_Voodoo_Doll,,data
+21,9780345364203,,goodreads,partial,5,7,origin; genres,4,4,0,7,5,https://www.goodreads.com/book/show/1893836.B_E_,,data
+22,9780449126820,,goodreads,partial,5,7,origin; genres,5,1,0,19,6,https://www.goodreads.com/book/show/2288078.The_Mind_Breakers,,data
+23,9780804102292,,goodreads,partial,6,7,origin,6,30,10,201,2,https://www.goodreads.com/book/show/429909.Die_Hard,,data
+24,9780441001347,,goodreads,partial,6,7,origin,3,5,5,227,3,https://www.goodreads.com/book/show/232280.Dagger_s_Point,,data
+25,9780345353986,,goodreads,partial,6,7,origin,6,30,10,193,1,https://www.goodreads.com/book/show/3347059-american-blood,,data
+26,9780553117660,,goodreads,partial,6,7,origin,6,9,1,23,3,https://www.goodreads.com/book/show/11566422-deluge,,data
+27,9780671476991,,goodreads,partial,6,7,origin,6,19,4,9,4,https://www.goodreads.com/book/show/2776883-terms-of-surrender,,data
+28,9780440208778,,goodreads,partial,5,7,origin; genres,2,0,0,679,7,https://www.goodreads.com/book/show/13315274-head-games,,data
+29,9780553202694,,goodreads,partial,6,7,origin,3,3,2,151,3,https://www.goodreads.com/book/show/1129208.Blow_Out,,data
+30,9780812582703,,goodreads,partial,6,7,origin,6,26,5,762,1,https://www.goodreads.com/book/show/363047.Wildwood,,data
+31,9780394740799,,goodreads,partial,6,7,origin,3,4,2,165,3,https://www.goodreads.com/book/show/2695979-women-as-mothers,,data
+32,9780380475308,,goodreads,partial,6,7,origin,6,30,10,327,2,https://www.goodreads.com/book/show/1404017.Rest_You_Merry,,data
+33,9780373642243,,goodreads,partial,5,7,origin; genres,1,0,0,295,6,https://www.goodreads.com/book/show/2215711.Call_to_Arms,,data
+34,9780380008926,,goodreads,partial,6,7,origin,5,6,2,161,5,https://www.goodreads.com/book/show/17886421-the-viking-process,,data
+35,9780373075270,,goodreads,partial,5,7,origin; genres,1,0,0,723,6,https://www.goodreads.com/book/show/1466518.On_The_Edge,,data
+36,9780373500710,,goodreads,partial,5,7,origin; genres,1,1,0,407,5,https://www.goodreads.com/book/show/13403186-maze-of-the-past,,data
+37,9780451163318,,goodreads,partial,6,7,origin,6,30,10,222,1,https://www.goodreads.com/book/show/222812.Marian_s_Christmas_Wish,,data
+38,9780821771334,,goodreads,partial,6,7,origin,6,29,10,1173,2,https://www.goodreads.com/book/show/2669260-a-taste-of-fire,,data
+39,9780553133646,,goodreads,partial,6,7,origin,6,8,3,622,3,https://www.goodreads.com/book/show/1394314.Love_Has_His_Way,,data
+40,9780373483419,,goodreads,partial,6,7,origin,3,4,4,636,3,https://www.goodreads.com/book/show/1097500.A_Funny_Thing_Happened_On_The_Way_To_The_Delivery_Room,,data
+41,9780449234020,,goodreads,partial,6,7,origin,5,20,3,503,3,https://www.goodreads.com/book/show/1776055.Stranger_Within_the_Gates,,data
+42,9780380768769,,goodreads,partial,6,7,origin,3,4,6,767,3,https://www.goodreads.com/book/show/1126702.Irresistible,,data
+43,9780821754245,,goodreads,partial,6,7,origin,1,1,4,277,3,https://www.goodreads.com/book/show/3111036-emma-s-heart,,data
+44,9780373260973,,goodreads,partial,6,7,origin,4,11,1,847,4,https://www.goodreads.com/book/show/2458173.Hard_Tack,,data
+45,9780523405155,,goodreads,partial,5,7,origin; genres,4,3,0,25,5,https://www.goodreads.com/book/show/2052252.The_Caller,,data
+46,9780446895576,,goodreads,partial,6,7,origin,2,1,3,92,3,https://www.goodreads.com/book/show/249489.Cheap_Detective,,data
+47,9780441106035,,goodreads,partial,6,7,origin,6,2,5,214,4,https://www.goodreads.com/book/show/1763401.Citizen_Vampire,,data
+48,9780939391295,,goodreads,partial,5,7,origin; genres,1,0,0,47,8,https://www.goodreads.com/book/show/6938387-hunter-ranch,,data
+49,9780920501924,,goodreads,partial,5,7,origin; genres,1,0,0,23,7,https://www.goodreads.com/book/show/1269951.The_Doubtful_Guests,,data
+50,9780425045268,,goodreads,partial,6,7,origin,6,19,4,518,3,https://www.goodreads.com/book/show/591744.A_Woman_a_Day,,data
+51,9780890849330,,goodreads,partial,5,7,origin; genres,1,1,0,166,5,https://www.goodreads.com/book/show/3859955-wings-of-gold,,data
+52,9780671672645,,goodreads,partial,6,7,origin,5,0,1,177,4,https://www.goodreads.com/book/show/15420098-waltz-with-the-lady,,data
+53,9780373056224,,goodreads,partial,5,7,origin; genres,1,1,0,9,6,https://www.goodreads.com/book/show/2292868.Maverick_Heart,,data
+54,9780373270460,,goodreads,partial,6,7,origin,1,2,2,721,3,https://www.goodreads.com/book/show/3352449-shaded-leaves-of-destiny,,data
+55,9780452270275,,goodreads,partial,5,7,origin; genres,4,1,0,121,5,https://www.goodreads.com/book/show/5024524-walking-dunes,,data
+56,9780373760039,,goodreads,partial,6,7,origin,6,0,1,717,4,https://www.goodreads.com/book/show/12059.The_Accidental_Bodyguard,,data
+57,9780373650088,,goodreads,partial,6,7,origin,5,3,2,564,3,https://www.goodreads.com/book/show/680195.Ooh_Baby_Baby,,data
+58,9780373166190,,goodreads,partial,5,7,origin; genres,3,1,0,80,6,https://www.goodreads.com/book/show/1429976.Flyboy_Valentine_S_Men_,,data
+59,9780373243846,,goodreads,partial,6,7,origin,3,3,1,633,3,https://www.goodreads.com/book/show/3218534-standing-bear-s-surrender,,data
+60,9780373056941,,goodreads,partial,5,7,origin; genres,1,1,0,668,6,https://www.goodreads.com/book/show/3095502-moonlight-miracle,,data
+61,9780671731328,,goodreads,partial,6,7,origin,6,28,7,906,1,https://www.goodreads.com/book/show/13239033-mistletoe-and-holly,,data
+62,9780373287956,,goodreads,partial,6,7,origin,6,9,10,538,3,https://www.goodreads.com/book/show/4219721-pieces-of-sky,,data
+63,9780373166312,,goodreads,partial,6,7,origin,4,6,3,565,3,https://www.goodreads.com/book/show/4893595-the-cowboy-and-the-heiress,,data
+64,9780671702687,,goodreads,partial,6,7,origin,6,30,6,640,3,https://www.goodreads.com/book/show/6096383-generous-death,,data
+65,9780449146934,,goodreads,partial,6,7,origin,6,29,10,501,1,https://www.goodreads.com/book/show/6458077-fierce-eden,,data
+66,9780440205302,,goodreads,partial,6,7,origin,6,13,6,810,4,https://www.goodreads.com/book/show/2749064-angel-in-marble,,data
+67,9780449220856,,goodreads,partial,6,7,origin,6,30,10,1079,2,https://www.goodreads.com/book/show/3052768-the-stormy-petrel,,data
+68,9780812542950,,goodreads,partial,6,7,origin,6,8,3,246,3,https://www.goodreads.com/book/show/1445467.The_Listening_Ones,,data
+69,9780812551594,,goodreads,partial,6,7,origin,3,5,3,2244,3,https://www.goodreads.com/book/show/1862779.Spirits_of_Christmas,,data
+70,9780515064261,,goodreads,partial,5,7,origin; genres,3,2,0,353,5,https://www.goodreads.com/book/show/1132672.Blood_and_Dreams,,data
+71,9781551668024,,goodreads,partial,6,7,origin,6,10,2,212,5,https://www.goodreads.com/book/show/2044903.A_January_Chill,,data
+72,9780373483631,,goodreads,partial,6,7,origin,1,6,3,252,5,https://www.goodreads.com/book/show/699215.Summer_Sensations,,data
+73,9780380802487,,goodreads,partial,6,7,origin,6,28,10,233,4,https://www.goodreads.com/book/show/935345.The_Bride_of_Johnny_McAllister,,data
+74,9780912376011,,goodreads,partial,6,7,origin,6,30,10,316,5,https://www.goodreads.com/book/show/1877703.The_Hiding_Place,,data
+75,9780525672890,,goodreads,partial,6,7,origin,1,1,1,285,5,https://www.goodreads.com/book/show/799414.The_Magician_s_Challenge,,data
+76,9780822942207,,goodreads,partial,6,7,origin,6,0,1,2383,6,https://www.goodreads.com/book/show/2254491.Where_The_Evidence_Leads,,data
+77,9780821770054,,goodreads,partial,6,7,origin,3,2,2,1490,7,https://www.goodreads.com/book/show/2843883-lord-of-the-wolves,,data
+78,9780373288762,,goodreads,partial,6,7,origin,6,0,6,483,6,https://www.goodreads.com/book/show/1996567.Once_a_Maverick,,data
+79,9781572970366,,goodreads,partial,6,7,origin,3,16,4,211,5,https://www.goodreads.com/book/show/2502148.Dr_Quinn_Medicine_Woman,,data
+80,9780590053877,,goodreads,partial,6,7,origin,5,30,7,172,4,https://www.goodreads.com/book/show/3868709-the-missing-persons-league,,data
+81,9780380009572,,goodreads,partial,5,7,origin; genres,6,1,0,1,8,https://www.goodreads.com/book/show/10503609-the-frog-pond,,data
+82,9780440176336,,goodreads,partial,6,7,origin,4,8,8,821,7,https://www.goodreads.com/book/show/303411.Sabrina,,data
+83,9780307105554,,goodreads,partial,4,7,origin; language; genres,1,0,0,47,10,https://www.goodreads.com/book/show/3466306-muppets-pretty-park,,data
+84,9780486286914,,goodreads,partial,5,7,origin; genres,1,0,0,171,8,https://www.goodreads.com/book/show/4122582-three-little-pigs,,data
+85,9780570050247,,goodreads,partial,6,7,origin,3,1,1,231,6,https://www.goodreads.com/book/show/15236179-the-puzzle-club-christmas-mystery,,data
+86,9780590431019,,goodreads,partial,6,7,origin,2,5,4,83,5,https://www.goodreads.com/book/show/7503134-a-sea-full-of-sharks,,data
+87,9780307126894,,goodreads,partial,6,7,origin,6,6,4,179,6,https://www.goodreads.com/book/show/1391849.The_Mummy_s_Curse,,data
+88,9780812527445,,goodreads,partial,6,7,origin,3,14,3,15,6,https://www.goodreads.com/book/show/8460534-woman-next-door,,data
+89,9780553141429,,goodreads,partial,6,7,origin,6,3,1,528,7,https://www.goodreads.com/book/show/75004342-a-woman-s-age,,data
+90,9780553158106,,goodreads,partial,6,7,origin,5,7,4,751,5,https://www.goodreads.com/book/show/412587.The_Twins_Get_Caught,,data
+91,9780671741884,,goodreads,partial,6,7,origin,6,29,10,578,4,https://www.goodreads.com/book/show/205672.Beauty,,data
+92,9780817300319,,goodreads,partial,6,7,origin,6,18,7,169,7,https://www.goodreads.com/book/show/2929247-selma-lord-selma,,data
+93,9780451160577,,goodreads,partial,6,7,origin,6,4,1,709,5,https://www.goodreads.com/book/show/1297082.Coin_of_the_Realm,,data
+94,9780671439378,,goodreads,partial,6,7,origin,6,30,10,564,5,https://www.goodreads.com/book/show/1518529.Burglars_Can_t_Be_Choosers,,data
+95,9780425056523,,goodreads,partial,5,7,origin; genres,3,0,0,209,8,https://www.goodreads.com/book/show/1276066.All_the_Good_Ones_Are_Married,,data
+96,9780671789626,,goodreads,partial,5,7,origin; genres,3,0,0,121,8,https://www.goodreads.com/book/show/15424978-dog-on-third-base,,data
+97,9780590428040,,goodreads,partial,5,7,origin; genres,1,3,0,168,7,https://www.goodreads.com/book/show/2101164.Fourth_Graders_Dont_Believe_in_Witches,,data
+98,9780590098908,,goodreads,partial,5,7,origin; genres,4,4,0,191,7,https://www.goodreads.com/book/show/3273132-haunted-cleats,,data
+99,9780590863704,,goodreads,partial,6,7,origin,2,3,4,286,5,https://www.goodreads.com/book/show/1082268.The_Case_of_the_Mystery_Cruise,,data
+100,9780553285604,,goodreads,partial,5,7,origin; genres,6,1,0,1112,9,https://www.goodreads.com/book/show/7356799-scalpdancers,,data
+101,9780425145326,,goodreads,partial,6,7,origin,6,30,4,667,4,https://www.goodreads.com/book/show/3177412-calling-crow,,data
+102,9780553285079,,goodreads,partial,6,7,origin,6,30,10,186,4,https://www.goodreads.com/book/show/1145920.My_War_with_Goggle_Eyes,,data
+103,9780440171676,,goodreads,partial,5,7,origin; genres,2,1,0,432,8,https://www.goodreads.com/book/show/1595040.The_Pursuit_of_D_B_Cooper,,data
+104,9780515076387,,goodreads,partial,6,7,origin,6,6,2,285,6,https://www.goodreads.com/book/show/9251544-down-among-the-dead-men,,data
+105,9780380713189,,goodreads,partial,6,7,origin,6,10,3,165,5,https://www.goodreads.com/book/show/930022.The_Case_of_the_Burning_Bequest,,data
+106,9780812517828,,goodreads,partial,6,7,origin,6,7,2,100,6,https://www.goodreads.com/book/show/11308085-the-captors,,data
+107,9780061043949,,goodreads,partial,6,7,origin,6,29,9,224,5,https://www.goodreads.com/book/show/459388.Crack_Down,,data
+108,9780821743164,,goodreads,partial,6,7,origin,1,8,4,219,5,https://www.goodreads.com/book/show/802662.The_Initiation,,data
+109,9780944276761,,goodreads,partial,5,7,origin; genres,1,0,0,122,9,https://www.goodreads.com/book/show/2768922-hollywood-graffiti,,data
+110,9780446352314,,goodreads,partial,6,7,origin,6,30,8,201,5,https://www.goodreads.com/book/show/9972864-under-cover-of-daylight,,data
+111,9780505522351,,goodreads,partial,6,7,origin,1,5,6,1405,5,https://www.goodreads.com/book/show/799262.Santa_Paws,,data
+112,9780590453455,,goodreads,partial,6,7,origin,3,16,8,206,5,https://www.goodreads.com/book/show/301465.Still_More_Tales_for_the_Midnight_Hour,,data
+113,9780553578034,,goodreads,partial,5,7,origin; genres,1,4,0,723,8,https://www.goodreads.com/book/show/1929918.Flight_of_the_Serpent,,data
+114,9780671669409,,goodreads,partial,5,7,origin; genres,1,1,0,245,7,https://www.goodreads.com/book/show/1753707.Let_s_Rob_Roy,,data
+115,9781558176133,,goodreads,partial,5,7,origin; genres,1,2,0,228,7,https://www.goodreads.com/book/show/2445382.When_the_Wind_Blows,,data
+116,9780932294098,,goodreads,partial,5,7,origin; genres,2,3,0,222,8,https://www.goodreads.com/book/show/1532102.The_Enforcer,,data
+117,9780802730824,,goodreads,partial,6,7,origin,1,1,1,441,5,https://www.goodreads.com/book/show/4344628-the-hidden-wrath,,data
+118,9781878624444,,goodreads,partial,6,7,origin,3,2,2,213,5,https://www.goodreads.com/book/show/644812.The_Littlest_Christmas_Tree,,data
+119,9780394836645,,goodreads,partial,6,7,origin,3,8,2,294,5,https://www.goodreads.com/book/show/621276.The_Mystery_at_Number_Seven_Rue_Petite,,data
+120,9780307681034,,goodreads,partial,6,7,origin,2,1,3,93,5,https://www.goodreads.com/book/show/306193.Ned_s_Number_Book,,data
+121,9780445405257,,goodreads,partial,6,7,origin,6,29,10,229,2,https://www.goodreads.com/book/show/882524.The_Black_Dahlia,,data
+122,9780523413198,,goodreads,partial,5,7,origin; genres,1,0,0,21,6,https://www.goodreads.com/book/show/15197637-salt-lake,,data
+123,9780373074419,,goodreads,partial,6,7,origin,3,2,1,238,3,https://www.goodreads.com/book/show/7757960-unforgivable,,data
+124,9780395409275,,goodreads,partial,6,7,origin,6,30,10,1328,1,https://www.goodreads.com/book/show/357254.The_Book_of_Lost_Tales_Part_One,,data
+125,9780515105148,,goodreads,partial,5,7,origin; genres,3,0,0,197,6,https://www.goodreads.com/book/show/4806644-wyoming-range-war,,data
+126,9780373291977,,goodreads,partial,6,7,origin,6,3,7,646,3,https://www.goodreads.com/book/show/519642.The_Doctor_s_Homecoming,,data
+127,9780553572810,,goodreads,partial,6,7,origin,6,29,5,720,1,https://www.goodreads.com/book/show/296739.Dance_on_the_Wind,,data
+128,9780843944754,,goodreads,partial,5,7,origin; genres,4,1,0,213,5,https://www.goodreads.com/book/show/10848348-last-chance,,data
+129,9780843924978,,goodreads,partial,5,7,origin; genres,2,0,0,22,7,https://www.goodreads.com/book/show/11862569-gunslick-mountain-born-to-trouble,,data
+130,9780373217328,,goodreads,partial,5,7,origin; genres,1,3,0,377,5,https://www.goodreads.com/book/show/82224.Where_Memories_Lie,,data
+131,9780373225156,,goodreads,partial,6,7,origin,3,3,1,808,3,https://www.goodreads.com/book/show/3018649-a-woman-of-mystery,,data
+132,9780373224319,,goodreads,partial,6,7,origin,1,0,2,555,4,https://www.goodreads.com/book/show/6374969-ride-the-thunder,,data
+133,9780812514131,,goodreads,partial,6,7,origin,3,7,2,196,3,https://www.goodreads.com/book/show/1703552.Conan_of_the_Red_Brotherhood,,data
+134,9780373224401,,goodreads,partial,6,7,origin,4,0,3,764,4,https://www.goodreads.com/book/show/1565023.Angel_with_an_Attitude,,data
+135,9780373223664,,goodreads,partial,6,7,origin,5,2,1,601,3,https://www.goodreads.com/book/show/1984376.The_Charmer,,data
+136,9780373221950,,goodreads,partial,6,7,origin,6,29,10,699,1,https://www.goodreads.com/book/show/2517796.Whistleblower,,data
+137,9780553120189,,goodreads,partial,6,7,origin,6,30,10,259,2,https://www.goodreads.com/book/show/399037.Conan_the_Swordsman,,data
+138,9780373223275,,goodreads,partial,5,7,origin; genres,1,0,0,619,7,https://www.goodreads.com/book/show/2789361-indiscreet,,data
+139,9780373221356,,goodreads,partial,6,7,origin,5,30,8,626,3,https://www.goodreads.com/book/show/3114677-switchback,,data
+140,9780812533187,,goodreads,partial,6,7,origin,4,20,3,18,3,https://www.goodreads.com/book/show/3245542-conan-the-hero,,data
+141,9780812524932,,goodreads,partial,6,7,origin,6,15,5,230,3,https://www.goodreads.com/book/show/1300902.Conan_and_the_Amazon,,data
+142,9780812509625,,goodreads,partial,6,7,origin,4,6,4,674,3,https://www.goodreads.com/book/show/1738642.Conan_the_Relentless,,data
+143,9780812507140,,goodreads,partial,6,7,origin,3,9,3,261,3,https://www.goodreads.com/book/show/2027533.Conan_the_Great,,data
+144,9780671039868,,goodreads,partial,6,7,origin,6,29,10,229,2,https://www.goodreads.com/book/show/397451.Falling_Stars,,data
+145,9780373703852,,goodreads,partial,6,7,origin,2,2,1,89,3,https://www.goodreads.com/book/show/3149157-cross-tides,,data
+146,9780553444858,,goodreads,partial,6,7,origin,6,3,5,219,3,https://www.goodreads.com/book/show/318940.Passing_Through_Midnight,,data
+147,9780446351478,,goodreads,partial,6,7,origin,6,29,10,1644,1,https://www.goodreads.com/book/show/1541636.Home_Before_Morning,,data
+148,9780373078271,,goodreads,partial,5,7,origin; genres,3,1,0,89,5,https://www.goodreads.com/book/show/683048.Yuletide_Bride,,data
+149,9780837898582,,goodreads,partial,5,7,origin; genres,2,0,0,130,6,https://www.goodreads.com/book/show/108630535-thank-you-for-being-you,,data
+150,9780679874379,,goodreads,partial,5,7,origin; genres,1,1,0,214,5,https://www.goodreads.com/book/show/1507007.Phantom_Trucker,,data
+151,9780816743971,,goodreads,partial,6,7,origin,1,3,3,506,3,https://www.goodreads.com/book/show/646533.Night_of_the_Pet_Zombies,,data
+152,9780590519250,,goodreads,partial,6,7,origin,6,29,10,328,2,https://www.goodreads.com/book/show/359816.The_Dark_Rival,,data
+153,9780816748129,,goodreads,partial,6,7,origin,4,4,1,504,3,https://www.goodreads.com/book/show/4082938-beware-of-the-haunted-toilet,,data
+154,9780439082099,,goodreads,partial,5,7,origin; genres,2,2,0,202,5,https://www.goodreads.com/book/show/1232632.Are_We_There_Yet_,,data
+155,9780849934728,,goodreads,partial,5,7,origin; genres,2,3,0,21,5,https://www.goodreads.com/book/show/1167815.I_Once_Knew_a_Woman,,data
+156,9780440401964,,goodreads,partial,6,7,origin,3,3,1,476,3,https://www.goodreads.com/book/show/707453.Black_Suits_from_Outerspace,,data
+157,9781556613883,,goodreads,partial,6,7,origin,2,6,2,152,3,https://www.goodreads.com/book/show/2056118.Double_Danger,,data
+158,9780590407496,,goodreads,partial,6,7,origin,1,1,4,177,4,https://www.goodreads.com/book/show/1483917.Operation_Black_Fang,,data
+159,9780717283347,,goodreads,partial,6,7,origin,1,3,1,23,3,https://www.goodreads.com/book/show/12678109-jim-henson-s-muppets-in-the-best-gift-of-all,,data
+160,9780769605630,,goodreads,partial,5,7,origin; genres,4,0,0,29,6,https://www.goodreads.com/book/show/3465585-the-prince-of-egypt,,data
+161,9780140375138,,goodreads,partial,5,7,origin; genres,3,0,0,205,6,https://www.goodreads.com/book/show/14799071-where-s-home,,data
+162,9780380763504,,goodreads,partial,5,7,origin; genres,1,0,0,226,6,https://www.goodreads.com/book/show/11008544-cookie-mccorkle-and-the-case-of-the-kings-ghost,,data
+163,9780425161906,,goodreads,partial,5,7,origin; genres,1,0,0,247,6,https://www.goodreads.com/book/show/7087824-plane-crash-in-the-atlantic,,data
+164,9780679811817,,goodreads,partial,6,7,origin,5,5,3,555,3,https://www.goodreads.com/book/show/2528414.Young_Indiana_Jones_and_the_Curse_of_the_Ruby_Cross,,data
+165,9780553212655,,goodreads,partial,6,7,origin,6,29,10,834,2,https://www.goodreads.com/book/show/2420195.Nicholas_Nickleby,,data
+166,9780671722258,,goodreads,partial,6,7,origin,4,14,5,525,3,https://www.goodreads.com/book/show/1703704.We_Hate_Everything_But_Boys,,data
+167,9780399210808,,goodreads,partial,5,7,origin; genres,2,1,0,153,5,https://www.goodreads.com/book/show/1977569.In_the_Middle_of_a_Rainbow,,data
+168,9780345274922,,goodreads,partial,6,7,origin,6,30,10,35,1,https://www.goodreads.com/book/show/3360738-the-marvel-comics-illustrated-version-of-star-wars,,data
+169,9780821743386,,goodreads,partial,5,7,origin; genres,1,1,0,227,5,https://www.goodreads.com/book/show/6450051-crossed-hearts,,data
+170,9780373114559,,goodreads,partial,6,7,origin,6,14,3,512,3,https://www.goodreads.com/book/show/3058667-to-tame-a-wild-heart,,data
+171,9780373034543,,goodreads,partial,6,7,origin,6,28,8,459,1,https://www.goodreads.com/book/show/2065880.Fate_Takes_A_Hand,,data
+172,9780373706051,,goodreads,partial,5,7,origin; genres,1,3,0,792,6,https://www.goodreads.com/book/show/4502526-i-do-i-do,,data
+173,9780373170630,,goodreads,partial,6,7,origin,5,2,1,671,4,https://www.goodreads.com/book/show/13273137-dark-moon-rising,,data
+174,9780373105052,,goodreads,partial,6,7,origin,3,3,2,91,3,https://www.goodreads.com/book/show/3219939-wait-for-the-storm,,data
+175,9780373252527,,goodreads,partial,5,7,origin; genres,2,0,0,91,7,https://www.goodreads.com/book/show/7085641-wherever-love-leads,,data
+176,9780373108305,,goodreads,partial,6,7,origin,2,6,5,538,3,https://www.goodreads.com/book/show/2443377.Pelangi_Haven,,data
+177,9780373160549,,goodreads,partial,6,7,origin,6,12,5,9,3,https://www.goodreads.com/book/show/10380258-valley-of-fire,,data
+178,9780373110469,,goodreads,partial,6,7,origin,6,22,5,554,3,https://www.goodreads.com/book/show/1823738.Passionate_Revenge,,data
+179,9780373104789,,goodreads,partial,6,7,origin,6,12,6,522,3,https://www.goodreads.com/book/show/6054347-the-girl-from-nowhere,,data
+180,9780373104895,,goodreads,partial,6,7,origin,6,24,6,487,3,https://www.goodreads.com/book/show/830514.Long_Cold_Winter,,data
+181,9780373161102,,goodreads,partial,5,7,origin; genres,1,0,0,8,7,https://www.goodreads.com/book/show/6198464-secret-longings,,data
+182,9780373161881,,goodreads,partial,5,7,origin; genres,1,0,0,714,6,https://www.goodreads.com/book/show/437795.A_Matter_of_Time,,data
+183,9780373110940,,goodreads,partial,6,7,origin,6,14,3,550,5,https://www.goodreads.com/book/show/1796225.Dishonourable_Intentions,,data
+184,9780373161218,,goodreads,partial,5,7,origin; genres,2,0,0,633,8,https://www.goodreads.com/book/show/8105380-love-beyond-question,,data
+185,9780373028573,,goodreads,partial,6,7,origin,3,3,2,501,5,https://www.goodreads.com/book/show/7569918-man-of-contrasts,,data
+186,9780307100214,,goodreads,partial,6,7,origin,1,4,2,106,5,https://www.goodreads.com/book/show/1998615.Disney_s_Beauty_and_the_Beast,,data
+187,9780373027866,,goodreads,partial,6,7,origin,1,1,2,671,5,https://www.goodreads.com/book/show/7569937-prisoner-of-shadow-mountain,,data
+188,9780373707331,,goodreads,partial,5,7,origin; genres,1,1,0,558,7,https://www.goodreads.com/book/show/1545085.Somewhere_Out_There,,data
+189,9780373108893,,goodreads,partial,6,7,origin,1,6,4,561,6,https://www.goodreads.com/book/show/6448411-a-very-private-love,,data
+190,9780373029792,,goodreads,partial,6,7,origin,3,8,3,602,5,https://www.goodreads.com/book/show/1996577.The_Wild_Side,,data
+191,9780373109494,,goodreads,partial,6,7,origin,6,12,4,88,5,https://www.goodreads.com/book/show/7749430-elusive-paradise,,data
+192,9780840751225,,goodreads,partial,6,7,origin,6,14,6,94,6,https://www.goodreads.com/book/show/2617637-santa-are-you-for-real,,data
+193,9780805021394,,goodreads,partial,6,7,origin,3,11,3,413,5,https://www.goodreads.com/book/show/1506035.A_Bear_for_All_Seasons,,data
+194,9780394873046,,goodreads,partial,5,7,origin; genres,2,0,0,85,10,https://www.goodreads.com/book/show/4885726-animal-friends,,data
+195,9780307106520,,goodreads,partial,5,7,origin; genres,1,0,0,76,8,https://www.goodreads.com/book/show/2047352.Guess_Who_,,data
+196,9780687078165,,goodreads,partial,5,7,origin; genres,1,1,0,124,8,https://www.goodreads.com/book/show/2760510-christmas-crib-that-zack-builight-cloth,,data
+197,9780590481571,,goodreads,partial,6,7,origin,6,13,4,169,7,https://www.goodreads.com/book/show/25888620-deer-at-the-brook,,data
+198,9780717282890,,goodreads,partial,5,7,origin; genres,2,1,0,478,7,https://www.goodreads.com/book/show/3164888-jim-henson-s-muppets-in-kermit-s-cleanup,,data
+199,9780679890485,,goodreads,partial,6,7,origin,6,30,10,218,3,https://www.goodreads.com/book/show/857501.Hand_Hand_Fingers_Thumb,,data
+200,9780590445757,,goodreads,partial,6,7,origin,6,28,10,157,4,https://www.goodreads.com/book/show/286070.Encyclopedia_Brown_Carries_On,,data
+201,9780345316806,,goodreads,partial,6,7,origin,6,30,10,285,3,https://www.goodreads.com/book/show/2337665.The_Case_of_the_Golddigger_s_Purse,,data
+202,9780440969778,,goodreads,partial,6,7,origin,3,2,2,138,6,https://www.goodreads.com/book/show/11410982-the-pig-out-blues,,data
+203,9780939979219,,goodreads,partial,6,7,origin,6,11,3,89,5,https://www.goodreads.com/book/show/2285343.Wake_Up_Mr_B_,,data
+204,9780373104369,,goodreads,partial,6,7,origin,6,5,6,494,5,https://www.goodreads.com/book/show/1739412.Forbidden_Flame,,data
+205,9780373705085,,goodreads,partial,5,7,origin; genres,2,0,0,597,9,https://www.goodreads.com/book/show/2837120-tumbleweed,,data
+206,9780373027903,,goodreads,partial,6,7,origin,4,15,5,546,5,https://www.goodreads.com/book/show/1759788.Sweet_Poison,,data
+207,9780373110810,,goodreads,partial,6,7,origin,6,13,7,580,7,https://www.goodreads.com/book/show/6752262-echo-of-passion,,data
+208,9780373028528,,goodreads,partial,6,7,origin,4,4,2,562,6,https://www.goodreads.com/book/show/2009553.The_Long_Way_Home,,data
+209,9780373107698,,goodreads,partial,6,7,origin,4,9,3,657,5,https://www.goodreads.com/book/show/536428.One_Last_Dance,,data
+210,9780373105861,,goodreads,partial,6,7,origin,6,13,6,495,5,https://www.goodreads.com/book/show/1739384.An_Elusive_Desire,,data
+211,9780373706945,,goodreads,partial,6,7,origin,3,5,1,1036,5,https://www.goodreads.com/book/show/693070.Waiting_for_You,,data
+212,9780373111299,,goodreads,partial,6,7,origin,1,1,2,585,5,https://www.goodreads.com/book/show/10380243-the-trusting-heart,,data
+213,9780373704293,,goodreads,partial,5,7,origin; genres,1,0,0,581,8,https://www.goodreads.com/book/show/304924.Bitter_Legacy,,data
+214,9780373104178,,goodreads,partial,6,7,origin,6,28,8,545,3,https://www.goodreads.com/book/show/9837396-stranger-in-the-night,,data
+215,9780373111398,,goodreads,partial,6,7,origin,2,4,2,595,5,https://www.goodreads.com/book/show/416141.Lord_And_Master,,data
+216,9780373116027,,goodreads,partial,6,7,origin,4,13,6,510,5,https://www.goodreads.com/book/show/6903300-walk-upon-the-wind,,data
+217,9780373251377,,goodreads,partial,5,7,origin; genres,2,0,0,451,8,https://www.goodreads.com/book/show/9798920-two-of-a-kind,,data
+218,9780373107087,,goodreads,partial,5,7,origin; genres,1,1,0,598,7,https://www.goodreads.com/book/show/1352250.Going_Underground,,data
+219,9780373106462,,goodreads,partial,6,7,origin,4,5,3,534,6,https://www.goodreads.com/book/show/2131119.The_Land_of_the_Incas,,data
+220,9780373106493,,goodreads,partial,6,7,origin,3,27,6,546,3,https://www.goodreads.com/book/show/6730991-an-old-passion,,data
+221,9780373028160,,goodreads,partial,5,7,origin; genres,4,3,0,483,7,https://www.goodreads.com/book/show/7569840-walk-into-tomorrow,,data
+222,9780373104567,,goodreads,partial,6,7,origin,5,18,4,86,6,https://www.goodreads.com/book/show/10380195-summer-fire,,data
+223,9780373707171,,goodreads,partial,6,7,origin,1,0,1,771,6,https://www.goodreads.com/book/show/1177524.Firm_Commitment,,data
+224,9780373251681,,goodreads,partial,5,7,origin; genres,2,0,0,493,8,https://www.goodreads.com/book/show/606279.Essence_Of_Summer,,data
+225,9780373106431,,goodreads,partial,6,7,origin,1,2,2,600,5,https://www.goodreads.com/book/show/9837398-tropical-tempest,,data
+226,9780373028481,,goodreads,partial,6,7,origin,3,5,3,533,5,https://www.goodreads.com/book/show/2886601-in-love-with-the-man,,data
+227,9780373112111,,goodreads,partial,6,7,origin,6,26,8,619,3,https://www.goodreads.com/book/show/2604219-another-time,,data
+228,9780373111992,,goodreads,partial,6,7,origin,5,19,5,546,5,https://www.goodreads.com/book/show/1442074.The_Aloha_Bride,,data
+229,9780373105083,,goodreads,partial,6,7,origin,6,8,3,567,6,https://www.goodreads.com/book/show/2692171-northern-sunset,,data
+230,9780373112296,,goodreads,partial,6,7,origin,3,2,1,552,5,https://www.goodreads.com/book/show/2302222.Man_Without_A_Past,,data
+231,9780373112197,,goodreads,partial,6,7,origin,6,25,4,580,4,https://www.goodreads.com/book/show/6322182-cherish-the-flame,,data
+232,9780373105250,,goodreads,partial,5,7,origin; genres,2,5,0,89,7,https://www.goodreads.com/book/show/4917603-the-magnolia-siege,,data
+233,9780373112890,,goodreads,partial,6,7,origin,6,3,1,87,5,https://www.goodreads.com/book/show/601860.Taking_Chances,,data
+234,9780307123398,,goodreads,partial,6,7,origin,1,1,2,142,6,https://www.goodreads.com/book/show/2255463.Frosty_The_Snowman_and_the_Magic_Day,,data
+235,9780373704279,,goodreads,partial,5,7,origin; genres,1,0,0,93,9,https://www.goodreads.com/book/show/9729007-spirit-of-the-west,,data
+236,9780373093380,,goodreads,partial,6,7,origin,6,5,3,437,5,https://www.goodreads.com/book/show/3202007-heart-of-the-eagle,,data
+237,9780821738146,,goodreads,partial,6,7,origin,1,0,1,205,6,https://www.goodreads.com/book/show/6753063-georgia-fever,,data
+238,9780515058659,,goodreads,partial,5,7,origin; genres,1,0,0,144,8,https://www.goodreads.com/book/show/3199964-something-old-something-new,,data
+239,9780373092901,,goodreads,partial,6,7,origin,2,14,4,658,5,https://www.goodreads.com/book/show/2131252.My_Heart_s_Undoing,,data
+240,9780380419210,,goodreads,partial,5,7,origin; language,4,8,9,595,7,https://www.goodreads.com/book/show/2515340.Follow_the_Shadows,,data
+241,9780821727126,,goodreads,partial,6,7,origin,3,9,1,237,6,https://www.goodreads.com/book/show/709606.Lost_Roses_of_Ganymede_House,,data
+242,9780373030804,,goodreads,partial,5,7,origin; genres,1,1,0,698,7,https://www.goodreads.com/book/show/4572007-unlikely-places,,data
+243,9780373289707,,goodreads,partial,6,7,origin,6,4,4,468,5,https://www.goodreads.com/book/show/2918712-reckless,,data
+244,9780310466529,,goodreads,partial,5,7,origin; genres,1,0,0,517,8,https://www.goodreads.com/book/show/2919830-hand-me-down-the-dawn,,data
+245,9780821748473,,goodreads,partial,6,7,origin,2,2,1,244,5,https://www.goodreads.com/book/show/1445984.Virtue_s_Reward,,data
+246,9780671496524,,goodreads,partial,5,7,origin; genres,2,1,0,316,8,https://www.goodreads.com/book/show/15722165-keys-to-daniel-s-house,,data
+247,9780684174709,,goodreads,partial,6,7,origin,6,30,10,1032,4,https://www.goodreads.com/book/show/1240571.In_Our_Time,,data
+248,9780671028428,,goodreads,partial,6,7,origin,6,14,2,346,6,https://www.goodreads.com/book/show/1253012.Breathing_Room,,data
+249,9780671015404,,goodreads,partial,5,7,origin; genres,2,5,0,213,7,https://www.goodreads.com/book/show/364776.Sacred_Heart,,data
+250,9780812530094,,goodreads,partial,6,7,origin,5,8,2,244,5,https://www.goodreads.com/book/show/481447.The_Empire_of_Ice,,data
+251,9780821721919,,goodreads,partial,6,7,origin,6,10,4,427,6,https://www.goodreads.com/book/show/3382890-smoke-from-the-ashes,,data
+252,9780821732571,,goodreads,partial,6,7,origin,6,10,6,212,6,https://www.goodreads.com/book/show/10802727-wind-in-the-ashes,,data
+253,9780821730980,,goodreads,partial,6,7,origin,6,8,5,214,6,https://www.goodreads.com/book/show/3382970-survival-in-the-ashes,,data
+254,9780786844319,,goodreads,partial,6,7,origin,2,1,1,17,6,https://www.goodreads.com/book/show/2088896.Return_to_the_Sea,,data
+255,9781887734011,,goodreads,partial,6,7,origin,6,18,6,156,6,https://www.goodreads.com/book/show/4223718-friends-at-school,,data
+256,9780152321598,,goodreads,partial,6,7,origin,5,5,3,274,5,https://www.goodreads.com/book/show/2611459-the-goodnight-circle,,data
+257,9780553055771,,goodreads,partial,6,7,origin,3,9,3,193,5,https://www.goodreads.com/book/show/1289161.Goofy_s_Big_Race,,data
+258,9780448030944,,goodreads,partial,5,7,origin; genres,1,1,0,94,7,https://www.goodreads.com/book/show/3588095-baby-s-farm-animals,,data
+259,9780816714667,,goodreads,partial,6,7,origin,3,4,3,378,6,https://www.goodreads.com/book/show/60783764-great-tales-of-suspense,,data
+260,9780307200136,,goodreads,partial,5,7,origin; genres,1,0,0,195,8,https://www.goodreads.com/book/show/1807843.Together_in_Paris,,data
+261,9780590101769,,goodreads,partial,6,7,origin,6,30,10,10,6,https://www.goodreads.com/book/show/44613090-going-solo,,data
+262,9780689821721,,goodreads,partial,6,7,origin,6,29,10,302,4,https://www.goodreads.com/book/show/394920.Yolonda_s_Genius,,data
+263,9780874036886,,goodreads,partial,5,7,origin; genres,1,0,0,158,9,https://www.goodreads.com/book/show/4566357-scott-the-ogre,,data
+264,9780816703807,,goodreads,partial,4,7,origin; language; genres,1,1,0,159,8,https://www.goodreads.com/book/show/5019861-here-comes-hungry-albert,,data
+265,9780425153406,,goodreads,partial,6,7,origin,6,8,5,219,5,https://www.goodreads.com/book/show/946377.Bone_Deep,,data
+266,9780684176604,,goodreads,partial,6,7,origin,6,30,10,349,5,https://www.goodreads.com/book/show/2246204.For_Whom_the_Bell_Tolls,,data
+267,9780679822370,,goodreads,partial,5,7,origin; genres,1,1,0,105,7,https://www.goodreads.com/book/show/2182503.Little_Grover_s_Book_of_Shapes,,data
+268,9780373024568,,goodreads,partial,6,7,origin,6,12,6,454,5,https://www.goodreads.com/book/show/2807222-flash-point,,data
+269,9780688137557,,goodreads,partial,6,7,origin,3,16,4,97,6,https://www.goodreads.com/book/show/3053338-the-oldest-elf,,data
+270,9780399228179,,goodreads,partial,6,7,origin,5,29,6,840,3,https://www.goodreads.com/book/show/1855801.Country_Angel_Christmas,,data
+271,9780374367800,,goodreads,partial,6,7,origin,6,25,5,539,3,https://www.goodreads.com/book/show/1782463.Sheep_in_Wolves_Clothing,,data
+272,9780385013932,,goodreads,partial,6,7,origin,3,4,3,103,6,https://www.goodreads.com/book/show/1709016.You_Can_t_Eat_Peanuts_in_Church_and_Other_Little_Known_Laws,,data
+273,9780809244096,,goodreads,partial,5,7,origin; genres,1,0,0,110,8,https://www.goodreads.com/book/show/298287.Bubble_Gum,,data
+274,9780689849640,,goodreads,partial,6,7,origin,6,29,4,290,3,https://www.goodreads.com/book/show/631926.Watch_Out_A_Giant_,,data
+275,9780816431618,,goodreads,partial,6,7,origin,1,1,2,145,5,https://www.goodreads.com/book/show/3551405-weekly-reader-children-s-book-club-presents-stories-from-a-snowy-meadow,,data
+276,9780307121097,,goodreads,partial,6,7,origin,1,3,2,129,5,https://www.goodreads.com/book/show/2707316-walt-disney-s-classic-pinocchio,,data
+277,9780394834603,,goodreads,partial,6,7,origin,2,5,3,67,5,https://www.goodreads.com/book/show/2610926-old-mother-hubbard,,data
+278,9780590337786,,goodreads,partial,5,7,origin; genres,1,2,0,93,7,https://www.goodreads.com/book/show/2305967.Mr_Bananahead_at_Home,,data
+279,9780395670644,,goodreads,partial,6,7,origin,6,30,7,169,3,https://www.goodreads.com/book/show/2044196.Halloween_Mice_,,data
+280,9780816732630,,goodreads,partial,5,7,origin; genres,2,0,0,21,8,https://www.goodreads.com/book/show/4702621-halloween-kitten,,data
+281,9780763616137,,goodreads,partial,6,7,origin,6,19,4,262,5,https://www.goodreads.com/book/show/502945.Doctor_Maisy,,data
+282,9780899193366,,goodreads,partial,6,7,origin,6,27,10,80,4,https://www.goodreads.com/book/show/3311566-cat-goes-fiddle-i-fee,,data
+283,9780870442438,,goodreads,partial,6,7,origin,1,8,4,62,5,https://www.goodreads.com/book/show/3079727-the-blue-whale,,data
+284,9781562882235,,goodreads,partial,5,7,origin; genres,1,0,0,66,9,https://www.goodreads.com/book/show/4792730-noah-s-ark,,data
+285,9780930323998,,goodreads,partial,5,7,origin; genres,4,1,0,136,8,https://www.goodreads.com/book/show/2324377.Nursery_Rhymes_from_Mother_Goose,,data
+286,9780679894568,,goodreads,partial,5,7,origin; genres,2,0,0,161,8,https://www.goodreads.com/book/show/2436888.Friends_to_the_Rescue_,,data
+287,9780440005339,,goodreads,partial,6,7,origin,3,3,1,86,6,https://www.goodreads.com/book/show/10248239-billy-joe-jive-super-private-eye,,data
+288,9780064450935,,goodreads,partial,6,7,origin,6,29,10,846,4,https://www.goodreads.com/book/show/967853.Fossils_Tell_of_Long_Ago,,data
+289,9780819310675,,goodreads,partial,6,7,origin,6,11,6,115,5,https://www.goodreads.com/book/show/4682542-henry-s-important-date,,data
+290,9780553152517,,goodreads,partial,6,7,origin,6,30,10,15,4,https://www.goodreads.com/book/show/10747667-the-tale-of-jemima-puddle-duck,,data
+291,9780064451130,,goodreads,partial,6,7,origin,4,30,7,146,3,https://www.goodreads.com/book/show/836582.What_Will_the_Weather_Be_,,data
+292,9780307130228,,goodreads,partial,6,7,origin,1,1,1,85,5,https://www.goodreads.com/book/show/2068027.Baby_Wild_Animals,,data
+293,9780394841090,,goodreads,partial,6,7,origin,4,10,4,280,6,https://www.goodreads.com/book/show/1321105.Bookstore_Cat,,data
+294,9780590423120,,goodreads,partial,5,7,origin; genres,1,1,0,122,8,https://www.goodreads.com/book/show/1869496.Soccerasaurus,,data
+295,9780690044812,,goodreads,partial,6,7,origin,6,28,10,97,5,https://www.goodreads.com/book/show/3329297-sunshine-makes-the-seasons,,data
+296,9780316119597,,goodreads,partial,6,7,origin,6,29,10,355,5,https://www.goodreads.com/book/show/9058701-arthur-s-tv-troubles,,data
+297,9780060208004,,goodreads,partial,6,7,origin,6,30,8,361,4,https://www.goodreads.com/book/show/221238828-wait-till-the-moon-is-full,,data
+298,9780064450942,,goodreads,partial,6,7,origin,6,17,4,96,5,https://www.goodreads.com/book/show/195100.Tornado_Alert,,data
+299,9780679891246,,goodreads,partial,6,7,origin,4,5,1,409,5,https://www.goodreads.com/book/show/1690930.Who_s_Afraid_of_Godzilla_,,data
+300,9780934426794,,goodreads,partial,5,7,origin; genres,2,1,0,464,7,https://www.goodreads.com/book/show/7359578-wonderland,,data
+301,9780373263622,,goodreads,partial,6,7,origin,2,0,1,356,6,https://www.goodreads.com/book/show/7090619-homicide-for-the-holidays,,data
+302,9780451405395,,goodreads,partial,5,7,origin; genres,1,2,0,203,7,https://www.goodreads.com/book/show/3427336-wind-and-lies,,data
+303,9780312982874,,goodreads,partial,6,7,origin,6,13,4,1094,5,https://www.goodreads.com/book/show/946383.Heartland,,data
+304,9780446314350,,goodreads,partial,6,7,origin,6,30,10,275,5,https://www.goodreads.com/book/show/1442760.The_Black_Tower,,data
+305,9780451188656,,goodreads,partial,5,7,origin; genres,4,0,0,499,8,https://www.goodreads.com/book/show/1129233.Winter_s_Gold,,data
+306,9780380798735,,goodreads,partial,6,7,origin,1,3,1,2622,6,https://www.goodreads.com/book/show/1237265.A_Shroud_of_Midnight_Sun,,data
+307,9780553248852,,goodreads,partial,6,7,origin,6,30,10,467,4,https://www.goodreads.com/book/show/9118470-the-listening-eye,,data
+308,9780061043987,,goodreads,partial,6,7,origin,6,30,10,242,5,https://www.goodreads.com/book/show/2180637.Grey_Mask,,data
+309,9780061043970,,goodreads,partial,6,7,origin,6,30,10,229,5,https://www.goodreads.com/book/show/444518.The_Chinese_Shawl,,data
+310,9781565121621,,goodreads,partial,6,7,origin,6,30,8,1261,4,https://www.goodreads.com/book/show/1768619.Other_People_s_Dirt,,data
+311,9780553256246,,goodreads,partial,6,7,origin,1,0,1,227,6,https://www.goodreads.com/book/show/5074566-people-of-the-sacred-oak,,data
+312,9780449219997,,goodreads,partial,6,7,origin,6,9,2,607,5,https://www.goodreads.com/book/show/1439085.Sins_of_the_Father,,data
+313,9780515110104,,goodreads,partial,5,7,origin; genres,3,0,0,1041,9,https://www.goodreads.com/book/show/1889431.Duty_and_Dishonor,,data
+314,9780312960957,,goodreads,partial,6,7,origin,2,4,2,328,5,https://www.goodreads.com/book/show/1911802.A_Father_s_Rage,,data
+315,9780307116543,,goodreads,partial,6,7,origin,2,0,1,126,6,https://www.goodreads.com/book/show/3531284-richard-scarry-s-dr-doctor,,data
+316,9781570641282,,goodreads,partial,6,7,origin,2,1,1,167,5,https://www.goodreads.com/book/show/3299181-barney-s-book-of-trucks,,data
+317,9780448411026,,goodreads,partial,5,7,origin; genres,1,0,0,125,8,https://www.goodreads.com/book/show/483496.All_Aboard_Cars,,data
+318,9780448191157,,goodreads,partial,5,7,origin; genres,1,1,0,113,7,https://www.goodreads.com/book/show/6042825-a-christmas-carol,,data
+319,9780140549928,,goodreads,partial,6,7,origin,2,3,2,122,6,https://www.goodreads.com/book/show/2554836.Hotel_Animal,,data
+320,9780934323123,,goodreads,partial,5,7,origin; genres,1,2,0,33,8,https://www.goodreads.com/book/show/5295214-teddy-s-winter-adventure,,data
+321,9781577593447,,goodreads,partial,5,7,origin; genres,1,0,0,23,9,https://www.goodreads.com/book/show/417900.NASCAR_Racers_Road_Thunder,,data
+322,9780451174246,,goodreads,partial,6,7,origin,5,30,5,327,4,https://www.goodreads.com/book/show/731719.Shiver,,data
+323,9780310415510,,goodreads,partial,6,7,origin,2,15,1,62,6,https://www.goodreads.com/book/show/2904294-captain-my-captain,,data
+324,9780769604343,,goodreads,partial,5,7,origin; genres,1,0,0,254,10,https://www.goodreads.com/book/show/14874318-the-undersea-adventures-of-digby-dolphin,,data
+325,9780439105965,,goodreads,partial,6,7,origin,2,1,1,188,5,https://www.goodreads.com/book/show/404888.Merry_Christmas_Teletubbies_,,data
+326,9780962954115,,goodreads,partial,5,7,origin; genres,1,0,0,464,8,https://www.goodreads.com/book/show/6928027-chris,,data
+327,9780307123305,,goodreads,partial,5,7,origin; genres,2,2,0,190,7,https://www.goodreads.com/book/show/1367954.Bye_Bye_Pacifier,,data
+328,9780451521132,,goodreads,partial,6,7,origin,6,29,10,107,5,https://www.goodreads.com/book/show/1174739.Anne_of_Avonlea,,data
+329,9780440182610,,goodreads,partial,6,7,origin,6,30,7,501,3,https://www.goodreads.com/book/show/324596.Some_Came_Running,,data
+330,9780671784614,,goodreads,partial,6,7,origin,6,17,7,209,6,https://www.goodreads.com/book/show/2871050-you-gotta-play-hurt,,data
+331,9780837818245,,goodreads,partial,5,7,origin; genres,1,0,0,30,8,https://www.goodreads.com/book/show/4571086-i-m-glad-you-re-my-friend,,data
+332,9780140360028,,goodreads,partial,5,7,origin; genres,2,2,0,164,8,https://www.goodreads.com/book/show/2316905.The_Golden_Days,,data
+333,9781573248532,,goodreads,partial,6,7,origin,6,27,4,1776,4,https://www.goodreads.com/book/show/743539.Random_Acts_of_Kindness,,data
+334,9780446610049,,goodreads,partial,6,7,origin,6,29,9,487,4,https://www.goodreads.com/book/show/5556798-the-bodyguard-s-story,,data
+335,9781558742956,,goodreads,partial,5,7,origin; genres,2,4,0,789,7,https://www.goodreads.com/book/show/1331849.Acts_of_Kindness,,data
+336,9780823049004,,goodreads,partial,5,7,origin; genres,3,1,0,436,7,https://www.goodreads.com/book/show/1388665.Spirit_of_the_Bedroom,,data
+337,9783423124485,,goodreads,partial,6,7,origin,3,1,2,20,5,https://www.goodreads.com/book/show/3172991-nikolaikirche,,data
+338,9783548254401,,goodreads,partial,5,7,origin; genres,1,0,0,47,9,https://www.goodreads.com/book/show/4687322-u--z-jagt-cruisenstern,,data
+339,9783442133413,,goodreads,partial,6,7,origin,6,10,5,83,6,https://www.goodreads.com/book/show/1701088.Eisberg_Der_Todeslieger,,data
+340,9783442442720,,goodreads,partial,6,7,origin,6,29,10,684,4,https://www.goodreads.com/book/show/1918570.Heiratsschwindel_,,data
+341,9783453178113,,goodreads,partial,6,7,origin,6,28,10,110,5,https://www.goodreads.com/book/show/1621788.Die_Unendlichkeit_der_Liebe_Drei_Romane_in_einem_Band_,,data
+342,9783404142361,,goodreads,partial,5,7,origin; genres,1,0,0,580,8,https://www.goodreads.com/book/show/3295321-die-l-win-der-bretagne,,data
+343,9783453196124,,goodreads,partial,6,7,origin,6,3,1,735,6,https://www.goodreads.com/book/show/6719184-gl-cksspieler,,data
+344,9783442151370,,goodreads,partial,5,7,origin; genres,2,0,0,47,9,https://www.goodreads.com/book/show/1213722.Allahs_Schatten_ber_Atat_rk_,,data
+345,9783442098231,,goodreads,partial,6,7,origin,6,30,10,66,4,https://www.goodreads.com/book/show/1701090.Cyclop,,data
+346,9783406502712,,goodreads,partial,6,7,origin,6,30,10,2309,4,https://www.goodreads.com/book/show/172072.In_fremden_Kleidern_Geschichte_einer_Jugend,,data
+347,9780843935189,,goodreads,partial,6,7,origin,6,8,4,216,6,https://www.goodreads.com/book/show/3963525-kentucky-woman,,data
+348,9780812538236,,goodreads,partial,6,7,origin,6,28,8,517,3,https://www.goodreads.com/book/show/1813172.Prisoner_of_the_Horned_Helmet,,data
+349,9780721408491,,goodreads,partial,5,7,origin; genres,1,0,0,22,8,https://www.goodreads.com/book/show/14771040-going-into-hospital,,data
+350,9780385510097,,goodreads,partial,6,7,origin,6,29,10,1368,3,https://www.goodreads.com/book/show/60239.Fagin_the_Jew,,data
+351,9780785810735,,goodreads,partial,6,7,origin,6,30,10,233,3,https://www.goodreads.com/book/show/420832.Secrets_of_the_Samurai,,data
+352,9780679438311,,goodreads,partial,6,7,origin,6,12,3,418,6,https://www.goodreads.com/book/show/1836657.It_Wasn_t_Always_Easy_but_I_Sure_Had_Fun,,data
+353,9781414049397,,goodreads,partial,5,7,origin; genres,1,1,0,32,7,https://www.goodreads.com/book/show/4736854-the-t-na-chronicles,,data
+354,9781853753374,,goodreads,partial,5,7,origin; genres,5,0,0,680,8,https://www.goodreads.com/book/show/936110.Yet_More_Wit,,data
+355,9780263826982,,goodreads,partial,5,7,origin; genres,4,0,0,481,9,https://www.goodreads.com/book/show/57340545-a-nurse-s-patience,,data
+356,9780533102082,,goodreads,partial,5,7,origin; genres,1,0,0,47,10,https://www.goodreads.com/book/show/2172450.Glimpse_of_Reality,,data
+357,9783257232707,,goodreads,partial,6,7,origin,6,15,3,973,6,https://www.goodreads.com/book/show/35227392-was-machen-wir-jetzt,,data
+358,9780812590425,,goodreads,partial,6,7,origin,6,12,4,723,5,https://www.goodreads.com/book/show/593788.Wild_Angel,,data
+359,9780595209309,,goodreads,partial,5,7,origin; genres,2,0,0,434,8,https://www.goodreads.com/book/show/6540244-postamble,,data
+360,9783608875157,,goodreads,partial,6,7,origin,6,30,10,538,4,https://www.goodreads.com/book/show/1468449.Lilith_,,data
+361,9780465098385,,goodreads,partial,6,7,origin,6,30,10,861,3,https://www.goodreads.com/book/show/48292.Not_Out_of_Africa,,data
+362,9780684825625,,goodreads,partial,6,7,origin,6,6,4,172,5,https://www.goodreads.com/book/show/1132401.The_Woven_Figure,,data
+363,9781887053068,,goodreads,partial,6,7,origin,2,1,1,350,5,https://www.goodreads.com/book/show/643376.The_Tinnitus_Handbook_,,data
+364,9781575420240,,goodreads,partial,6,7,origin,6,28,7,1387,4,https://www.goodreads.com/book/show/457777.How_Rude_,,data
+365,9781890612139,,goodreads,partial,5,7,origin; genres,4,0,0,464,8,https://www.goodreads.com/book/show/1086552.Stevia_Sweet_Recipes,,data
+366,9782070368655,,goodreads,partial,6,7,origin,6,29,10,33,5,https://www.goodreads.com/book/show/3180678-bel-ami,,data
+367,9780752837260,,goodreads,partial,6,7,origin,6,30,10,182,4,https://www.goodreads.com/book/show/78671.The_Seven_Principles_for_Making_Marriage_Work,,data
+368,9780740738371,,goodreads,partial,6,7,origin,3,1,1,960,5,https://www.goodreads.com/book/show/697563.The_Fun_Book_for_Couples,,data
+369,9780340861707,,goodreads,partial,6,7,origin,3,22,3,76,5,https://www.goodreads.com/book/show/1855095.One_Hundred_Secret_Thoughts_Cats_Have_About_Humans,,data
+370,9781577311652,,goodreads,partial,5,7,origin; genres,2,1,0,650,7,https://www.goodreads.com/book/show/2712835-unleashing-your-inner-dog,,data
+371,9780795152399,,goodreads,partial,6,7,origin,2,14,1,43,5,https://www.goodreads.com/book/show/2808835-the-colors-of-life,,data
+372,9780312929084,,goodreads,partial,6,7,origin,6,30,8,1041,4,https://www.goodreads.com/book/show/344105.Reasonable_Doubt,,data
+373,9780440219170,,goodreads,partial,6,7,origin,6,29,10,167,4,https://www.goodreads.com/book/show/65149.A_Summer_to_Die,,data
+374,9783257233711,,goodreads,partial,6,7,origin,6,16,6,255,6,https://www.goodreads.com/book/show/1582683.Es_wird_alles_anders_bleiben,,data
+375,9783257233445,,goodreads,partial,6,7,origin,6,12,2,904,6,https://www.goodreads.com/book/show/845891.Die_Letzte_Wette,,data
+376,9788811666783,,goodreads,partial,6,7,origin,6,30,10,135,5,https://www.goodreads.com/book/show/135032.Il_sentiero_dei_nidi_di_ragno,,data
+377,9781568582221,,goodreads,partial,5,7,origin; genres,5,0,0,483,8,https://www.goodreads.com/book/show/1993834.The_Golden_Rules,,data
+378,9783423201889,,goodreads,partial,5,7,origin; genres,2,0,0,71,8,https://www.goodreads.com/book/show/48645841-sch-ne-welt-am-morgen,,data
+379,9783442724062,,goodreads,partial,6,7,origin,6,30,10,95,4,https://www.goodreads.com/book/show/1636707.Ein_Nashorn_f_r_den_Papst_,,data
+380,9780727841933,,goodreads,partial,6,7,origin,6,29,10,487,4,https://www.goodreads.com/book/show/1804448.Strength_of_Stones,,data
+381,9780553813760,,goodreads,partial,6,7,origin,6,13,3,299,5,https://www.goodreads.com/book/show/1439475.Time_to_Remember,,data
+382,9780973119701,,goodreads,partial,5,7,origin; genres,3,0,0,384,9,https://www.goodreads.com/book/show/335441.Gramma_Knows_the_F_word,,data
+383,9780752535463,,goodreads,partial,6,7,origin,5,6,1,201,3,https://www.goodreads.com/book/show/1427452.Favourite_Verse,,data
+384,9781400030668,,goodreads,partial,6,7,origin,6,29,10,820,4,https://www.goodreads.com/book/show/825495.Power_Politics_and_Culture,,data
+385,9780871401748,,goodreads,partial,6,7,origin,6,22,5,544,5,https://www.goodreads.com/book/show/26601.AnOther_E_E_Cummings,,data
+386,9780006280835,,goodreads,partial,5,7,publisher; origin,6,30,10,1900,5,https://www.goodreads.com/book/show/121732.Surprised_by_Joy,,data
+387,9780156949521,,goodreads,partial,6,7,origin,6,29,10,531,3,https://www.goodreads.com/book/show/9810.The_Watcher_and_Other_Stories,,data
+388,9780156572040,,goodreads,partial,6,7,origin,5,30,10,348,6,https://www.goodreads.com/book/show/56785782-marcovaldo-or-the-seasons-in-the-city,,data
+389,9780883683828,,goodreads,partial,6,7,origin,6,30,10,533,4,https://www.goodreads.com/book/show/1022955.Confessions_of_St_Augustine,,data
+390,9780140440331,,goodreads,partial,6,7,origin,6,30,10,870,4,https://www.goodreads.com/book/show/673840.The_Confessions,,data
+391,9780060935740,,goodreads,partial,6,7,origin,6,30,10,768,3,https://www.goodreads.com/book/show/48016.The_Essential_Drucker,,data
+392,9780553251616,,goodreads,partial,6,7,origin,6,30,10,915,3,https://www.goodreads.com/book/show/22626.From_Socrates_to_Sartre,,data
+393,9780415213684,,goodreads,partial,6,7,origin,6,7,5,616,5,https://www.goodreads.com/book/show/10030.Basic_Writings,,data
+394,9780140122879,,goodreads,partial,6,7,origin,6,18,2,295,6,https://www.goodreads.com/book/show/2851115-gabriel-s-lament,,data
+395,9780671630904,,goodreads,partial,6,7,origin,6,30,10,159,4,https://www.goodreads.com/book/show/1770295.In_the_Penny_Arcade,,data
+396,9781561792214,,goodreads,partial,6,7,origin,6,4,1,153,5,https://www.goodreads.com/book/show/4516890-mom,,data
+397,9780140281637,,goodreads,partial,6,7,origin,6,30,10,350,5,https://www.goodreads.com/book/show/992573.Heart_of_Darkness,,data
+398,9780345426390,,goodreads,partial,6,7,origin,4,7,1,662,6,https://www.goodreads.com/book/show/415913.No_Greater_Love,,data
+399,9782290302958,,goodreads,partial,6,7,origin,6,30,10,676,4,https://www.goodreads.com/book/show/673623.L_Ecole_des_chimpanz_s,,data
+400,9782070372188,,goodreads,partial,6,7,origin,6,3,4,514,6,https://www.goodreads.com/book/show/52948525-eurydice-suivi-de-romeo-et-jeannette,,data
+401,9782266113984,,goodreads,partial,6,7,origin,6,8,1,599,5,https://www.goodreads.com/book/show/28160.Girl,,data
+402,9783453206342,,goodreads,partial,6,7,origin,6,11,7,519,6,https://www.goodreads.com/book/show/12735256-see-leopard,,data
+403,9780595185023,,goodreads,partial,5,7,origin; genres,1,0,0,745,8,https://www.goodreads.com/book/show/4062640-the-obscure-night,,data
+404,9780595187287,,goodreads,partial,5,7,origin; genres,2,0,0,1136,8,https://www.goodreads.com/book/show/4062641-the-netanya-cache,,data
+405,9780307062536,,goodreads,partial,6,7,origin,1,1,1,128,5,https://www.goodreads.com/book/show/1269296.Stars_Moon_Clouds,,data
+406,9780525462330,,goodreads,partial,6,7,origin,2,3,2,116,5,https://www.goodreads.com/book/show/1834647.Tigger,,data
+407,9780140095753,,goodreads,partial,6,7,origin,6,30,10,208,5,https://www.goodreads.com/book/show/835749.A_Short_Walk_in_the_Hindu_Kush,,data
+408,9789053330562,,goodreads,partial,6,7,origin,2,15,2,385,5,https://www.goodreads.com/book/show/1041397.Het_weerzinwekkende_lot_van_de_oude_filosoof_Socrates,,data
+409,9780156167741,,goodreads,partial,6,7,origin,6,30,4,403,3,https://www.goodreads.com/book/show/80057.A_Charmed_Life,,data
+410,9789060126462,,goodreads,partial,5,7,origin; genres,1,1,0,5,7,https://www.goodreads.com/book/show/2948405-casablanca-of-de-onmogelijkheden-van-de-heteroseksuele-liefde,,data
+411,9780394744551,,goodreads,partial,5,7,origin; genres,1,0,0,142,8,https://www.goodreads.com/book/show/3073853-apartheid-in-cris-v455,,data
+412,9780300065954,,goodreads,partial,6,7,origin,6,12,9,1672,5,https://www.goodreads.com/book/show/1169918.Reflections_on_Gender_and_Science,,data
+413,9789038845432,,goodreads,partial,5,7,origin; genres,2,0,0,292,8,https://www.goodreads.com/book/show/4580664-vorig-jaar-in-jeruzalem,,data
+414,9789073978966,,goodreads,partial,5,7,origin; genres,1,0,0,5,9,https://www.goodreads.com/book/show/2383717.Van_hooggeleerde_heren_opstandelingen_en_pornografen,,data
+415,9780395521052,,goodreads,partial,6,7,origin,6,30,10,795,4,https://www.goodreads.com/book/show/767726.The_Old_Patagonian_Express,,data
+416,9780140007367,,goodreads,partial,6,7,origin,6,29,10,432,4,https://www.goodreads.com/book/show/4341858-coroner-s-pidgin,,data
+417,9789023438847,,goodreads,partial,6,7,origin,6,29,9,5,3,https://www.goodreads.com/book/show/1869362.De_dochter,,data
+418,9781400032525,,goodreads,partial,6,7,origin,6,29,10,963,4,https://www.goodreads.com/book/show/702462.The_Blood_Doctor,,data
+419,9780826414793,,goodreads,partial,6,7,origin,1,3,1,856,5,https://www.goodreads.com/book/show/7095.Philip_Pullman_s_His_Dark_Materials_Trilogy,,data
+420,9780413696809,,goodreads,partial,6,7,origin,6,14,10,1063,7,https://www.goodreads.com/book/show/16824.Christopher_Isherwood_Diaries,,data
+421,9780553285055,,goodreads,partial,6,7,origin,6,15,6,400,8,https://www.goodreads.com/book/show/6814861-charades,,data
+422,9780749396084,,goodreads,partial,6,7,origin,5,8,2,599,8,https://www.goodreads.com/book/show/5584673-true-romance,,data
+423,9780807219966,,goodreads,partial,6,7,origin,6,30,10,304,5,https://www.goodreads.com/book/show/1067327.Lyra_s_Oxford,,data
+424,9780812036039,,goodreads,partial,6,7,origin,6,30,10,675,5,https://www.goodreads.com/book/show/537502.The_Tempest,,data
+425,9789029535946,,goodreads,partial,5,7,origin; genres,4,3,0,5,7,https://www.goodreads.com/book/show/1186279.Het_vuur_brandde_voort,,data
+426,9781860492525,,goodreads,partial,6,7,origin,6,29,9,602,3,https://www.goodreads.com/book/show/1518553.Sheep_s_Clothing,,data
+427,9780671871161,,goodreads,partial,5,7,origin; genres,3,0,0,339,6,https://www.goodreads.com/book/show/7127061-sixth-grade-star,,data
+428,9780135197295,,goodreads,partial,5,7,origin; genres,2,0,0,855,8,https://www.goodreads.com/book/show/4544779-fortran-90-for-engineers-and-scientists,,data
+429,9780766829299,,goodreads,partial,5,7,origin; genres,1,0,0,557,8,https://www.goodreads.com/book/show/76605980-autocad-2000i-from-the-autodesk-student-portfolio,,data
+430,9780743528559,,goodreads,partial,6,7,origin,6,30,10,702,5,https://www.goodreads.com/book/show/2172277.Dreamcatcher,,data
+431,9780714528755,,goodreads,partial,6,7,origin,5,7,1,681,6,https://www.goodreads.com/book/show/1499561.Love_Me_Tender,,data
+432,9780755101924,,goodreads,partial,6,7,origin,6,26,8,478,3,https://www.goodreads.com/book/show/6650065-morning-s-at-seven,,data
+433,9780061051104,,goodreads,partial,6,7,origin,6,30,10,1051,3,https://www.goodreads.com/book/show/405587.The_Black_Rood,,data
+434,9780380977024,,goodreads,partial,6,7,origin,6,30,10,1050,4,https://www.goodreads.com/book/show/60209.Avalon,,data
+435,9781410100320,,goodreads,partial,6,7,origin,6,30,10,557,4,https://www.goodreads.com/book/show/1366445.A_Tour_of_the_Moon,,data
+436,9780684189574,,goodreads,partial,6,7,origin,6,30,10,678,5,https://www.goodreads.com/book/show/817854.The_Mysterious_Island,,data
+437,9780618258024,,goodreads,partial,6,7,origin,6,27,10,1893,3,https://www.goodreads.com/book/show/15221.The_Lord_of_the_Rings,,data
+438,9780765306739,,goodreads,partial,6,7,origin,6,30,10,1324,4,https://www.goodreads.com/book/show/2775302-wolfskin,,data
+439,9781578152674,,goodreads,partial,6,7,origin,6,30,10,610,6,https://www.goodreads.com/book/show/25002140-war-and-peace,,data
+440,9780007116249,,goodreads,partial,6,7,origin,6,29,10,10,4,https://www.goodreads.com/book/show/822614.The_Lord_of_The_Rings,,data
+441,9780345420794,,goodreads,partial,6,7,origin,3,2,1,1570,5,https://www.goodreads.com/book/show/4750.Star_Wars,,data
+442,9780345320223,,goodreads,partial,6,7,origin,6,28,10,265,4,https://www.goodreads.com/book/show/873275.Star_Wars_Episode_V,,data
+443,9781561797950,,goodreads,partial,6,7,origin,6,28,10,1045,5,https://www.goodreads.com/book/show/45834.Quo_Vadis,,data
+444,9780486223056,,goodreads,partial,6,7,origin,6,30,10,1485,3,https://www.goodreads.com/book/show/732562.The_Rime_of_the_Ancient_Mariner,,data
+445,9781594130021,,goodreads,partial,6,7,origin,6,29,10,1546,5,https://www.goodreads.com/book/show/72190.Harry_Potter_and_the_Prisoner_of_Azkaban,,data
+446,9780786222735,,goodreads,partial,6,7,origin,6,30,10,806,5,https://www.goodreads.com/book/show/1044040.Harry_Potter_and_the_Chamber_of_Secrets,,data
+447,9785845105127,,goodreads,partial,6,7,origin,5,28,10,387,6,https://www.goodreads.com/book/show/1508373._,,data
+448,9780553561982,,goodreads,partial,6,7,origin,6,28,10,200,3,https://www.goodreads.com/book/show/616444.Blood_Trillium,,data
+449,9780759600560,,goodreads,partial,5,7,origin; genres,2,0,0,96,8,https://www.goodreads.com/book/show/133662.The_Shoals_of_Time,,data
+450,9788806117849,,goodreads,partial,6,7,origin,6,30,8,560,3,https://www.goodreads.com/book/show/2848789-il-sergente-nella-neve-ritorno-sul-don,,data
+451,9781574090741,,goodreads,partial,6,7,origin,6,14,2,778,5,https://www.goodreads.com/book/show/902437.The_Coast_of_Summer,,data
+452,9780553232721,,goodreads,partial,6,7,origin,6,29,10,253,5,https://www.goodreads.com/book/show/7903372-the-dogs-of-war,,data
+453,9780671002749,,goodreads,partial,6,7,origin,6,29,10,1036,5,https://www.goodreads.com/book/show/65140804-a-tale-of-two-cities,,data
+454,9780399121197,,goodreads,partial,6,7,origin,6,8,1,626,7,https://www.goodreads.com/book/show/4961142-the-healers,,data
+455,9780380007387,,goodreads,partial,6,7,origin,6,3,2,595,5,https://www.goodreads.com/book/show/6275755-emerald-station,,data
+456,9780806998558,,goodreads,partial,6,7,origin,2,1,1,482,5,https://www.goodreads.com/book/show/661809.Feng_Shui_Made_Easy,,data
+457,9780821721377,,goodreads,partial,5,7,origin; genres,2,2,0,993,8,https://www.goodreads.com/book/show/2944449-savage-caress,,data
+458,9780821721797,,goodreads,partial,5,7,origin; genres,1,0,0,378,8,https://www.goodreads.com/book/show/6135153-shameless-dawn,,data
+459,9780385195775,,goodreads,partial,6,7,origin,3,7,2,230,5,https://www.goodreads.com/book/show/1219321.The_New_Doubleday_Cookbook,,data
+460,9780373055968,,goodreads,partial,5,7,origin; genres,3,1,0,684,7,https://www.goodreads.com/book/show/2837880-cat-s-play,,data
+461,9780373252879,,goodreads,partial,5,7,origin; genres,1,0,0,525,8,https://www.goodreads.com/book/show/3052845-worth-waiting-for,,data
+462,9781570361401,,goodreads,partial,5,7,origin; genres,1,0,0,21,8,https://www.goodreads.com/book/show/832313.The_Pagemaster,,data
+463,9780316352505,,goodreads,partial,6,7,origin,6,15,3,227,5,https://www.goodreads.com/book/show/2928873-this-is-the-bear-and-the-scary-night,,data
+464,9781558582200,,goodreads,partial,6,7,origin,6,9,3,129,5,https://www.goodreads.com/book/show/3314789-penguin-pete-ahoy,,data
+465,9780895656179,,goodreads,partial,5,7,origin; genres,2,3,0,73,8,https://www.goodreads.com/book/show/4382700-word-bird-s-dinosaur-day,,data
+466,9780060265533,,goodreads,partial,6,7,origin,5,24,5,101,6,https://www.goodreads.com/book/show/3303454-a-special-trade,,data
+467,9780394856407,,goodreads,partial,6,7,origin,6,30,10,448,3,https://www.goodreads.com/book/show/846065.The_Berenstain_Bears_and_the_Truth,,data
+468,9780679812494,,goodreads,partial,6,7,origin,6,30,10,299,4,https://www.goodreads.com/book/show/201144.The_Berenstain_Bears_Forget_Their_Manners,,data
+469,9781891327032,,goodreads,partial,5,7,origin; genres,1,2,0,87,7,https://www.goodreads.com/book/show/1514315.The_Emperor_s_New_Clothes,,data
+470,9780064430180,,goodreads,partial,6,7,origin,6,30,10,606,5,https://www.goodreads.com/book/show/857935.The_Runaway_Bunny,,data
+471,9780060170325,,goodreads,partial,6,7,origin,1,2,1,237,5,https://www.goodreads.com/book/show/982504.365_Days_of_Gardening,,data
+472,9780743429696,,goodreads,partial,6,7,origin,3,3,3,361,6,https://www.goodreads.com/book/show/28172349-blue-s-clues,,data
+473,9780764105692,,goodreads,partial,5,7,origin; genres,3,0,0,314,8,https://www.goodreads.com/book/show/434724.Jilly_the_Kid,,data
+474,9781555216979,,goodreads,partial,5,7,origin; genres,2,0,0,156,9,https://www.goodreads.com/book/show/1542278.Bugs_Bunny_in_Happy_Birthday_Bugs,,data
+475,9780316109222,,goodreads,partial,6,7,origin,6,14,5,859,5,https://www.goodreads.com/book/show/277857.D_W_Thinks_Big,,data
+476,9780373898053,,goodreads,partial,6,7,origin,6,17,6,84,8,https://www.goodreads.com/book/show/1429965.Fire_and_Ice,,data
+477,9780316112468,,goodreads,partial,6,7,origin,6,27,10,235,3,https://www.goodreads.com/book/show/850002.Arthur_s_Tooth,,data
+478,9780316110471,,goodreads,partial,6,7,origin,6,29,10,356,3,https://www.goodreads.com/book/show/1406168.Arthur_s_TV_Trouble,,data
+479,9780394931272,,goodreads,partial,6,7,origin,6,28,10,240,4,https://www.goodreads.com/book/show/1456402.The_Berenstain_Bears,,data
+480,9780060205270,,goodreads,partial,6,7,origin,6,23,3,88,7,https://www.goodreads.com/book/show/4801197-captain-cat,,data
+481,9780060224660,,goodreads,partial,6,7,origin,6,30,10,73,4,https://www.goodreads.com/book/show/858038.Danny_and_the_Dinosaur_Go_to_Camp,,data
+482,9780689821257,,goodreads,partial,6,7,origin,6,2,1,360,5,https://www.goodreads.com/book/show/3816866-the-rugrats-and-the-zombies,,data
+483,9780310329619,,goodreads,partial,5,7,origin; genres,1,0,0,167,9,https://www.goodreads.com/book/show/4004838-the-trouble-with-parents,,data
+484,9780394831305,,goodreads,partial,6,7,origin,6,29,10,770,4,https://www.goodreads.com/book/show/898398.Because_a_Little_Bug_Went_Ka_Choo_,,data
+485,9780864421463,,goodreads,partial,6,7,origin,6,3,4,492,7,https://www.goodreads.com/book/show/1405691.Eastern_European_Phrasebook,,data
+486,9780374403447,,goodreads,partial,6,7,origin,3,8,3,113,5,https://www.goodreads.com/book/show/1052596.All_the_Small_Poems,,data
+487,9780448149226,,goodreads,partial,6,7,origin,6,29,10,260,6,https://www.goodreads.com/book/show/17436404-adventures-of-huckleberry-finn,,data
+488,9780307128201,,goodreads,partial,6,7,origin,6,8,2,106,5,https://www.goodreads.com/book/show/1419307.Oh_Bother_Someone_s_Jealous_,,data
+489,9780307126375,,goodreads,partial,6,7,origin,6,6,3,224,5,https://www.goodreads.com/book/show/1269484.Oh_Bother_No_One_s_Listening,,data
+490,9780307127662,,goodreads,partial,6,7,origin,6,7,2,147,7,https://www.goodreads.com/book/show/50049750-oh-bother-someone-won-t-share,,data
+491,9780307682703,,goodreads,partial,6,7,origin,2,3,2,23,5,https://www.goodreads.com/book/show/4219715-the-puppy-nobody-wanted,,data
+492,9780671506926,,goodreads,partial,6,7,origin,6,11,2,212,6,https://www.goodreads.com/book/show/9544507-the-titan,,data
+493,9780312928445,,goodreads,partial,6,7,origin,6,10,4,250,6,https://www.goodreads.com/book/show/2419787.Leading_Lady,,data
+494,9780310591634,,goodreads,partial,5,7,origin; genres,3,0,0,216,8,https://www.goodreads.com/book/show/2728563-follow-me,,data
+495,9780830057566,,goodreads,partial,6,7,origin,6,28,9,506,4,https://www.goodreads.com/book/show/2815946-lady-and-the-tramp,,data
+496,9780060245870,,goodreads,partial,6,7,origin,6,29,10,1207,4,https://www.goodreads.com/book/show/540654.If_You_Give_a_Mouse_a_Cookie,,data
+497,9780694010424,,goodreads,partial,5,7,origin; genres,2,3,0,165,7,https://www.goodreads.com/book/show/213661.My_Anastasia_Storybook_Necklace,,data
+498,9780001821323,,goodreads,partial,6,7,origin,6,22,6,815,6,https://www.goodreads.com/book/show/6799250-paddington-at-the-tower,,data
+499,9780679881278,,goodreads,partial,5,7,origin; genres,3,4,0,169,7,https://www.goodreads.com/book/show/842101.Tomboy_Trouble,,data
+500,9780064440325,,goodreads,partial,6,7,origin,6,13,6,253,5,https://www.goodreads.com/book/show/263718.Arthur_s_Pen_Pal,,data
+501,9780194218207,,goodreads,partial,5,7,origin; genres,1,0,0,47,9,https://www.goodreads.com/book/show/700568.Sie_3_Mice_and_Cat,,data
+502,9780194218214,,goodreads,partial,5,7,origin; genres,2,0,0,140,10,https://www.goodreads.com/book/show/66902148-sie-3-boy-and-donkey,,data
+503,9780307140043,,goodreads,partial,5,7,origin; genres,1,0,0,214,8,https://www.goodreads.com/book/show/3357447-my-very-own-tooth-fairy-pillow,,data
+504,9780723237761,,goodreads,partial,6,7,origin,6,28,10,112,4,https://www.goodreads.com/book/show/8560630-the-tale-of-timmy-tiptoes,,data
+505,9780064432511,,goodreads,partial,6,7,origin,6,30,10,78,3,https://www.goodreads.com/book/show/252232.One_Was_Johnny,,data
+506,9780064432542,,goodreads,partial,6,7,origin,6,29,10,60,3,https://www.goodreads.com/book/show/120705.Alligators_All_Around,,data
+507,9780425162415,,goodreads,partial,6,7,origin,1,3,3,260,5,https://www.goodreads.com/book/show/762496.Blood_Tracks,,data
+508,9780316140539,,goodreads,partial,6,7,origin,6,26,4,412,3,https://www.goodreads.com/book/show/35311.Dirt_Bike_Racer,,data
+509,9780064420563,,goodreads,partial,6,7,origin,6,27,6,858,3,https://www.goodreads.com/book/show/2087653.The_Indian_School,,data
+510,9780553345568,,goodreads,partial,6,7,origin,6,29,10,204,3,https://www.goodreads.com/book/show/340175.Minding_the_Body_Mending_the_Mind,,data
+511,9780874065862,,goodreads,partial,6,7,origin,3,11,5,7,7,https://www.goodreads.com/book/show/9807967-lost-in-the-devil-s-desert,,data
+512,9780449001585,,goodreads,partial,6,7,origin,3,9,2,541,5,https://www.goodreads.com/book/show/862295.The_Cold_Hard_Fax,,data
+513,9780816742011,,goodreads,partial,6,7,origin,2,2,1,104,5,https://www.goodreads.com/book/show/2677284-a-day-in-the-life-of-a-puppy,,data
+514,9780786801091,,goodreads,partial,6,7,origin,3,4,4,85,5,https://www.goodreads.com/book/show/2998807-nobody-s-dog,,data
+515,9780789429605,,goodreads,partial,6,7,origin,6,13,5,458,5,https://www.goodreads.com/book/show/1540690.Fire_Fighter_,,data
+516,9780192641601,,goodreads,partial,5,7,origin; genres,3,0,0,169,10,https://www.goodreads.com/book/show/5881932-brain-s-clinical-neurology,,data
+517,9780446670364,,goodreads,partial,6,7,origin,3,5,3,286,5,https://www.goodreads.com/book/show/158086.The_Entertainment_Weekly_Seinfeld_Companion,,data
+518,9780849916946,,goodreads,partial,5,7,origin; genres,5,2,0,498,7,https://www.goodreads.com/book/show/1071716.Blessings_for_a_Mothers_Day,,data
+519,9780448092836,,goodreads,partial,6,7,origin,1,1,1,230,5,https://www.goodreads.com/book/show/1615599.Garfield_s_Night_Before_Christmas,,data
+520,9780590427586,,goodreads,partial,6,7,origin,6,29,10,117,4,https://www.goodreads.com/book/show/4642712-the-night-before-christmas,,data
+521,9780595223718,,goodreads,partial,5,7,origin; genres,2,0,0,365,6,https://www.goodreads.com/book/show/3243742-pleasure-on-the-run,,data
+522,9780743411509,,goodreads,partial,6,7,origin,6,28,10,1345,3,https://www.goodreads.com/book/show/278194.Life_Inside,,data
+523,9780806523408,,goodreads,partial,6,7,origin,6,5,2,73,5,https://www.goodreads.com/book/show/460421.Duke,,data
+524,9780806580166,,goodreads,partial,6,7,origin,6,20,5,1040,6,https://www.goodreads.com/book/show/1002528.Harrison_Ford,,data
+525,9780449132807,,goodreads,partial,6,7,origin,6,14,3,162,6,https://www.goodreads.com/book/show/2979442-floater,,data
+526,9780821728383,,goodreads,partial,6,7,origin,4,22,2,256,6,https://www.goodreads.com/book/show/985679.Cat_s_Eye,,data
+527,9780451628244,,goodreads,partial,6,7,origin,6,30,10,383,5,https://www.goodreads.com/book/show/2641700-the-oedipus-plays-of-sophocles,,data
+528,9780931128028,,goodreads,partial,5,7,origin; genres,4,0,0,25,10,https://www.goodreads.com/book/show/1917873.All_about_childbirth,,data
+529,9780689831218,,goodreads,partial,5,7,origin; genres,4,1,0,440,7,https://www.goodreads.com/book/show/2834202-dear-fairies,,data
+530,9780881923766,,goodreads,partial,5,7,origin; genres,1,1,0,329,7,https://www.goodreads.com/book/show/2491413.Vandas,,data
+531,9780060928728,,goodreads,partial,6,7,origin,6,30,5,1031,3,https://www.goodreads.com/book/show/806325.The_Circle_of_Simplicity,,data
+532,9780505519870,,goodreads,partial,6,7,origin,6,10,5,251,6,https://www.goodreads.com/book/show/1932992.Moonlight_Rhapsody,,data
+533,9780671460556,,goodreads,partial,6,7,origin,6,30,10,179,5,https://www.goodreads.com/book/show/841544.Horse_Goddess,,data
+534,9780689843013,,goodreads,partial,5,7,origin; genres,1,0,0,173,8,https://www.goodreads.com/book/show/1347229.Who_Do_You_Love_,,data
+535,9780821744222,,goodreads,partial,5,7,origin; genres,6,1,0,295,8,https://www.goodreads.com/book/show/3707892-commitment,,data
+536,9780307165480,,goodreads,partial,6,7,origin,6,30,10,495,3,https://www.goodreads.com/book/show/117170.Richard_Scarry_s_Best_Storybook_Ever_,,data
+537,9780307103840,,goodreads,partial,5,7,origin; genres,1,0,0,115,8,https://www.goodreads.com/book/show/9635463-three-bedtime-stories,,data
+538,9780030402418,,goodreads,partial,5,7,origin; genres,1,0,0,100,9,https://www.goodreads.com/book/show/2216728.Jack_and_the_Beanstalk_With_Benjy_and_Bubbles,,data
+539,9780030402463,,goodreads,partial,5,7,origin; genres,1,0,0,96,9,https://www.goodreads.com/book/show/2216726.Hansel_and_Gretel_With_Benjy_and_Bubbles,,data
+540,9780030449567,,goodreads,partial,5,7,origin; genres,1,0,0,97,9,https://www.goodreads.com/book/show/991940.Rumpelstiltskin_with_Benjy_and_Bubbles,,data
+541,9780819310910,,goodreads,partial,6,7,origin,6,2,2,175,6,https://www.goodreads.com/book/show/3817361-one-little-monkey,,data
+542,9780060202491,,goodreads,partial,6,7,origin,2,1,1,167,6,https://www.goodreads.com/book/show/1894146.Do_Bunnies_Talk_,,data
+543,9780590420310,,goodreads,partial,6,7,origin,6,13,3,163,6,https://www.goodreads.com/book/show/3115714-teacher-s-pet,,data
+544,9780786701056,,goodreads,partial,6,7,origin,6,29,10,300,5,https://www.goodreads.com/book/show/2879688-mona,,data
+545,9780861128167,,goodreads,partial,5,7,origin; genres,1,0,0,98,8,https://www.goodreads.com/book/show/3023037-fun-with-words,,data
+546,9780874494983,,goodreads,partial,5,7,origin; genres,1,2,0,27,8,https://www.goodreads.com/book/show/12722768-funtime-abc-123,,data
+547,9780887080265,,goodreads,partial,6,7,origin,6,29,10,419,5,https://www.goodreads.com/book/show/675926.Papa_Please_Get_the_Moon_for_Me,,data
+548,9781570822797,,goodreads,partial,5,7,origin; genres,2,0,0,307,8,https://www.goodreads.com/book/show/2629910-disney-s-the-hunchback-of-notre-dame,,data
+549,9781888444186,,goodreads,partial,6,7,origin,6,9,4,485,6,https://www.goodreads.com/book/show/4265919-penny-and-pup,,data
+550,9780688112899,,goodreads,partial,5,7,origin; genres,4,0,0,101,9,https://www.goodreads.com/book/show/2641541-little-bird,,data
+551,9780689820472,,goodreads,partial,5,7,origin; genres,2,1,0,446,7,https://www.goodreads.com/book/show/1047925.The_Bestest_Mom,,data
+552,9781885211460,,goodreads,partial,6,7,origin,1,1,1,681,5,https://www.goodreads.com/book/show/935142.Ireland,,data
+553,9780575072404,,goodreads,partial,6,7,origin,6,29,7,847,3,https://www.goodreads.com/book/show/368580.Next_of_Kin,,data
+554,9780375507939,,goodreads,partial,6,7,origin,6,30,10,773,5,https://www.goodreads.com/book/show/415466.Portnoy_s_Complaint,,data
+555,9780202010823,,goodreads,partial,6,7,origin,6,1,1,35,6,https://www.goodreads.com/book/show/66490551-primate-societies-group-techniques-of-ec,,data
+556,9780609604908,,goodreads,partial,6,7,origin,6,29,10,1842,4,https://www.goodreads.com/book/show/858053.Beyond_Civilization,,data
+557,9781577660590,,goodreads,partial,6,7,origin,1,3,3,1751,5,https://www.goodreads.com/book/show/1864405.The_Sacred_Monkeys_of_Bali,,data
+558,9780140086041,,goodreads,partial,1,7,authors; publisher; origin; date_of_publication; language; genres,1,0,0,47,21,https://www.goodreads.com/book/isbn/9780140086041,,data
+559,9780435988326,,goodreads,partial,6,7,origin,6,5,1,36,5,https://www.goodreads.com/book/show/443667.Season_in_Rhiata,,data
+560,9780374528348,,goodreads,partial,6,7,origin,6,29,10,1421,5,https://www.goodreads.com/book/show/2215495.The_Heart_of_Redness,,data
+561,9780374505967,,goodreads,partial,6,7,origin,6,30,10,921,6,https://www.goodreads.com/book/show/1437893.The_Moviegoer,,data
+562,9780140106619,,goodreads,partial,6,7,origin,6,30,10,929,5,https://www.goodreads.com/book/show/27195.Gravity_s_Rainbow,,data
+563,9780060971489,,goodreads,partial,6,7,origin,6,29,10,196,4,https://www.goodreads.com/book/show/1823270.Staring_at_the_Sun,,data
+564,9780671201531,,goodreads,partial,6,7,origin,6,30,10,1091,4,https://www.goodreads.com/book/show/3158100-the-forest-people,,data
+565,9780864420053,,goodreads,partial,6,7,origin,5,0,1,428,6,https://www.goodreads.com/book/show/4928457-east-africa-travel-survival-kit,,data
+566,9780553050967,,goodreads,partial,6,7,origin,4,7,5,49,5,https://www.goodreads.com/book/show/2045538.Planet_Earth,,data
+567,9780030623288,,goodreads,partial,6,7,origin,6,29,10,235,4,https://www.goodreads.com/book/show/369031.Yanomamo,,data
+568,9780385042383,,goodreads,partial,6,7,origin,6,3,2,295,6,https://www.goodreads.com/book/show/5403292-the-speech-chain,,data
+569,9780451618719,,goodreads,partial,6,7,origin,5,3,1,54,4,https://www.goodreads.com/book/show/1085671.A_Short_History_of_China,,data
+570,9780380848225,,goodreads,partial,6,7,origin,6,30,5,1117,4,https://www.goodreads.com/book/show/716277.Dora_Doralina,,data
+571,9780804103794,,goodreads,partial,6,7,origin,6,29,10,503,4,https://www.goodreads.com/book/show/1410528.The_Last_Gentleman,,data
+572,9780716719564,,goodreads,partial,6,7,origin,6,14,10,504,7,https://www.goodreads.com/book/show/4021829-an-introduction-to-genetic-analysis,,data
+573,9780395369111,,goodreads,partial,6,7,origin,6,1,1,225,6,https://www.goodreads.com/book/show/3001145-applied-statistics-for-the-behavioral-sciences,,data
+574,9780671420413,,goodreads,partial,6,7,origin,6,3,3,26,6,https://www.goodreads.com/book/show/1139930.Nim_A_Chimpanzee_who_Learned_Sign_Language,,data
+575,9780672602184,,goodreads,partial,6,7,origin,3,3,1,635,5,https://www.goodreads.com/book/show/364393.An_Inquiry_Concerning_Human_Understanding_An_Abstract_of_a_Treatise_of_Human_Nature,,data
+576,9781559635332,,goodreads,partial,6,7,origin,6,10,9,264,6,https://www.goodreads.com/book/show/3811151-in-the-dust-of-kilimanjaro,,data
+577,9780691083612,,goodreads,partial,5,7,origin; genres,5,0,0,955,9,https://www.goodreads.com/book/show/5018151-reproductive-decisions,,data
+578,9780201632248,,goodreads,partial,5,7,origin; genres,4,0,0,141,10,https://www.goodreads.com/book/show/1263593.Healing_The_Planet,,data
+579,9780435905361,,goodreads,partial,6,7,origin,3,29,7,147,3,https://www.goodreads.com/book/show/37779.African_Short_Stories,,data
+580,9780394722160,,goodreads,partial,6,7,origin,6,30,10,940,4,https://www.goodreads.com/book/show/1770537.One_Day_of_Life,,data
+581,9780882899404,,goodreads,partial,6,7,origin,6,30,10,225,3,https://www.goodreads.com/book/show/910399.Cajun_Night_Before_Christmas,,data
+582,9781885352675,,goodreads,partial,5,7,origin; genres,1,0,0,47,9,https://www.goodreads.com/book/show/985714.Generations,,data
+583,9780140441604,,goodreads,partial,6,7,origin,6,30,10,614,5,https://www.goodreads.com/book/show/202387997-cousin-bette,,data
+584,9780380691463,,goodreads,partial,6,7,origin,6,13,5,162,6,https://www.goodreads.com/book/show/571685.Ex_Magician_and_Other_Stories,,data
+585,9780764507335,,goodreads,partial,6,7,origin,6,4,7,1446,6,https://www.goodreads.com/book/show/7602282-creating-web-pages-for-dummies,,data
+586,9780299131548,,goodreads,partial,5,7,origin; genres,3,0,0,1017,8,https://www.goodreads.com/book/show/620721.From_a_Shattered_Sun,,data
+587,9780060638450,,goodreads,partial,6,7,origin,6,29,10,1470,4,https://www.goodreads.com/book/show/700365.Basic_Writings_from_Being_and_Time_1927_to_The_Task_of_Thinking,,data
+588,9780688103262,,goodreads,partial,6,7,origin,4,10,7,185,5,https://www.goodreads.com/book/show/960788.The_Ape_That_Spoke,,data
+589,9780195094121,,goodreads,partial,6,7,origin,6,13,6,3232,6,https://www.goodreads.com/book/show/624649.The_Monkey_Wars,,data
+590,9780521367745,,goodreads,partial,6,7,origin,6,3,2,467,6,https://www.goodreads.com/book/show/1194748.Money_and_the_Morality_of_Exchange,,data
+591,9780299131203,,goodreads,partial,6,7,origin,4,1,1,111,7,https://www.goodreads.com/book/show/4889271-colonial-situations,,data
+592,9780810464506,,goodreads,partial,5,7,origin; genres,1,0,0,47,9,https://www.goodreads.com/book/show/3786509-dr-aron-s-guide-to-the-care-feeding-and-training-of-your-commodore-64,,data
+593,9780030494932,,goodreads,partial,6,7,origin,6,2,6,41,7,https://www.goodreads.com/book/show/4197531-wie-geht-s,,data
+594,9780471879015,,goodreads,partial,5,7,origin; genres,1,0,0,16,9,https://www.goodreads.com/book/show/2587338-dicho-y-hecho,,data
+595,9780340203804,,goodreads,partial,5,7,origin; genres,3,0,0,287,8,https://www.goodreads.com/book/show/1747228.Teach_Yourself_Indonesian,,data
+596,9784311700026,,goodreads,partial,6,7,origin,1,1,1,75,5,https://www.goodreads.com/book/show/6909523-nippon,,data
+597,9780393092981,,goodreads,partial,6,7,origin,6,27,10,14,4,https://www.goodreads.com/book/show/2289851.The_Norton_anthology_of_English_literature,,data
+598,9780139358913,,goodreads,partial,6,7,origin,3,1,1,114,7,https://www.goodreads.com/book/show/4932439-understanding-human-evolution,,data
+599,9780030069567,,goodreads,partial,6,7,origin,2,1,3,301,6,https://www.goodreads.com/book/show/1969515.Linguistic_Anthropology,,data
+600,9780122603402,,goodreads,partial,6,7,origin,6,4,9,754,6,https://www.goodreads.com/book/show/5093397-primate-adaptation-and-evolution,,data
+601,9780226767161,,goodreads,partial,6,7,origin,2,3,5,376,5,https://www.goodreads.com/book/show/360536.Primate_Societies,,data
+602,9780674116634,,goodreads,partial,6,7,origin,1,0,3,453,6,https://www.goodreads.com/book/show/517110.Chimpanzee_Cultures,,data
+603,9780226102450,,goodreads,partial,6,7,origin,6,4,6,653,6,https://www.goodreads.com/book/show/4897646-how-monkeys-see-the-world,,data
+604,9780791405536,,goodreads,partial,5,7,origin; genres,2,0,0,162,8,https://www.goodreads.com/book/show/2932022-the-monkeys-of-arashiyama,,data
+605,9780521423717,,goodreads,partial,6,7,origin,5,1,2,1437,5,https://www.goodreads.com/book/show/1139850.Chimpanzee_Material_Culture,,data
+606,9780300050295,,goodreads,partial,6,7,origin,3,3,1,294,6,https://www.goodreads.com/book/show/1055291.The_House_of_Si_Abd_Allah,,data
+607,9780226474847,,goodreads,partial,6,7,origin,6,30,10,157,3,https://www.goodreads.com/book/show/782026.The_Savage_Mind,,data
+608,9780140195996,,goodreads,partial,6,7,origin,6,28,10,470,3,https://www.goodreads.com/book/show/103759.Zen_and_the_Art_of_Making_a_Living,,data
+609,9780451625625,,goodreads,partial,6,7,origin,4,3,2,9,6,https://www.goodreads.com/book/show/8849703-the-great-british-detective,,data
+610,9780449240113,,goodreads,partial,6,7,origin,6,29,10,650,4,https://www.goodreads.com/book/show/2705242-asimov-s-mysteries,,data
+611,9780140074659,,goodreads,partial,6,7,origin,6,10,3,201,6,https://www.goodreads.com/book/show/1279857.First_Contact,,data
+612,9781575660424,,goodreads,partial,6,7,origin,3,9,2,242,6,https://www.goodreads.com/book/show/512047.Stable_Cat,,data
+613,9781886910782,,goodreads,partial,6,7,origin,6,28,10,751,5,https://www.goodreads.com/book/show/1371719.Marika,,data
+614,9780805009682,,goodreads,partial,6,7,origin,6,4,3,238,6,https://www.goodreads.com/book/show/1024624.Flame,,data
+615,9780804713368,,goodreads,partial,6,7,origin,5,4,4,39,6,https://www.goodreads.com/book/show/3227019-longtime-californ,,data
+616,9780312185190,,goodreads,partial,6,7,origin,5,4,1,815,5,https://www.goodreads.com/book/show/2089385.Dead_on_Cue,,data
+617,9780449906330,,goodreads,partial,5,7,origin; language,6,30,10,319,4,https://www.goodreads.com/book/show/3419641-bedford-square,,data
+618,9780446525367,,goodreads,partial,6,7,origin,6,5,3,236,3,https://www.goodreads.com/book/show/2877549-crazy-for-cornelia,,data
+619,9780451458162,,goodreads,partial,6,7,origin,4,22,6,343,3,https://www.goodreads.com/book/show/1486908.The_Morpheus_Factor,,data
+620,9780792276838,,goodreads,partial,6,7,origin,5,27,6,241,1,https://www.goodreads.com/book/show/1842019._A_Hell_of_a_Place_to_Lose_a_Cow_,,data
+621,9780802111166,,goodreads,partial,6,7,origin,6,28,10,1360,1,https://www.goodreads.com/book/show/1426544.Rituals_of_Dinner,,data
+622,9780312530105,,goodreads,partial,6,7,origin,6,29,9,527,1,https://www.goodreads.com/book/show/705777.The_Merchants_War,,data
+623,9780670845811,,goodreads,partial,6,7,origin,6,8,1,241,3,https://www.goodreads.com/book/show/1515728.Saratoga_Haunting,,data
+624,9780441002092,,goodreads,partial,6,7,origin,6,18,8,794,3,https://www.goodreads.com/book/show/707491.Starmind,,data
+625,9780446513913,,goodreads,partial,6,7,origin,6,13,10,217,4,https://www.goodreads.com/book/show/734765.Crystal_Woman,,data
+626,9780786704149,,goodreads,partial,6,7,origin,4,8,2,223,3,https://www.goodreads.com/book/show/1382755.Flowers_for_Mei_Ling,,data
+627,9781887178150,,goodreads,partial,6,7,origin,3,5,3,1683,3,https://www.goodreads.com/book/show/2432656.Medieval_in_LA,,data
+628,9780241127001,,goodreads,partial,5,7,origin; genres,1,1,0,132,5,https://www.goodreads.com/book/show/748776.The_Witch,,data
+629,9780151269303,,goodreads,partial,6,7,origin,4,2,3,911,4,https://www.goodreads.com/book/show/1159365.Dutch_Uncle,,data
+630,9780307161819,,goodreads,partial,5,7,origin; genres,2,1,0,128,5,https://www.goodreads.com/book/show/3319247-the-e-mail-mystery,,data
+631,9780553157772,,goodreads,partial,5,7,origin; genres,1,0,0,168,7,https://www.goodreads.com/book/show/2919302-jack-galaxy-space-cop,,data
+632,9780816737819,,goodreads,partial,6,7,origin,2,2,2,170,3,https://www.goodreads.com/book/show/2017503.Sonic_Knuckles,,data
+633,9780590603812,,goodreads,partial,6,7,origin,3,14,5,214,3,https://www.goodreads.com/book/show/694584.The_Berenstain_Bear_Scouts_Meet_Bigpaw,,data
+634,9780816734382,,goodreads,partial,6,7,origin,1,5,4,103,3,https://www.goodreads.com/book/show/2017502.Sonic_the_Hedgehog,,data
+635,9780816735822,,goodreads,partial,6,7,origin,1,1,2,127,3,https://www.goodreads.com/book/show/2105576.Sonic_the_Hedgehog,,data
+636,9780396070184,,goodreads,partial,5,7,origin; genres,1,0,0,47,8,https://www.goodreads.com/book/show/3732224-the-potato-peelers,,data
+637,9788571644823,,goodreads,partial,6,7,origin,6,30,10,870,1,https://www.goodreads.com/book/show/723023.O_Xang_de_Baker_Street,,data
+638,9780752820781,,goodreads,partial,6,7,origin,6,29,10,1743,1,https://www.goodreads.com/book/show/83535.Age_of_Spiritual_Machines_Hb,,data
+639,9780356206585,,goodreads,partial,6,7,origin,6,25,5,92,1,https://www.goodreads.com/book/show/10808756-the-wind-in-my-wheels,,data
+640,9783453152717,,goodreads,partial,6,7,origin,6,29,4,1088,2,https://www.goodreads.com/book/show/178216.Die_ganze_Nacht_ge_ffnet,,data
+641,9783462032550,,goodreads,partial,5,7,origin; genres,1,0,0,29,6,https://www.goodreads.com/book/show/11039287-irak,,data
+642,9780064410250,,goodreads,partial,6,7,origin,6,30,10,503,1,https://www.goodreads.com/book/show/1370924.Rowan_and_the_Keeper_of_the_Crystal,,data
+643,9780671876517,,goodreads,partial,6,7,origin,6,28,10,237,2,https://www.goodreads.com/book/show/318238.Cormac_Mac_Art,,data
+644,9780743443067,,goodreads,partial,6,7,origin,4,19,5,248,3,https://www.goodreads.com/book/show/1262381.Farseer,,data
+645,9783257700015,,goodreads,partial,6,7,origin,5,8,2,556,3,https://www.goodreads.com/book/show/1749176.Sokrates_sein_Leben_und_Denken_,,data
+646,9780373288977,,goodreads,partial,6,7,origin,6,8,3,629,3,https://www.goodreads.com/book/show/1429984.For_Love_of_Rory,,data
+647,9780821733301,,goodreads,partial,6,7,origin,1,1,1,1154,3,https://www.goodreads.com/book/show/5941338-an-easter-bouquet,,data
+648,9780895771858,,goodreads,partial,6,7,origin,6,30,10,598,2,https://www.goodreads.com/book/show/954348.A_Connecticut_Yankee_in_King_Arthur_s_Court,,data
+649,9780895774149,,goodreads,partial,6,7,origin,6,30,10,650,1,https://www.goodreads.com/book/show/3713399-caine-mutiny-the,,data
+650,9780671528294,,goodreads,partial,6,7,origin,4,1,2,181,3,https://www.goodreads.com/book/show/990080.The_Triumph,,data
+651,9781573222617,,goodreads,partial,6,7,origin,6,30,10,2610,1,https://www.goodreads.com/book/show/713027.The_Art_of_Happiness_at_Work,,data
+652,9782831578491,,goodreads,partial,5,7,origin; genres,5,0,0,618,6,https://www.goodreads.com/book/show/1311663.Berlitz_Italian,,data
+653,9780002557290,,goodreads,partial,6,7,origin,5,20,7,266,3,https://www.goodreads.com/book/show/296537.From_Stone_Orchard,,data
+654,9781550549805,,goodreads,partial,6,7,origin,4,13,4,1108,3,https://www.goodreads.com/book/show/12214.Risking_It_All,,data
+655,9780965451796,,goodreads,partial,6,7,origin,6,30,10,1313,2,https://www.goodreads.com/book/show/208436.Baudolino,,data
+656,9780886451882,,goodreads,partial,5,7,origin; genres,1,0,0,893,6,https://www.goodreads.com/book/show/5538874-a-state-of-minds,,data
+657,9780679758280,,goodreads,partial,5,7,origin; genres,1,2,0,2001,5,https://www.goodreads.com/book/show/3624091-the-american-garden-guides,,data
+658,9781851681945,,goodreads,partial,6,7,origin,6,6,6,135,3,https://www.goodreads.com/book/show/1466305.Concerning_the_Inner_Life,,data
+659,9780373791040,,goodreads,partial,6,7,origin,5,1,3,652,3,https://www.goodreads.com/book/show/135427.Up_to_No_Good,,data
+660,9780889951679,,goodreads,partial,6,7,origin,3,10,1,530,3,https://www.goodreads.com/book/show/2667877-mamie-s-children,,data
+661,9780385258074,,goodreads,partial,6,7,origin,2,3,1,989,3,https://www.goodreads.com/book/show/5148220-a-mother-s-story,,data
+662,9781571685483,,goodreads,partial,5,7,origin; genres,2,3,0,293,5,https://www.goodreads.com/book/show/3959718-what-the-librarian-heard,,data
+663,9780451521125,,goodreads,partial,6,7,origin,6,30,10,239,2,https://www.goodreads.com/book/show/2515700.Anne_of_Green_Gables,,data
+664,9780385503839,,goodreads,partial,6,7,origin,6,29,10,1279,2,https://www.goodreads.com/book/show/8560529-the-summons,,data
+665,9782709623186,,goodreads,partial,6,7,origin,6,28,10,800,1,https://www.goodreads.com/book/show/1143026.La_Sorci_re_D_avril,,data
+666,9780744561012,,goodreads,partial,6,7,origin,6,28,9,126,1,https://www.goodreads.com/book/show/1195899.Tickle_Tickle,,data
+667,9780735812994,,goodreads,partial,6,7,origin,6,29,10,304,1,https://www.goodreads.com/book/show/1125369.The_Rainbow_Fish,,data
+668,9783426615263,,goodreads,partial,5,7,origin; genres,1,0,0,47,7,https://www.goodreads.com/book/show/2381171.Tote_V_gel_singen_nicht_Ein_Fall_f_r_Sam_Ridley_Ermittler_wider_Willen_,,data
+669,9780374195625,,goodreads,partial,6,7,origin,6,30,10,1124,1,https://www.goodreads.com/book/show/1123896.Madras_on_Rainy_Days,,data
+670,9780881849134,,goodreads,partial,6,7,origin,2,2,3,194,3,https://www.goodreads.com/book/show/867636.The_Lifted_Veil,,data
+671,9781557780386,,goodreads,partial,5,7,origin; genres,3,0,0,356,6,https://www.goodreads.com/book/show/1027801.Texans,,data
+672,9780713726558,,goodreads,partial,6,7,origin,1,3,2,604,3,https://www.goodreads.com/book/show/713162.UFO_Crash_Landing_Friend_or_Foe_,,data
+673,9780373244409,,goodreads,partial,5,7,origin; genres,6,2,0,675,5,https://www.goodreads.com/book/show/6240228-the-pregnant-bride,,data
+674,9780849914560,,goodreads,partial,6,7,origin,6,21,9,173,3,https://www.goodreads.com/book/show/52944045-the-safest-place-on-earth,,data
+675,9781576737873,,goodreads,partial,6,7,origin,6,29,10,2446,1,https://www.goodreads.com/book/show/257707.Visioneering,,data
+676,9780741412942,,goodreads,partial,5,7,origin; genres,1,0,0,750,6,https://www.goodreads.com/book/show/8174098-come-off-the-corner,,data
+677,9780452267763,,goodreads,partial,6,7,origin,6,30,10,1312,1,https://www.goodreads.com/book/show/1100380.A_Raisin_in_the_Sun,,data
+678,9780836236644,,goodreads,partial,6,7,origin,4,4,5,556,3,https://www.goodreads.com/book/show/2948154-license-to-dream,,data
+679,9780740705557,,goodreads,partial,6,7,origin,5,8,2,698,3,https://www.goodreads.com/book/show/678056.Shoes,,data
+680,9780060582579,,goodreads,partial,6,7,origin,6,29,10,591,1,https://www.goodreads.com/book/show/1022383.The_Silver_Chair,,data
+681,9780060564469,,goodreads,partial,6,7,origin,6,29,10,492,2,https://www.goodreads.com/book/show/140224.The_Voyage_of_the_Dawn_Treader,,data
+682,9780060510626,,goodreads,partial,6,7,origin,6,30,10,309,2,https://www.goodreads.com/book/show/980885.The_Horse_and_His_Boy,,data
+683,9780060595012,,goodreads,partial,6,7,origin,6,30,10,680,2,https://www.goodreads.com/book/show/84364.The_Magician_s_Nephew,,data
+684,9780786817986,,goodreads,partial,6,7,origin,6,20,10,455,3,https://www.goodreads.com/book/show/501052.The_Four_Dragons,,data
+685,9780425094549,,goodreads,partial,6,7,origin,6,30,10,690,1,https://www.goodreads.com/book/show/7661605-to-your-scattered-bodies-go,,data
+686,9780786817979,,goodreads,partial,6,7,origin,6,17,10,439,3,https://www.goodreads.com/book/show/254598.Out_of_the_Dark,,data
+687,9780786817955,,goodreads,partial,6,7,origin,6,13,9,911,3,https://www.goodreads.com/book/show/28376041-illusions-and-lies,,data
+688,9780786817320,,goodreads,partial,6,7,origin,6,27,10,407,1,https://www.goodreads.com/book/show/570194.The_Last_Tear,,data
+689,9780786817313,,goodreads,partial,6,7,origin,6,27,10,911,1,https://www.goodreads.com/book/show/1412969.The_Fire_of_Friendship,,data
+690,9780786817306,,goodreads,partial,6,7,origin,6,27,10,911,2,https://www.goodreads.com/book/show/1412990.Finding_Meridian,,data
+691,9780786817290,,goodreads,partial,6,7,origin,6,25,10,903,1,https://www.goodreads.com/book/show/1062290.The_Disappearance,,data
+692,9780786852574,,goodreads,partial,6,7,origin,6,28,10,494,1,https://www.goodreads.com/book/show/591402.The_Power_of_Five,,data
+693,9780786703395,,goodreads,partial,6,7,origin,6,17,4,347,3,https://www.goodreads.com/book/show/674581.Odds_Against_Tomorrow,,data
+694,9780736634151,,goodreads,partial,6,7,origin,6,30,10,1073,2,https://www.goodreads.com/book/show/7334875-gambit,,data
+695,9780060923969,,goodreads,partial,6,7,origin,6,30,10,849,1,https://www.goodreads.com/book/show/351563.Hangman_s_Holiday,,data
+696,9780553762952,,goodreads,partial,6,7,origin,6,29,10,162,2,https://www.goodreads.com/book/show/77600.Death_of_a_Dude,,data
+697,9781842327371,,goodreads,partial,6,7,origin,6,30,10,270,2,https://www.goodreads.com/book/show/625956.Hamlet_Revenge_,,data
+698,9782800100104,,goodreads,partial,6,7,origin,6,17,10,101,3,https://www.goodreads.com/book/show/628814.La_Mauvaise_t_te,,data
+699,9782800100081,,goodreads,partial,6,7,origin,6,18,9,153,3,https://www.goodreads.com/book/show/4478305-la-corne-de-rhinoc-ros,,data
+700,9782800100111,,goodreads,partial,6,7,origin,6,16,10,491,3,https://www.goodreads.com/book/show/466170.Le_Repaire_de_la_mur_ne,,data
+701,9782800100067,,goodreads,partial,6,7,origin,6,18,10,148,3,https://www.goodreads.com/book/show/628817.Spirou_et_les_h_ritiers,,data
+702,9782800100142,,goodreads,partial,6,7,origin,6,20,10,124,3,https://www.goodreads.com/book/show/628730.Le_Nid_des_Marsupilamis,,data
+703,9780340796474,,goodreads,partial,6,7,origin,6,28,10,31,1,https://www.goodreads.com/book/show/2039622.Good_Old_Secret_Seven,,data
+704,9780340796443,,goodreads,partial,6,7,origin,6,29,10,216,1,https://www.goodreads.com/book/show/1292161.Secret_Seven_Mystery,,data
+705,9780749719821,,goodreads,partial,6,7,origin,6,28,10,260,3,https://www.goodreads.com/book/show/1363629.The_Mystery_of_Banshee_Towers,,data
+706,9780749719807,,goodreads,partial,6,7,origin,6,30,10,514,2,https://www.goodreads.com/book/show/2486696.The_Mystery_of_the_Missing_Man,,data
+707,9780749719791,,goodreads,partial,6,7,origin,6,30,10,2868,2,https://www.goodreads.com/book/show/994241.The_Mystery_of_Tally_Ho_Cottage,,data
+708,9780749719753,,goodreads,partial,6,7,origin,6,30,10,301,2,https://www.goodreads.com/book/show/1934723.The_Mystery_of_the_Strange_Bundle,,data
+709,9780749719838,,goodreads,partial,6,7,origin,6,28,10,81,2,https://www.goodreads.com/book/show/1088664.The_Mystery_of_the_Vanished_Prince,,data
+710,9780749719739,,goodreads,partial,6,7,origin,6,29,10,216,2,https://www.goodreads.com/book/show/1605660.The_Mystery_of_the_Pantomime_Cat,,data
+711,9780749719722,,goodreads,partial,6,7,origin,6,28,10,372,2,https://www.goodreads.com/book/show/735362.The_Mystery_of_the_Hidden_House,,data
+712,9780749719715,,goodreads,partial,6,7,origin,6,28,10,237,2,https://www.goodreads.com/book/show/2832166-the-mystery-of-the-missing-necklace,,data
+713,9780749719692,,goodreads,partial,6,7,origin,6,29,10,545,2,https://www.goodreads.com/book/show/735355.The_Mystery_of_the_Secret_Room,,data
+714,9780749719708,,goodreads,partial,6,7,origin,6,29,10,215,2,https://www.goodreads.com/book/show/2486691.The_Mystery_of_the_Spiteful_Letters,,data
+715,9780749719678,,goodreads,partial,6,7,origin,6,28,10,92,5,https://www.goodreads.com/book/show/735359.The_Mystery_of_the_Disappearing_Cat,,data
+716,9780749719685,,goodreads,partial,6,7,origin,6,29,10,17,5,https://www.goodreads.com/book/show/735363.The_Mystery_of_the_Burnt_Cottage,,data
+717,9780749719142,,goodreads,partial,6,7,origin,6,30,10,505,4,https://www.goodreads.com/book/show/994703.Fifth_Formers_of_St_Clare_s,,data
+718,9780749719135,,goodreads,partial,6,7,origin,6,29,10,216,5,https://www.goodreads.com/book/show/1667359.Claudine_at_St_Clare_s,,data
+719,9780749719128,,goodreads,partial,6,7,origin,6,30,10,547,5,https://www.goodreads.com/book/show/1664789.The_Second_Form_at_St_Clare_s,,data
+720,9780749719111,,goodreads,partial,6,7,origin,6,30,10,242,5,https://www.goodreads.com/book/show/1667358.Summer_Term_at_St_Clare_s,,data
+721,9780749719104,,goodreads,partial,6,7,origin,6,29,10,301,4,https://www.goodreads.com/book/show/735695.The_O_Sullivan_Twins,,data
+722,9780749719098,,goodreads,partial,6,7,origin,6,29,10,242,5,https://www.goodreads.com/book/show/557249.The_Twins_at_St_Clare_s,,data
+723,9780749744854,,goodreads,partial,6,7,origin,6,30,10,244,5,https://www.goodreads.com/book/show/749977.In_the_Fifth_at_Malory_Towers,,data
+724,9780749744847,,goodreads,partial,6,7,origin,6,27,10,213,4,https://www.goodreads.com/book/show/539073.Upper_Fourth_at_Malory_Towers,,data
+725,9780749744830,,goodreads,partial,6,7,origin,6,29,10,201,5,https://www.goodreads.com/book/show/557266.Third_Year_at_Malory_Towers,,data
+726,9780754061137,,goodreads,partial,6,7,origin,6,30,10,200,4,https://www.goodreads.com/book/show/1089314.Five_Are_Together_Again,,data
+727,9780340796276,,goodreads,partial,6,7,origin,6,29,10,378,3,https://www.goodreads.com/book/show/17483.Five_Go_to_Mystery_Moor,,data
+728,9780340796269,,goodreads,partial,6,7,origin,6,30,10,222,3,https://www.goodreads.com/book/show/557229.Five_Go_Down_to_the_Sea,,data
+729,9780340796252,,goodreads,partial,6,7,origin,6,29,10,395,4,https://www.goodreads.com/book/show/557212.Five_Have_a_Wonderful_Time,,data
+730,9780340796245,,goodreads,partial,6,7,origin,6,28,10,282,3,https://www.goodreads.com/book/show/735321.Five_on_a_Hike_Together,,data
+731,9780340796238,,goodreads,partial,6,7,origin,6,30,10,303,4,https://www.goodreads.com/book/show/319976.Five_Fall_Into_Adventure,,data
+732,9780340796221,,goodreads,partial,6,7,origin,6,28,10,230,3,https://www.goodreads.com/book/show/557220.Five_Get_Into_Trouble,,data
+733,9780340796214,,goodreads,partial,6,7,origin,6,30,10,283,3,https://www.goodreads.com/book/show/557188.Five_Go_Off_to_Camp,,data
+734,9780340796207,,goodreads,partial,6,7,origin,6,30,10,228,4,https://www.goodreads.com/book/show/557184.Five_on_Kirrin_Island_Again,,data
+735,9780340796191,,goodreads,partial,6,7,origin,6,28,10,45,3,https://www.goodreads.com/book/show/74996.Five_Go_Off_in_a_Caravan,,data
+736,9780340796184,,goodreads,partial,6,7,origin,6,29,10,25,3,https://www.goodreads.com/book/show/17478.Five_Go_to_Smuggler_s_Top,,data
+737,9780340796153,,goodreads,partial,6,7,origin,6,28,10,276,3,https://www.goodreads.com/book/show/17487.Five_Go_Adventuring_Again,,data
+738,9780340796146,,goodreads,partial,6,7,origin,6,30,10,402,4,https://www.goodreads.com/book/show/17488.Five_on_a_Treasure_Island,,data
+739,9780553762990,,goodreads,partial,6,7,origin,6,30,5,594,4,https://www.goodreads.com/book/show/148957.Red_Threads,,data
+740,9780553762969,,goodreads,partial,6,7,origin,6,30,10,571,5,https://www.goodreads.com/book/show/148943.If_Death_Ever_Slept,,data
+741,9781572702325,,goodreads,partial,6,7,origin,6,29,10,201,5,https://www.goodreads.com/book/show/1094076.The_Final_Deduction,,data
+742,9780553763041,,goodreads,partial,6,7,origin,6,30,10,388,4,https://www.goodreads.com/book/show/77594.Before_Midnight,,data
+743,9780156551328,,goodreads,partial,6,7,origin,6,29,10,372,5,https://www.goodreads.com/book/show/140770.Maigret_s_Christmas,,data
+744,9781572701045,,goodreads,partial,6,7,origin,6,30,10,255,5,https://www.goodreads.com/book/show/1094222.Too_Many_Women,,data
+745,9781572700390,,goodreads,partial,6,7,origin,6,30,10,408,5,https://www.goodreads.com/book/show/1094171.The_Black_Mountain,,data
+746,9780425130261,,goodreads,partial,6,7,origin,6,30,10,536,5,https://www.goodreads.com/book/show/762343.The_Mystery_of_the_Blue_Train,,data
+747,9780755102112,,goodreads,partial,6,7,origin,6,30,10,371,4,https://www.goodreads.com/book/show/10776955-not-to-be-taken,,data
+748,9780755102068,,goodreads,partial,6,7,origin,6,29,10,1055,5,https://www.goodreads.com/book/show/2625918-the-poisoned-chocolates-case,,data
+749,9780755102051,,goodreads,partial,6,7,origin,6,28,10,219,3,https://www.goodreads.com/book/show/1426697.Trial_and_Error,,data
+750,9781572702103,,goodreads,partial,6,7,origin,6,29,10,203,4,https://www.goodreads.com/book/show/7308702-n-or-m,,data
+751,9782253142942,,goodreads,partial,6,7,origin,6,29,10,638,5,https://www.goodreads.com/book/show/2260534.Pietr_le_Letton,,data
+752,9780786704460,,goodreads,partial,6,7,origin,6,30,10,403,4,https://www.goodreads.com/book/show/1751549.The_Red_Right_Hand,,data
+753,9781842326664,,goodreads,partial,6,7,origin,6,22,10,487,6,https://www.goodreads.com/book/show/854297.The_Clue_Of_The_New_Pin,,data
+754,9781883402082,,goodreads,partial,6,7,origin,6,30,10,913,3,https://www.goodreads.com/book/show/88578.The_Winter_Murder_Case,,data
+755,9781570714825,,goodreads,partial,6,7,origin,6,29,3,74,4,https://www.goodreads.com/book/show/2963891-undress-your-stress,,data
+756,9780679642848,,goodreads,partial,6,7,origin,6,30,10,1020,2,https://www.goodreads.com/book/show/14665.The_Red_and_the_Black,,data
+757,9780304366316,,goodreads,partial,6,7,origin,6,30,10,971,2,https://www.goodreads.com/book/show/1058611.Legion_of_the_Damned,,data
+758,9780312265052,,goodreads,partial,6,7,origin,6,30,10,599,2,https://www.goodreads.com/book/show/12467.The_Naked_and_the_Dead,,data
+759,9783446200395,,goodreads,partial,6,7,origin,6,30,10,1062,2,https://www.goodreads.com/book/show/222167.Bibbi_Bokkens_Magische_Bibliothek,,data
+760,9780316358446,,goodreads,partial,6,7,origin,6,28,10,630,2,https://www.goodreads.com/book/show/743456.Land_of_Black_Gold,,data
+761,9780867199024,,goodreads,partial,6,7,origin,6,30,10,480,2,https://www.goodreads.com/book/show/35068.The_Adventures_of_Tintin_in_the_Congo,,data
+762,9781857543865,,goodreads,partial,6,7,origin,4,7,2,623,3,https://www.goodreads.com/book/show/1823135.The_Flame_Coloured_Dress,,data
+763,9780789483492,,goodreads,partial,6,7,origin,6,28,10,756,1,https://www.goodreads.com/book/show/116515.Top_10_London,,data
+764,9780789483515,,goodreads,partial,6,7,origin,6,25,8,402,1,https://www.goodreads.com/book/show/807309.Top_10_New_York,,data
+765,9780789483508,,goodreads,partial,6,7,origin,6,30,6,783,2,https://www.goodreads.com/book/show/308445.Top_10_Paris,,data
+766,9780805794397,,goodreads,partial,5,7,origin; genres,3,4,0,1763,5,https://www.goodreads.com/book/show/2359911.The_Death_of_Ivan_Ilich,,data
+767,9780812966930,,goodreads,partial,6,7,origin,6,30,10,549,3,https://www.goodreads.com/book/show/42980500-the-gambler,,data
+768,9780811205566,,goodreads,partial,6,7,origin,6,30,10,1483,1,https://www.goodreads.com/book/show/304372.The_Smile_at_the_Foot_of_the_Ladder,,data
+769,9780816621125,,goodreads,partial,6,7,origin,6,29,10,1061,1,https://www.goodreads.com/book/show/209671.Murmuring_Coast,,data
+770,9780374526511,,goodreads,partial,6,7,origin,6,24,7,213,3,https://www.goodreads.com/book/show/67142.Erotic_Tales,,data
+771,9789681905859,,goodreads,partial,6,7,origin,6,30,10,205,2,https://www.goodreads.com/book/show/822502.Conversaci_n_en_La_Catedral,,data
+772,9780375418419,,goodreads,partial,6,7,origin,6,30,10,570,2,https://www.goodreads.com/book/show/1869260.D_Is_For_Deadbeat,,data
+773,9780684813134,,goodreads,partial,6,7,origin,4,27,4,260,1,https://www.goodreads.com/book/show/1697496.A_Cottage_in_Portugal,,data
+774,9780879518011,,goodreads,partial,6,7,origin,6,30,9,296,1,https://www.goodreads.com/book/show/3309823-the-midden,,data
+775,9781564780010,,goodreads,partial,6,7,origin,6,4,3,526,3,https://www.goodreads.com/book/show/1138620.Hortense_in_Exile,,data
+776,9780399131271,,goodreads,partial,6,7,origin,6,6,3,156,3,https://www.goodreads.com/book/show/3869727-the-green-train,,data
+777,9780811209984,,goodreads,partial,6,7,origin,6,28,10,1911,2,https://www.goodreads.com/book/show/676733.The_Collected_Stories,,data
+778,9780679444732,,goodreads,partial,6,7,origin,6,30,10,140,1,https://www.goodreads.com/book/show/779021.The_Happy_Prince_and_Other_Tales,,data
+779,9780803264045,,goodreads,partial,6,7,origin,6,20,2,1021,3,https://www.goodreads.com/book/show/1933516.Trading_Secrets,,data
+780,9789721040168,,goodreads,partial,5,7,origin; genres,1,0,0,9,6,https://www.goodreads.com/book/show/3184331-vozes-fora---nada-talvez-ler,,data
+781,9780385492102,,goodreads,partial,6,7,origin,6,30,10,1171,2,https://www.goodreads.com/book/show/1126672.El_anatomista,,data
+782,9780316825849,,goodreads,partial,6,7,origin,6,30,4,844,1,https://www.goodreads.com/book/show/1205129.The_Drink_and_Dream_Teahouse,,data
+783,9780802117328,,goodreads,partial,6,7,origin,6,30,10,231,2,https://www.goodreads.com/book/show/2875996-the-inquisitors-manual,,data
+784,9780802134769,,goodreads,partial,6,7,origin,6,30,10,1246,1,https://www.goodreads.com/book/show/71583.Act_of_the_Damned,,data
+785,9782264011091,,goodreads,partial,6,7,origin,6,30,10,361,1,https://www.goodreads.com/book/show/1803337.Comment_se_sortir_d_une_poup_e_gonflable_et_de_beaucoup_d_autres_ennuis_encore,,data
+786,9780679457978,,goodreads,partial,6,7,origin,6,30,10,700,2,https://www.goodreads.com/book/show/701993.Airframe,,data
+787,9780312870362,,goodreads,partial,6,7,origin,6,30,10,1142,1,https://www.goodreads.com/book/show/2049885.Child_of_the_Prophecy,,data
+788,9780340794920,,goodreads,partial,6,7,origin,6,8,5,92,3,https://www.goodreads.com/book/show/6384990-i-remember-you,,data
+789,9780153022319,,goodreads,partial,5,7,origin; genres,1,0,0,47,8,https://www.goodreads.com/book/show/12226477-mariah-loves-rock,,data
+790,9780764505942,,goodreads,partial,6,7,origin,6,8,5,965,3,https://www.goodreads.com/book/show/1989398.PCs_For_Dummies,,data
+791,9780873585866,,goodreads,partial,6,7,origin,6,29,7,443,1,https://www.goodreads.com/book/show/672791.The_Tortoise_and_the_Jackrabbit,,data
+792,9781404802193,,goodreads,partial,6,7,origin,6,6,1,11,3,https://www.goodreads.com/book/show/617952.The_Goose_That_Laid_the_Golden_Egg,,data
+793,9781404803183,,goodreads,partial,6,7,origin,6,7,1,11,3,https://www.goodreads.com/book/show/340485.The_Country_Mouse_and_the_City_Mouse,,data
+794,9780736413220,,goodreads,partial,6,7,origin,6,9,4,48,3,https://www.goodreads.com/book/show/2493165.Disney_s_The_Jungle_Book_2,,data
+795,9780736480093,,goodreads,partial,6,7,origin,4,6,2,162,3,https://www.goodreads.com/book/show/1879634.Bambi_s_Hide_and_Seek,,data
+796,9780521599788,,goodreads,partial,6,7,origin,4,0,3,531,4,https://www.goodreads.com/book/show/332633.Patriarchy_Property_and_Death_in_the_Roman_Family_Cambridge_Studies_in_Population_Economy_and_Society_in_Past_Time_Series_Number_25_,,data
+797,9780595653188,,goodreads,partial,5,7,origin; genres,4,0,0,397,6,https://www.goodreads.com/book/show/13736792-it-s-god-s-will,,data
+798,9780140433173,,goodreads,partial,6,7,origin,6,28,10,398,2,https://www.goodreads.com/book/show/206162.Alice_s_Adventures_in_Wonderland_and_Through_the_Looking_Glass,,data
+799,9782867441387,,goodreads,partial,5,7,origin; genres,1,0,0,688,8,https://www.goodreads.com/book/show/118114671-portrait-du-monde,,data
+800,9780446307840,,goodreads,partial,5,7,origin; genres,1,1,0,37,7,https://www.goodreads.com/book/show/4661554-the-art-japanese-management,,data
+801,9780340766293,,goodreads,partial,6,7,origin,3,10,2,225,6,https://www.goodreads.com/book/show/1457878.Half_in_love,,data
+802,9780740711572,,goodreads,partial,6,7,origin,2,4,1,144,5,https://www.goodreads.com/book/show/2222717.Praying_With_Katie_God_My_Cat_And_Me,,data
+803,9782207249499,,goodreads,partial,6,7,origin,2,2,1,24,6,https://www.goodreads.com/book/show/10778338-baleinier-de-la-nuit,,data
+804,9782207250327,,goodreads,partial,6,7,origin,5,4,1,656,5,https://www.goodreads.com/book/show/7898741-f-tus-party,,data
+805,9782207251072,,goodreads,partial,6,7,origin,6,30,10,545,5,https://www.goodreads.com/book/show/1979443.Moi_Asimov,,data
+806,9782207304921,,goodreads,partial,5,7,origin; genres,1,0,0,47,9,https://www.goodreads.com/book/show/2628627-auteur-eminent,,data
+807,9782207304815,,goodreads,partial,5,7,origin; genres,1,0,0,878,8,https://www.goodreads.com/book/show/2628626-derri-re-la-porte,,data
+808,9782207505366,,goodreads,partial,6,7,origin,6,6,4,6,5,https://www.goodreads.com/book/show/2735088-l-orphelin-de-perdide,,data
+809,9782207249192,,goodreads,partial,6,7,origin,4,2,2,747,5,https://www.goodreads.com/book/show/1289951.L_amour_vous_connaissez_,,data
+810,9782207304327,,goodreads,partial,1,7,authors; publisher; origin; date_of_publication; language; genres,1,0,0,47,21,https://www.goodreads.com/book/isbn/9782207304327,,data
+811,9782207303931,,goodreads,partial,6,7,origin,6,30,10,991,4,https://www.goodreads.com/book/show/2998492-dans-l-oc-an-de-la-nuit-2,,data
+812,9782207304297,,goodreads,partial,5,7,origin; genres,1,1,0,6,7,https://www.goodreads.com/book/show/4060786-la-ville-au-fond-de-l-il,,data
+813,9782207303337,,goodreads,partial,5,7,origin; genres,1,0,0,518,8,https://www.goodreads.com/book/show/2734367-un-paysage-du-temps-2,,data
+814,9782207303320,,goodreads,partial,5,7,origin; genres,1,0,0,518,8,https://www.goodreads.com/book/show/2734364-un-paysage-du-temps-1,,data
+815,9782207303580,,goodreads,partial,6,7,origin,6,30,10,807,4,https://www.goodreads.com/book/show/2409390.L_oeil_de_Chat,,data
+816,9782207304754,,goodreads,partial,6,7,origin,6,7,1,23,6,https://www.goodreads.com/book/show/6909440-chute-des-familles,,data
+817,9782207505069,,goodreads,partial,6,7,origin,6,27,8,733,4,https://www.goodreads.com/book/show/7898756-les-ann-es-fl-aux,,data
+818,9782207303832,,goodreads,partial,5,7,origin; genres,2,0,0,660,8,https://www.goodreads.com/book/show/7916364-c-est-arriv-mais-on-n-en-a-rien-su,,data
+819,9782290316306,,goodreads,partial,6,7,origin,6,30,10,683,4,https://www.goodreads.com/book/show/3042757-le-s-rum-de-la-d-esse-bleue,,data
+820,9782207247341,,goodreads,partial,6,7,origin,6,30,10,740,4,https://www.goodreads.com/book/show/1881488.Bien_apr_s_minuit,,data
+821,9782207503065,,goodreads,partial,6,7,origin,6,28,9,583,5,https://www.goodreads.com/book/show/2220816.UNE_PLANETE_NOMMEE_TRAHISON,,data
+822,9782207250891,,goodreads,partial,6,7,origin,6,4,7,1018,6,https://www.goodreads.com/book/show/3801777-le-styx-coule-l-envers,,data
+823,9782207305577,,goodreads,partial,5,7,origin; genres,3,0,0,6,8,https://www.goodreads.com/book/show/4747702-l-hiver-aller-et-retour,,data
+824,9782207301999,,goodreads,partial,6,7,origin,3,3,1,659,5,https://www.goodreads.com/book/show/1289900.La_M_re_des_mondes,,data
+825,9782207249376,,goodreads,partial,6,7,origin,6,29,3,506,4,https://www.goodreads.com/book/show/719909.Ces_hommes_dans_la_jungle,,data
+826,9782207503850,,goodreads,partial,6,7,origin,6,29,10,27,4,https://www.goodreads.com/book/show/2576100-espoir-du-cerf,,data
+827,9782207250433,,goodreads,partial,6,7,origin,6,28,10,398,5,https://www.goodreads.com/book/show/1393102.Le_Signe_de_la_Licorne,,data
+828,9782207305997,,goodreads,partial,5,7,origin; genres,3,1,0,886,8,https://www.goodreads.com/book/show/7916344-le-chien-courait-sur-l-autoroute-en-criant-son-nom,,data
+829,9788845248665,,goodreads,partial,6,7,origin,6,30,10,584,5,https://www.goodreads.com/book/show/3101807-il-talento-di-mr-ripley,,data
+830,9780679428176,,goodreads,partial,6,7,origin,6,0,1,1451,6,https://www.goodreads.com/book/show/3171507-dr-rosenfeld-s-guide-to-alternative-medicine,,data
+831,9780553578225,,goodreads,partial,6,7,origin,6,29,4,569,4,https://www.goodreads.com/book/show/439091.All_the_Dead_Lie_Down,,data
+832,9780307121417,,goodreads,partial,6,7,origin,3,6,4,142,5,https://www.goodreads.com/book/show/3710912-cyndy-szekeres-counting-book,,data
+833,9780373035946,,goodreads,partial,6,7,origin,6,3,1,87,6,https://www.goodreads.com/book/show/15217665-outback-husband,,data
+834,9780373708871,,goodreads,partial,5,7,origin; genres,4,2,0,945,7,https://www.goodreads.com/book/show/3159491-the-inheritance,,data
+835,9780738702223,,goodreads,partial,6,7,origin,6,30,10,822,3,https://www.goodreads.com/book/show/559773.Paganism,,data
+836,9780373611614,,goodreads,partial,5,7,origin; genres,1,1,0,660,7,https://www.goodreads.com/book/show/2466810.Eye_Of_The_Storm,,data
+837,9780373610655,,goodreads,partial,6,7,origin,1,6,2,36,5,https://www.goodreads.com/book/show/3383105-cambodia-clash,,data
+838,9780373614011,,goodreads,partial,6,7,origin,3,18,6,138,5,https://www.goodreads.com/book/show/658970.Stony_Man_Doctrine,,data
+839,9780523004037,,goodreads,partial,6,7,origin,6,30,9,324,7,https://www.goodreads.com/book/show/3085839-battle-mask,,data
+840,9780060804169,,goodreads,partial,6,7,origin,6,30,10,210,4,https://www.goodreads.com/book/show/2717315-she,,data
+841,9780373610402,,goodreads,partial,6,7,origin,2,10,3,631,5,https://www.goodreads.com/book/show/3383080-double-crossfire,,data
+842,9780523401669,,goodreads,partial,6,7,origin,6,17,4,33,8,https://www.goodreads.com/book/show/2701999-arizona-ambush,,data
+843,9780553147124,,goodreads,partial,5,7,origin; genres,5,0,0,766,8,https://www.goodreads.com/book/show/2023855.Slaughter_City,,data
+844,9780553147087,,goodreads,partial,5,7,origin; genres,4,2,0,655,8,https://www.goodreads.com/book/show/7287951-liberation-of-paris,,data
+845,9780373258185,,goodreads,partial,6,7,origin,6,10,2,595,7,https://www.goodreads.com/book/show/526429.Club_Cupid,,data
+846,9780373240388,,goodreads,partial,5,7,origin; genres,3,0,0,600,8,https://www.goodreads.com/book/show/2449758.Lonesome_Cowboy,,data
+847,9780373760510,,goodreads,partial,6,7,origin,6,2,2,636,6,https://www.goodreads.com/book/show/435067.Texas_Moon,,data
+848,9780553219135,,goodreads,partial,6,7,origin,1,0,1,936,6,https://www.goodreads.com/book/show/1857341.Emerald_Sunshine,,data
+849,9780373052585,,goodreads,partial,6,7,origin,1,0,1,643,4,https://www.goodreads.com/book/show/2733954-nothing-ventured,,data
+850,9780373034130,,goodreads,partial,6,7,origin,4,3,1,526,4,https://www.goodreads.com/book/show/7085709-runaway-wedding,,data
+851,9780373033324,,goodreads,partial,5,7,origin; genres,2,1,0,495,6,https://www.goodreads.com/book/show/14798898-cross-purposes,,data
+852,9780373191017,,goodreads,partial,5,7,origin; genres,2,0,0,91,6,https://www.goodreads.com/book/show/10979868-an-improbable-wife,,data
+853,9780373111701,,goodreads,partial,6,7,origin,4,15,4,631,3,https://www.goodreads.com/book/show/4917561-no-more-lonely-nights,,data
+854,9780373114146,,goodreads,partial,6,7,origin,3,2,1,83,3,https://www.goodreads.com/book/show/6716351-desert-hostage,,data
+855,9780373033393,,goodreads,partial,6,7,origin,5,30,8,388,2,https://www.goodreads.com/book/show/2909658-the-awakened-heart,,data
+856,9780373104345,,goodreads,partial,6,7,origin,4,12,3,540,3,https://www.goodreads.com/book/show/1375340.Beyond_Control,,data
+857,9780380975556,,goodreads,partial,5,7,origin; genres,4,3,0,196,5,https://www.goodreads.com/book/show/457968.The_Nearly_Wed_Handbook,,data
+858,9780061084164,,goodreads,partial,6,7,origin,6,19,7,569,4,https://www.goodreads.com/book/show/2944654-you-belong-to-my-heart,,data
+859,9780940685383,,goodreads,partial,5,7,origin; genres,6,1,0,60,6,https://www.goodreads.com/book/show/4630225-how-to-play-winning-poker,,data
+860,9780679720485,,goodreads,partial,6,7,origin,6,29,10,141,1,https://www.goodreads.com/book/show/2062789.Prisoner_without_a_Name_Cell_without_a_Number,,data
+861,9780866222815,,goodreads,partial,5,7,origin; genres,2,0,0,365,6,https://www.goodreads.com/book/show/3398277-a-complete-introduction-to-rabbits,,data
+862,9780399217807,,goodreads,partial,6,7,origin,6,9,6,170,3,https://www.goodreads.com/book/show/2716417-my-first-chanukah,,data
+863,9780448401782,,goodreads,partial,5,7,origin; genres,2,1,0,178,5,https://www.goodreads.com/book/show/1146432.The_Dinosaurs_of_Jurassic_Park,,data
+864,9780553252033,,goodreads,partial,6,7,origin,6,30,10,138,2,https://www.goodreads.com/book/show/271683.Five_Smooth_Stones,,data
+865,9780345295545,,goodreads,partial,6,7,origin,6,30,10,532,2,https://www.goodreads.com/book/show/11143520-final-payments,,data
+866,9780516419664,,goodreads,partial,5,7,origin; genres,1,0,0,104,8,https://www.goodreads.com/book/show/15175802-i-can-be-a-biologist,,data
+867,9780812526424,,goodreads,partial,6,7,origin,6,7,1,103,3,https://www.goodreads.com/book/show/3199747-gabriel,,data
+868,9780440194712,,goodreads,partial,5,7,origin; genres,3,1,0,117,5,https://www.goodreads.com/book/show/2709800-what-to-do-when-there-s-nothing-to-do,,data
+869,9780380009923,,goodreads,partial,6,7,origin,4,4,1,200,3,https://www.goodreads.com/book/show/3199820-the-moon-lamp,,data
+870,9780439429887,,goodreads,partial,5,7,origin; genres,4,0,0,344,6,https://www.goodreads.com/book/show/1011101.The_Haunted_Gym,,data
+871,9780876668764,,goodreads,partial,5,7,origin; genres,2,0,0,1,7,https://www.goodreads.com/book/show/15503603-handbook-of-canaries,,data
+872,9780809242764,,goodreads,partial,5,7,origin; genres,1,0,0,139,6,https://www.goodreads.com/book/show/3883448-a-world-of-dogs,,data
+873,9780671671556,,goodreads,partial,6,7,origin,6,9,5,191,4,https://www.goodreads.com/book/show/665686.States_of_Emergency,,data
+874,9780385189262,,goodreads,partial,6,7,origin,1,0,1,195,4,https://www.goodreads.com/book/show/1241675.The_Life_and_Times_of_Menachem_Begin,,data
+875,9780671619268,,goodreads,partial,6,7,origin,5,9,3,113,3,https://www.goodreads.com/book/show/870434.Diary_of_a_Frantic_Kid_Sister,,data
+876,9780316115445,,goodreads,partial,6,7,origin,6,6,4,176,3,https://www.goodreads.com/book/show/5119988-arthur-and-the-popularity-test,,data
+877,9780439194464,,goodreads,partial,6,7,origin,2,30,10,760,2,https://www.goodreads.com/book/show/346692.Mirror_Mirror_on_the_Wall,,data
+878,9780768102093,,goodreads,partial,5,7,origin; genres,2,1,0,52,5,https://www.goodreads.com/book/show/744373.Bats,,data
+879,9780531180471,,goodreads,partial,5,7,origin; genres,2,0,0,175,8,https://www.goodreads.com/book/show/1351825.Discovering_Bees_and_Wasps,,data
+880,9780824980351,,goodreads,partial,5,7,origin; genres,2,0,0,121,7,https://www.goodreads.com/book/show/11577793-zelda-the-zebra,,data
+881,9780439573757,,goodreads,partial,6,7,origin,6,30,10,438,1,https://www.goodreads.com/book/show/125619.Revenge_of_the_Lawn_Gnomes,,data
+882,9780439662154,,goodreads,partial,6,7,origin,6,30,10,524,1,https://www.goodreads.com/book/show/125594.Attack_of_the_Mutant,,data
+883,9780439568296,,goodreads,partial,6,7,origin,6,29,10,202,1,https://www.goodreads.com/book/show/125580.Egg_Monsters_from_Mars,,data
+884,9780060514099,,goodreads,partial,6,7,origin,6,29,10,291,1,https://www.goodreads.com/book/show/250650108-molly-moon-s-incredible-book-of-hypnotism,,data
+885,9780451821898,,goodreads,partial,6,7,origin,3,8,2,183,3,https://www.goodreads.com/book/show/4681036-murder-among-friends,,data
+886,9781889540818,,goodreads,partial,5,7,origin; genres,5,0,0,589,6,https://www.goodreads.com/book/show/1768476.Barking_CompanionHouse_Books_Plus_Training_Tips,,data
+887,9780345412874,,goodreads,partial,5,7,origin; genres,3,0,0,1463,6,https://www.goodreads.com/book/show/301768.Purina_Encyclopedia_of_Cat_Care,,data
+888,9780590457163,,goodreads,empty,0,7,title; authors; publisher; origin; date_of_publication; language; genres,0,0,0,0,15,,,data
+889,9780887434181,,goodreads,partial,5,7,origin; genres,4,3,0,79,5,https://www.goodreads.com/book/show/969853.The_Raccoon_on_the_Moon,,data
+890,9781558741034,,goodreads,partial,5,7,origin; genres,1,2,0,799,5,https://www.goodreads.com/book/show/218749.You_Can_t_Quit_Until_You_Know_What_s_Eating_You,,data
+891,9780689823862,,goodreads,partial,6,7,origin,2,4,1,233,3,https://www.goodreads.com/book/show/167118.Welcome_to_the_Big_Blue_House_,,data
+892,9780448403878,,goodreads,partial,6,7,origin,3,0,1,87,4,https://www.goodreads.com/book/show/3176013-the-first-night-of-hanukkah,,data
+893,9780689828409,,goodreads,partial,5,7,origin; genres,1,1,0,96,5,https://www.goodreads.com/book/show/204433.Bear_s_Bedtime_Wish,,data
+894,9780689828416,,goodreads,partial,6,7,origin,2,0,1,105,4,https://www.goodreads.com/book/show/769949.Luna_s_Night_Bear_in_the_Big_Blue_House_,,data
+895,9780140465655,,goodreads,partial,6,7,origin,6,28,7,1057,1,https://www.goodreads.com/book/show/4051450-the-competitive-runners-handbook,,data
+896,9780425158111,,goodreads,partial,6,7,origin,6,9,5,899,3,https://www.goodreads.com/book/show/630095.Fat_free_and_Fatal,,data
+897,9780385471428,,goodreads,partial,6,7,origin,3,2,1,219,3,https://www.goodreads.com/book/show/1108514.I_m_Still_Scrambling,,data
+898,9780786844173,,goodreads,partial,5,7,origin; genres,1,0,0,87,6,https://www.goodreads.com/book/show/9853021-dinosaur-joke-book,,data
+899,9780679873853,,goodreads,partial,5,7,origin; genres,4,1,0,648,5,https://www.goodreads.com/book/show/4793399-ron-rooney-and-the-million-dollar-comic,,data
+900,9780440428107,,goodreads,partial,6,7,origin,6,29,8,26,1,https://www.goodreads.com/book/show/1931136.A_Girl_Called_Al,,data
+901,9780523403113,,goodreads,partial,6,7,origin,6,28,7,21,1,https://www.goodreads.com/book/show/596520.Washington_I_O_U_,,data
+902,9780380581498,,goodreads,partial,6,7,origin,3,29,8,173,1,https://www.goodreads.com/book/show/1084297.A_Window_Over_the_Sink,,data
+903,9780689847530,,goodreads,partial,5,7,origin; genres,5,1,0,205,5,https://www.goodreads.com/book/show/659725.Run_Away_Roley_Bob_the_Builder_,,data
+904,9780445085367,,goodreads,partial,5,7,origin; language,5,3,2,716,4,https://www.goodreads.com/book/show/9587482-tears-are-for-the-living,,data
+905,9780440186892,,goodreads,partial,6,7,origin,6,29,10,857,1,https://www.goodreads.com/book/show/1206061.NEIGHBORS_WIFE,,data
+906,9780441919703,,goodreads,partial,5,7,origin; genres,1,1,0,22,6,https://www.goodreads.com/book/show/9266533-the-writers,,data
+907,9780553372120,,goodreads,partial,6,7,origin,6,29,10,820,1,https://www.goodreads.com/book/show/36261.The_Sixties,,data
+908,9780394874203,,goodreads,partial,5,7,origin; genres,1,2,0,198,5,https://www.goodreads.com/book/show/283982.THUNDRCTS_SNOWMN_HK_MT,,data
+909,9780590260244,,goodreads,partial,6,7,origin,2,9,4,201,3,https://www.goodreads.com/book/show/558393.Karen_s_Turkey_Day,,data
+910,9780140254464,,goodreads,partial,6,7,origin,6,30,10,800,1,https://www.goodreads.com/book/show/1511754.Jackson_s_Dilemma,,data
+911,9780671024383,,goodreads,partial,6,7,origin,6,30,10,3059,1,https://www.goodreads.com/book/show/254395.Just_Checking,,data
+912,9780448060200,,goodreads,partial,6,7,origin,6,30,10,142,2,https://www.goodreads.com/book/show/1788415.The_Merry_Adventures_of_Robin_Hood,,data
+913,9780879234317,,goodreads,partial,6,7,origin,6,30,6,165,2,https://www.goodreads.com/book/show/706606.Short_Shorts,,data
+914,9780696018992,,goodreads,partial,5,7,origin; genres,1,0,0,92,7,https://www.goodreads.com/book/show/15159525-its-a-special-day,,data
+915,9780873586870,,goodreads,partial,6,7,origin,6,29,5,566,1,https://www.goodreads.com/book/show/146098.Way_Out_in_the_Desert,,data
+916,9780679890508,,goodreads,partial,6,7,origin,6,28,10,817,2,https://www.goodreads.com/book/show/126574.Vacation_Under_the_Volcano,,data
+917,9780887065415,,goodreads,partial,6,7,origin,6,8,8,908,3,https://www.goodreads.com/book/show/196572.The_Adventure_of_Self_Discovery,,data
+918,9789723703665,,goodreads,partial,6,7,origin,1,2,1,9,3,https://www.goodreads.com/book/show/2811061-vida-convers-vel,,data
+919,9780758204998,,goodreads,partial,5,7,origin; genres,4,3,0,348,5,https://www.goodreads.com/book/show/1953828.Ex_Girlfriends,,data
+920,9781555973100,,goodreads,partial,6,7,origin,3,18,6,1026,3,https://www.goodreads.com/book/show/655848.My_Lesbian_Husband,,data
+921,9781855380455,,goodreads,partial,6,7,origin,2,4,8,163,3,https://www.goodreads.com/book/show/88708.Ladies_of_the_Lake,,data
+922,9780895941824,,goodreads,partial,5,7,origin; genres,2,0,0,269,6,https://www.goodreads.com/book/show/1583655.Crystal_Visions,,data
+923,9781852741112,,goodreads,partial,6,7,origin,2,3,1,99,3,https://www.goodreads.com/book/show/1057278.Goddess_Changes,,data
+924,9781578631131,,goodreads,partial,6,7,origin,2,5,6,884,3,https://www.goodreads.com/book/show/143395.The_Tower_of_Alchemy,,data
+925,9781840860016,,goodreads,partial,5,7,origin; genres,4,0,0,91,6,https://www.goodreads.com/book/show/4828226-honest-to-goddess,,data
+926,9780940262850,,goodreads,partial,5,7,origin; genres,3,0,0,1058,6,https://www.goodreads.com/book/show/950832.So_That_You_May_Be_One,,data
+927,9781587680021,,goodreads,partial,6,7,origin,6,6,6,1142,3,https://www.goodreads.com/book/show/911795.The_Spiritual_Traveler,,data
+928,9781555837655,,goodreads,partial,6,7,origin,2,1,4,692,3,https://www.goodreads.com/book/show/655935.Best_Lesbian_Love_Stories_2003,,data
+929,9780953663132,,goodreads,partial,6,7,origin,6,6,7,531,3,https://www.goodreads.com/book/show/199985.The_Isle_of_Avalon_Sacred_Mysteries_of_Arthur_and_Glastonbury,,data
+930,9780747531005,,goodreads,partial,6,7,origin,6,7,5,942,3,https://www.goodreads.com/book/show/1200825.Magi,,data
+931,9780735200937,,goodreads,partial,6,7,origin,5,3,3,218,3,https://www.goodreads.com/book/show/576061.Magic_Power_of_White_Witchcraft_Revised,,data
+932,9780373054374,,goodreads,partial,6,7,origin,2,1,1,555,3,https://www.goodreads.com/book/show/2254220.Goldilocks_and_the_Behr,,data
+933,9780373054213,,goodreads,partial,6,7,origin,1,2,1,638,3,https://www.goodreads.com/book/show/601867.Love_Potion,,data
+934,9780920459379,,goodreads,partial,5,7,origin; genres,1,0,0,47,8,https://www.goodreads.com/book/show/3864202-views-from-the-zucchini-gazebo,,data
+935,9780446611022,,goodreads,partial,6,7,origin,6,18,8,222,3,https://www.goodreads.com/book/show/219273.Night_Blooming,,data
+936,9780449210932,,goodreads,partial,6,7,origin,5,6,1,796,3,https://www.goodreads.com/book/show/2256922.The_Elberg_Collection,,data
+937,9780819311092,,goodreads,partial,6,7,origin,4,2,3,132,3,https://www.goodreads.com/book/show/5882600-the-silly-tail-book,,data
+938,9781883642334,,goodreads,partial,6,7,origin,6,29,10,167,1,https://www.goodreads.com/book/show/1100798.Mister_Sandman,,data
+939,9780553294323,,goodreads,partial,6,7,origin,6,27,6,936,1,https://www.goodreads.com/book/show/5715610-the-singers-of-time,,data
+940,9780380765164,,goodreads,partial,6,7,origin,3,4,4,220,3,https://www.goodreads.com/book/show/381109.Invader,,data
+941,9780553481914,,goodreads,partial,6,7,origin,5,12,4,787,3,https://www.goodreads.com/book/show/412635.Jessica_s_Cookie_Disaster,,data
+942,9780821723036,,goodreads,partial,6,7,origin,3,5,1,248,3,https://www.goodreads.com/book/show/3944249-eclipse,,data
+943,9780856540301,,goodreads,partial,5,7,origin; genres,2,0,0,258,6,https://www.goodreads.com/book/show/4990555-the-evolution-of-the-mammals,,data
+944,9780723229384,,goodreads,partial,6,7,origin,6,29,10,1160,2,https://www.goodreads.com/book/show/15210814-the-tale-of-peter-rabbit,,data
+945,9780061054570,,goodreads,partial,6,7,origin,1,9,1,231,3,https://www.goodreads.com/book/show/2072172.Hunter_of_the_Light,,data
+946,9780394751641,,goodreads,partial,6,7,origin,6,29,10,1781,2,https://www.goodreads.com/book/show/2499951.Once_in_Europa,,data
+947,9780679400165,,goodreads,partial,6,7,origin,6,30,10,393,1,https://www.goodreads.com/book/show/1501603.Wartime_Lies,,data
+948,9780440219194,,goodreads,partial,6,7,origin,6,30,10,522,1,https://www.goodreads.com/book/show/2125759.The_Tent,,data
+949,9780195405729,,goodreads,partial,5,7,origin; genres,1,0,0,225,6,https://www.goodreads.com/book/show/3589848-modern-guide-to-canadian-children-s-books,,data
+950,9780140433449,,goodreads,partial,6,7,origin,6,30,10,1422,1,https://www.goodreads.com/book/show/374380.The_Duke_s_Children,,data
+951,9780140188172,,goodreads,partial,6,7,origin,6,12,6,241,3,https://www.goodreads.com/book/show/1391227.The_Boy_in_the_Bush,,data
+952,9780140024494,,goodreads,partial,6,7,origin,6,30,10,1325,1,https://www.goodreads.com/book/show/625228.The_Golden_Bowl,,data
+953,9780395845417,,goodreads,partial,6,7,origin,6,30,10,284,1,https://www.goodreads.com/book/show/992961.Calico_the_Wonder_Horse_or_The_Saga_of_Stewy_Stinker,,data
+954,9780394833415,,goodreads,partial,6,7,origin,6,4,5,111,3,https://www.goodreads.com/book/show/3335312-babar-saves-the-day,,data
+955,9781856979313,,goodreads,partial,6,7,origin,6,0,1,155,4,https://www.goodreads.com/book/show/1983702.The_Kingfisher_Treasury_of_Bedtime_Stories,,data
+956,9780843105520,,goodreads,partial,6,7,origin,5,25,9,272,2,https://www.goodreads.com/book/show/4830485-creole,,data
+957,9780671617493,,goodreads,partial,6,7,origin,2,2,2,115,3,https://www.goodreads.com/book/show/889620.If_I_m_So_Successful_Why_Do_I_Feel_Like_a_Fake_The_Impostor_Phenomenon,,data
+958,9780553282153,,goodreads,partial,6,7,origin,6,8,2,525,3,https://www.goodreads.com/book/show/842680.When_Am_I_Going_to_Be_Happy_,,data
+959,9781854250872,,goodreads,partial,5,7,origin; genres,3,1,0,735,5,https://www.goodreads.com/book/show/272150.After_the_Crash,,data
+960,9780871564719,,goodreads,partial,5,7,origin; genres,2,0,0,288,6,https://www.goodreads.com/book/show/1166289.Shopping_for_a_Better_World,,data
+961,9780062554109,,goodreads,partial,5,7,origin; genres,4,0,0,677,6,https://www.goodreads.com/book/show/1459571.Journeynotes,,data
+962,9780843105872,,goodreads,partial,6,7,origin,6,16,4,108,3,https://www.goodreads.com/book/show/2861033-trapper,,data
+963,9781854718105,,goodreads,partial,5,7,origin; genres,2,0,0,23,6,https://www.goodreads.com/book/show/5633179-jeremy-f-pop-up-tale,,data
+964,9780553247817,,goodreads,partial,6,7,origin,6,30,10,471,2,https://www.goodreads.com/book/show/424770.Where_the_Red_Fern_Grows,,data
+965,9780440910176,,goodreads,partial,6,7,origin,6,30,10,995,2,https://www.goodreads.com/book/show/953881.Zia,,data
+966,9780590847438,,goodreads,partial,6,7,origin,6,26,7,607,1,https://www.goodreads.com/book/show/802312.The_Dumb_Bunnies_Go_to_the_Zoo,,data
+967,9781551531533,,goodreads,partial,5,7,origin; genres,2,0,0,98,6,https://www.goodreads.com/book/show/15043041-vancouver-island,,data
+968,9780060219987,,goodreads,partial,6,7,origin,3,1,2,130,3,https://www.goodreads.com/book/show/4733409-the-room,,data
+969,9780723205975,,goodreads,partial,6,7,origin,6,28,10,1178,1,https://www.goodreads.com/book/show/1513356.The_Tale_of_Mrs_Tiggy_Winkle,,data
+970,9780723205968,,goodreads,partial,6,7,origin,6,28,10,42,1,https://www.goodreads.com/book/show/1406399.The_Tale_of_Two_Bad_Mice,,data
+971,9780723205944,,goodreads,partial,6,7,origin,6,30,10,714,2,https://www.goodreads.com/book/show/53011146-the-tailor-of-gloucester,,data
+972,9780723206033,,goodreads,partial,6,7,origin,6,28,10,82,1,https://www.goodreads.com/book/show/1513368.The_Tale_Of_Timmy_Tiptoes,,data
+973,9780553155051,,goodreads,partial,6,7,origin,6,29,10,577,1,https://www.goodreads.com/book/show/550063.Danny,,data
+974,9780312971885,,goodreads,partial,6,7,origin,6,12,3,328,3,https://www.goodreads.com/book/show/4572218-the-omega-sanction,,data
+975,9780393306651,,goodreads,partial,6,7,origin,6,30,10,466,1,https://www.goodreads.com/book/show/6747703-the-education-of-harriet-hatfield,,data
+976,9780590402996,,goodreads,partial,6,7,origin,6,30,8,21,1,https://www.goodreads.com/book/show/11013993-on-market-street,,data
+977,9780590416221,,goodreads,partial,6,7,origin,6,30,10,82,2,https://www.goodreads.com/book/show/1111398.Tikki_Tikki_Tembo,,data
+978,9780679810490,,goodreads,partial,6,7,origin,6,30,10,190,1,https://www.goodreads.com/book/show/9905224-story-of-babar-mini-ed,,data
+979,9780307119452,,goodreads,partial,6,7,origin,6,27,6,503,2,https://www.goodreads.com/book/show/58358.Just_Me_and_My_Babysitter,,data
+980,9780394837888,,goodreads,partial,5,7,origin; genres,2,1,0,84,6,https://www.goodreads.com/book/show/3753801-happy-birthday-oliver,,data
+981,9780027780260,,goodreads,partial,6,7,origin,5,1,2,97,3,https://www.goodreads.com/book/show/2644433-everyday-town,,data
+982,9781551105055,,goodreads,partial,5,7,origin; genres,1,0,0,345,6,https://www.goodreads.com/book/show/4579792-my-fairytale-divorce,,data
+983,9780553278569,,goodreads,partial,6,7,origin,6,22,7,668,4,https://www.goodreads.com/book/show/412128.Two_Boy_Weekend,,data
+984,9780553269512,,goodreads,partial,6,7,origin,3,22,8,552,4,https://www.goodreads.com/book/show/397189.Caught_in_the_Middle,,data
+985,9780553287660,,goodreads,partial,6,7,origin,2,3,2,457,3,https://www.goodreads.com/book/show/755094.Fight_for_Freedom,,data
+986,9780553152432,,goodreads,partial,6,7,origin,6,29,10,121,1,https://www.goodreads.com/book/show/3171428-the-enormous-crocodile,,data
+987,9780553156362,,goodreads,partial,5,7,origin; genres,2,1,0,124,5,https://www.goodreads.com/book/show/558360.The_Enchanted_Attic,,data
+988,9780553274158,,goodreads,partial,6,7,origin,6,24,10,183,3,https://www.goodreads.com/book/show/755093.Inca_Gold,,data
+989,9780679826590,,goodreads,partial,6,7,origin,3,5,5,738,3,https://www.goodreads.com/book/show/2577177-my-sister-the-vampire,,data
+990,9780439544108,,goodreads,partial,6,7,origin,6,30,10,661,1,https://www.goodreads.com/book/show/1288170.The_Power_of_Two,,data
+991,9780441663972,,goodreads,partial,6,7,origin,2,4,2,181,3,https://www.goodreads.com/book/show/588012.Pillar_of_Night,,data
+992,9781853261602,,goodreads,partial,6,7,origin,6,29,10,589,1,https://www.goodreads.com/book/show/50863367-pinocchio,,data
+993,9780671876227,,goodreads,partial,6,7,origin,6,30,10,177,1,https://www.goodreads.com/book/show/1169964.A_Different_Flesh,,data
+994,9780523485843,,goodreads,partial,6,7,origin,3,3,2,153,3,https://www.goodreads.com/book/show/1522723.Cestus_Dei,,data
+995,9780723234869,,goodreads,partial,6,7,origin,6,30,10,85,1,https://www.goodreads.com/book/show/1357233.The_Tale_of_Squirrel_Nutkin,,data
+996,9780874063950,,goodreads,partial,5,7,origin; genres,1,3,0,20,6,https://www.goodreads.com/book/show/1298413.Teeny_Tiny_Monster,,data
+997,9780307118448,,goodreads,partial,6,7,origin,1,1,3,139,4,https://www.goodreads.com/book/show/3315234-mercer-mayer-s,,data
+998,9781561734955,,goodreads,partial,6,7,origin,3,13,3,111,3,https://www.goodreads.com/book/show/2809382-hansel-gretel-once-upon-a-time-tales,,data
+999,9780553292350,,goodreads,partial,6,7,origin,3,16,4,683,3,https://www.goodreads.com/book/show/412353.Elizabeth_Betrayed,,data
+1000,9780140350340,,goodreads,partial,6,7,origin,6,29,10,356,1,https://www.goodreads.com/book/show/1401283.The_Adventures_of_Robin_Hood,,data
+1001,9780888940063,,goodreads,partial,5,7,origin; genres,2,0,0,300,6,https://www.goodreads.com/book/show/3628212-the-pathless-way,,data

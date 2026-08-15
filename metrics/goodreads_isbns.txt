@@ -1,0 +1,28 @@
+==============================================================================
+goodreads: 0 of 18 succeeded (0%), avg 8.0s per book
+==============================================================================
+
+FAILED (18):
+  9780590457163  [empty]  no metadata parsed from the page
+  9780373225798  [empty]  no metadata parsed from the page
+  9780762408535  [empty]  no metadata parsed from the page
+  9785551172871  [empty]  no metadata parsed from the page
+  9780739404393  [empty]  no metadata parsed from the page
+  9780523425252  [empty]  no metadata parsed from the page
+  9780671020248  [empty]  no metadata parsed from the page
+  9780671020200  [empty]  no metadata parsed from the page
+  9780385148313  [empty]  no metadata parsed from the page
+  9780141308807  [empty]  no metadata parsed from the page
+  9780762100088  [empty]  no metadata parsed from the page
+  9782070752782  [empty]  no metadata parsed from the page
+  9781931229173  [empty]  no metadata parsed from the page
+  9788429704600  [empty]  no metadata parsed from the page
+  9781900796620  [empty]  no metadata parsed from the page
+  9780201675160  [empty]  no metadata parsed from the page
+  9780816714155  [empty]  no metadata parsed from the page
+  9781891575136  [empty]  no metadata parsed from the page
+
+SUCCEEDED (0):
+  (none)
+
+==============================================================================
