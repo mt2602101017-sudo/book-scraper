@@ -86,18 +86,18 @@ def blurb(page: Page) -> Optional[str]:
 def covers(page: Page) -> Covers:
     """This edition's images, from the inline island then the landing image."""
     found = collector(page.url)
-    for entry in image_island(page.html):
+    for entry in image_island(page.html):#JavaScript Image Island (Primary Target)
         # Exactly one URL per entry: the same art under several keys is one cover.
         raw = next((entry[k] for k in ("hiRes", "large", "thumb") if entry.get(k)), None)
         if raw is None and entry.get("physicalIdForMedia"):
             raw = f"https://m.media-amazon.com/images/I/{entry['physicalIdForMedia']}.jpg"
         found.add(raw)
-    if not found and (node := page.soup.select_one("img#landingImage")) is not None:
+    if not found and (node := page.soup.select_one("img#landingImage")) is not None:#Dynamic HTML Fallback
         found.add(node.get("data-old-hires"))
         # The value arrays are [height, width] on book pages: use the keys.
         found.extend(list(loads(node.get("data-a-dynamic-image") or "") or {}))
         found.add(node.get("src"))
-    if not found:
+    if not found:#Metadata Fallback: If all else fails, it extracts Open Graph/Twitter meta tags (og:image).
         found.add(meta(page.soup, "og:image", "twitter:image"))
     return found
 

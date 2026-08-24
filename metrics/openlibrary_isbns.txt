@@ -1,11 +1,40 @@
 ==============================================================================
-openlibrary: 1 of 1 succeeded (100%), avg 8.1s per book
+openlibrary: 16 of 31 succeeded (52%), avg 8.8s per book
 ==============================================================================
 
-FAILED (0):
-  (none)
+FAILED (15):
+  9785551172871  [empty]  openlibrary: ISBN 9785551172871 is not in the catalogue
+  9780843952650  [empty]  openlibrary: ISBN 9780843952650 is not in the catalogue
+  9780739404393  [empty]  openlibrary: ISBN 9780739404393 is not in the catalogue
+  9780385085793  [empty]  openlibrary: ISBN 9780385085793 is not in the catalogue
+  9780671020248  [empty]  openlibrary: ISBN 9780671020248 is not in the catalogue
+  9780671020200  [empty]  openlibrary: ISBN 9780671020200 is not in the catalogue
+  9780763701796  [empty]  openlibrary: ISBN 9780763701796 is not in the catalogue
+  9780130875525  [empty]  openlibrary: ISBN 9780130875525 is not in the catalogue
+  9780553143379  [empty]  openlibrary: ISBN 9780553143379 is not in the catalogue
+  9780804107648  [empty]  openlibrary: ISBN 9780804107648 is not in the catalogue
+  9781558584532  [empty]  openlibrary: ISBN 9781558584532 is not in the catalogue
+  9788817150125  [empty]  openlibrary: ISBN 9788817150125 is not in the catalogue
+  9781569602119  [empty]  openlibrary: ISBN 9781569602119 is not in the catalogue
+  9780743457224  [empty]  openlibrary: ISBN 9780743457224 is not in the catalogue
+  9780553340969  [empty]  openlibrary: ISBN 9780553340969 is not in the catalogue
 
-SUCCEEDED (1):
-  9780821771334
+SUCCEEDED (16):
+  9780747534891
+  9780449210840
+  9780441898541
+  9780441138074
+  9780393313482
+  9780062516633
+  9780394873329
+  9780312054670
+  9780385488594
+  9780380806218
+  9780345395351
+  9780373764105
+  9780380717392
+  9780373272297
+  9780373764976
+  9780440226154
 
 ==============================================================================
